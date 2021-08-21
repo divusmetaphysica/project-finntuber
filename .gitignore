@@ -23,5 +23,6 @@ pnpm-debug.log*
 *.sw?
 
 # database
-db.json
 db.csv
+
+.config/

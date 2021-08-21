@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <FinntuberList name="List of Finnish VTubers" />
 </template>
 
 <script>
-import HelloWorld from "./components/FinntuberList.vue";
+import FinntuberList from "./components/FinntuberList.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    FinntuberList,
   },
 };
 </script>
