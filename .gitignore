@@ -27,3 +27,4 @@ pnpm-debug.log*
 db.csv
 
 .config/
+twitchtest.html
