@@ -50,7 +50,8 @@
     "type": "2D",
     "channel": "https://www.twitch.tv/DemonAreon",
     "description": null,
-    "channel_name": "DemonAreon"
+    "channel_name": "DemonAreon",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/896561ce-52cd-4035-a68d-7da58ac17984-profile_image-300x300.png"
   },
   {
     "name": "A_Fxxxing_Saiko",
@@ -146,10 +147,12 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/397d0d1d-b936-4bed-bb41-e1f837efe508-profile_image-300x300.png"
   },
   {
-    "name": "Hani",
-    "type": "Not yet streaming",
-    "channel": null,
-    "description": null
+    "name": "HaniVT",
+    "type": "PNG",
+    "channel": "https://www.twitch.tv/hanivt",
+    "channel_name": "hanivt",
+    "description": "HaniVT streams Old School RuneScape.",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6c39696a-3b38-41e0-a241-0dc19eb44d11-profile_image-300x300.png"
   },
   {
     "name": "Haniepixie",
