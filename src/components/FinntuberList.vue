@@ -17,12 +17,15 @@
 </template>
 
 <script>
-import * as db from "../assets/finntubersV2.json";
-
 export default {
   name: "ListingComponent",
-  props: {
-    talents: db,
+  data() {
+    return {
+      talents: [],
+    };
+  },
+  async mounted() {
+    this.talents = await import("../assets/finntubersV2.json");
   },
 };
 </script>
