@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>List of Finnish VTubers</h1>
-    <div class="row" v-for="ft in info()" :key="ft.name">
+    <div class="row" v-for="ft in talents" :key="ft.name">
       <div class="column">
         <img :src="ft.profile_image_url" />
       </div>
@@ -11,24 +11,18 @@
         </b>
         {{ ft.type }}
       </div>
-      <div class="column">{{ ft.short_description }}</div>
+      <div class="column">{{ ft.description }}</div>
     </div>
   </div>
 </template>
 
 <script>
-import * as db from "../../finntubers.json";
-import { loadTwitchInfo } from "./twitchIntegration.js";
+import * as db from "../assets/finntubersV2.json";
 
 export default {
   name: "ListingComponent",
   props: {
     talents: db,
-  },
-  methods: {
-    info() {
-      return loadTwitchInfo(db.default);
-    },
   },
 };
 </script>
