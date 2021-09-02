@@ -24,6 +24,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  background-image: linear-gradient(180deg, #D1E9FF 0%, #3299d9 100%);
+  background-image: linear-gradient(180deg, #d1e9ff 0%, #3299d9 100%);
 }
 </style>

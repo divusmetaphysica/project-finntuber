@@ -2,49 +2,54 @@
   <div class="page">
     <h1>List of Finnish VTubers</h1>
     <div class="vtuberList">
-    <div class="vtuber" v-for="ft in activeTalents" :key="ft.name">
-      <img :src="ft.profile_image_url"/>
-      <div class="vtuberInfo">
-        <b>
-          <a :href="ft.channel">{{ ft.name }} </a>
-        </b><br/>
-        <div class="description">
-          {{ trimDescription(ft.description) }}
+      <div class="vtuber" v-for="ft in activeTalents" :key="ft.name">
+        <img :src="ft.profile_image_url" />
+        <div class="vtuberInfo">
+          <b>
+            <a :href="ft.channel">{{ ft.name }} </a> </b
+          ><br />
+          <div class="description">
+            {{ trimDescription(ft.description) }}
+          </div>
         </div>
       </div>
-    </div>
     </div>
   </div>
 </template>
 
 <script>
-import * as db from "../assets/finntubersV2.json";
-
 export default {
   name: "ListingComponent",
-  props: {
-    talents: db,
+  data() {
+    return {
+      talents: [],
+    };
+  },
+  async beforeMount() {
+    this.talents = await import("../assets/finntubersV2.json");
+    this.talents = this.talents.default;
   },
   methods: {
-    trimDescription: function(desc) {
+    trimDescription: function (desc) {
       const limit = 135;
-      if(desc !== null && desc.length > limit) {
-        return (desc.substring(0, limit) + "...");
+      if (desc !== null && desc.length > limit) {
+        return desc.substring(0, limit) + "...";
       }
       return desc;
-    }
+    },
   },
   computed: {
     activeTalents: function () {
-      return this.talents.filter(i => i.channel !== null);
-    }
-  }
+      console.log(this.talents);
+      return this.talents.filter((i) => i.channel !== null);
+    },
+  },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap");
 .page {
   padding-bottom: 50px;
 }
@@ -52,7 +57,7 @@ h1 {
   color: #3299d9;
   text-align: center;
   padding: 50px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 h3 {
   margin: 40px 0 0;
@@ -75,7 +80,7 @@ li:after {
 a {
   color: #3299d9;
   text-decoration: none;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 18px;
 }
 .table-no-borders {
@@ -117,12 +122,12 @@ img {
   align-items: center;
   width: 300px;
   height: 130px;
-  border: 2px solid #173F5F;
+  border: 2px solid #173f5f;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
   margin: 10px;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.7)
+  background: rgba(255, 255, 255, 0.7);
 }
 .vtuberInfo {
   padding-left: 10px;
