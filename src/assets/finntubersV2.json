@@ -46,13 +46,6 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/78b15e26-9cab-44c7-a81d-a6c9472864c6-profile_image-300x300.png"
   },
   {
-    "name": "Areon",
-    "type": "2D",
-    "channel": "https://www.twitch.tv/DemonAreon",
-    "description": null,
-    "channel_name": "DemonAreon"
-  },
-  {
     "name": "A_Fxxxing_Saiko",
     "type": "3D",
     "channel": "https://www.twitch.tv/a_fxxxing_saiko",
@@ -64,8 +57,9 @@
     "name": "Beuha",
     "type": "3D",
     "channel": "https://www.youtube.com/channel/UCUoBMVJeo2681ZdHa4w6QTA",
-    "description": null,
-    "channel_name": "UCUoBMVJeo2681ZdHa4w6QTA"
+    "description": "I'm just a random finnish dude that just sits and plays videogames. So a perfect channel for you to subscribe to right? I know most people you watch do the same exact thing.",
+    "channel_name": "UCUoBMVJeo2681ZdHa4w6QTA",
+    "profile_image_url": "https://yt3.ggpht.com/gNo-xOkw-DhvMiq3Gkxw3WzC5kDfIz2Ngx7KZaR3saQt9llz66CSHHfqcCuzoHyLd_APmHIJxg=s88-c-k-c0x00ffffff-no-rj"
   },
   {
     "name": "Cattu",
@@ -98,6 +92,14 @@
     "description": "Just a voice and a face in the darkness of space, It's DT Stellar Broadcast. Come on down and join the crew.",
     "channel_name": "daletechnic",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/fd2515e1-591d-48ab-800b-e63cf2eaf2e2-profile_image-300x300.png"
+  },
+  {
+    "name": "DemonAreon",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/DemonAreon",
+    "description": "Hey there, you've stumbled upon the channel of the Vstreamer called Areon the demon. Take a seat, grab a drink of your choice and enjoy this rollercoaster of shts n giggles.Anyway, hope you'll enjoy your stay (Psst. Give a follow it's free and it makes your new favorite demon happy)",
+    "channel_name": "demonareon",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/896561ce-52cd-4035-a68d-7da58ac17984-profile_image-300x300.png"
   },
   {
     "name": "Doot___Doot",
@@ -146,10 +148,12 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/397d0d1d-b936-4bed-bb41-e1f837efe508-profile_image-300x300.png"
   },
   {
-    "name": "Hani",
-    "type": "Not yet streaming",
-    "channel": null,
-    "description": null
+    "name": "HaniVT",
+    "type": "PNG",
+    "channel": "https://www.twitch.tv/hanivt",
+    "description": "HaniVT streams Old School RuneScape.",
+    "channel_name": "hanivt",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6c39696a-3b38-41e0-a241-0dc19eb44d11-profile_image-300x300.png"
   },
   {
     "name": "Haniepixie",
@@ -203,8 +207,9 @@
     "name": "Kiki Sagawa",
     "type": "2D",
     "channel": "https://www.youtube.com/channel/UC3OFd8UasZAsiQF2G4_Enag",
-    "description": null,
-    "channel_name": "UC3OFd8UasZAsiQF2G4_Enag"
+    "description": "Moi! 🌸  ✨ Olen crossdressausta harrastava #ENVtuber poika kylmästä pohjois-euroopan maasta nimeltä Suomi!(´・ω・`) 🇫🇮 ...",
+    "channel_name": "UC3OFd8UasZAsiQF2G4_Enag",
+    "profile_image_url": "https://yt3.ggpht.com/ytc/AKedOLRST51NCRDs5RBsyaxZyICHtbpVn98JjEhnlf1B=s88-c-k-c0x00ffffff-no-rj"
   },
   {
     "name": "Kizabum",
@@ -239,13 +244,6 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ce1078a3-be03-4743-8640-d964493c55f6-profile_image-300x300.png"
   },
   {
-    "name": "Lexi",
-    "type": "2D",
-    "channel": "https://www.twitch.tv/privatelexii",
-    "description": null,
-    "channel_name": "privatelexii"
-  },
-  {
     "name": "Lumituber",
     "type": "3D",
     "channel": "https://www.twitch.tv/lumituber",
@@ -268,14 +266,6 @@
     "description": "Very gud.",
     "channel_name": "maemaechannel",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/372ca2b3-64b6-4428-9d2c-f2e914d1910d-profile_image-300x300.png"
-  },
-  {
-    "name": "PupunaMai",
-    "type": "2D",
-    "channel": "https://www.twitch.tv/pupunamai",
-    "description": "Mai-hi!! My name is Mai Pupuna and I stream games all the way from a fictional realm!! I got isekai'd one day and turned into a magical bunny girl... I decided to make the most of it and become a VTuber!!",
-    "channel_name": "pupunamai",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6490c51b-a66c-4bae-9951-d46e83b0d7f9-profile_image-300x300.png"
   },
   {
     "name": "Mariel_VT",
@@ -338,11 +328,12 @@
     "description": null
   },
   {
-    "name": "Pixelkun",
+    "name": "PixelkunVT",
     "type": "3D",
     "channel": "https://www.twitch.tv/PixelkunVT",
-    "description": null,
-    "channel_name": "PixelkunVT"
+    "description": "Let's have a fun chill stream. Variety streamer playing nice games and drawing stuff.",
+    "channel_name": "pixelkunvt",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ff1d7c83-1747-4cca-9753-7707ded5decd-profile_image-300x300.png"
   },
   {
     "name": "poarapon",
@@ -351,6 +342,22 @@
     "description": "Hello I'm Pon and I play video games. A lot. Will you be my ponstar? ❤︎",
     "channel_name": "poarapon",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2819a0c6-ed2d-4c35-8f64-8be7cd3efdec-profile_image-300x300.png"
+  },
+  {
+    "name": "PrivateLexi",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/privatelexi",
+    "description": "Finnish Combat Medic in the reserve; come join for stories of suffering.",
+    "channel_name": "privatelexi",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b7a69ce6-b7d5-47ac-b2df-10ed76a6a6ff-profile_image-300x300.png"
+  },
+  {
+    "name": "PupunaMai",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/pupunamai",
+    "description": "Mai-hi!! My name is Mai Pupuna and I stream games all the way from a fictional realm!! I got isekai'd one day and turned into a magical bunny girl... I decided to make the most of it and become a VTuber!!",
+    "channel_name": "pupunamai",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6490c51b-a66c-4bae-9951-d46e83b0d7f9-profile_image-300x300.png"
   },
   {
     "name": "RepoReponen",
@@ -364,8 +371,9 @@
     "name": "Romolla",
     "type": "2D",
     "channel": "https://www.twitch.tv/Romolla",
-    "description": null,
-    "channel_name": "Romolla"
+    "description": "I am a cow.",
+    "channel_name": "Romolla",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/aaae9601-6be2-4638-bfaf-df50fd5d4dec-profile_image-300x300.png"
   },
   {
     "name": "RonjaPeikko",
@@ -388,7 +396,8 @@
     "type": "3D",
     "channel": "https://www.youtube.com/channel/UCd4ZiNU2XnJBe3gHZCSfd4g",
     "description": null,
-    "channel_name": "UCd4ZiNU2XnJBe3gHZCSfd4g"
+    "channel_name": "UCd4ZiNU2XnJBe3gHZCSfd4g",
+    "profile_image_url": "https://yt3.ggpht.com/ytc/AKedOLTSxcWIYCs6nE_TnVk4CLHewetswgGB2Lg0BCD_=s88-c-k-c0x00ffffff-no-rj"
   },
   {
     "name": "Shunicos",

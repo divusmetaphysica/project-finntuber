@@ -2,7 +2,7 @@
   <div class="page">
     <h1>List of Finnish VTubers</h1>
     <div class="vtuberList">
-    <div class="vtuber" v-for="ft in talents" :key="ft.name">
+    <div class="vtuber" v-for="ft in activeTalents" :key="ft.name">
       <img :src="ft.profile_image_url"/>
       <div class="vtuberInfo">
         <b>
@@ -27,11 +27,16 @@ export default {
   },
   methods: {
     trimDescription: function(desc) {
-      const limit = 145;
+      const limit = 135;
       if(desc !== null && desc.length > limit) {
         return (desc.substring(0, limit) + "...");
       }
       return desc;
+    }
+  },
+  computed: {
+    activeTalents: function () {
+      return this.talents.filter(i => i.channel !== null);
     }
   }
 };
@@ -104,6 +109,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 .vtuber {
   display: flex;
@@ -124,10 +131,5 @@ img {
 .description {
   font-size: 12px;
   padding-top: 5px;
-}
-@media screen and (min-width: 769px) {
-  .vtuberList {
-    margin: 0px 400px;
-  }
 }
 </style>
