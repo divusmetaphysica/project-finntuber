@@ -1,17 +1,18 @@
 <template>
-  <div>
+  <div class="page">
     <h1>List of Finnish VTubers</h1>
-    <div class="row" v-for="ft in talents" :key="ft.name">
-      <div class="column">
+    <div class="vtuberList">
+      <div class="vtuber" v-for="ft in activeTalents" :key="ft.name">
         <img :src="ft.profile_image_url" />
+        <div class="vtuberInfo">
+          <b>
+            <a :href="ft.channel">{{ ft.name }} </a> </b
+          ><br />
+          <div class="description">
+            {{ trimDescription(ft.description) }}
+          </div>
+        </div>
       </div>
-      <div class="column">
-        <b>
-          <a :href="ft.channel">{{ ft.name }} </a>
-        </b>
-        {{ ft.type }}
-      </div>
-      <div class="column">{{ ft.description }}</div>
     </div>
   </div>
 </template>
@@ -24,17 +25,39 @@ export default {
       talents: [],
     };
   },
-  async mounted() {
+  async beforeMount() {
     this.talents = await import("../assets/finntubersV2.json");
+    this.talents = this.talents.default;
+  },
+  methods: {
+    trimDescription: function (desc) {
+      const limit = 135;
+      if (desc !== null && desc.length > limit) {
+        return desc.substring(0, limit) + "...";
+      }
+      return desc;
+    },
+  },
+  computed: {
+    activeTalents: function () {
+      console.log(this.talents);
+      return this.talents.filter((i) => i.channel !== null);
+    },
   },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap");
+.page {
+  padding-bottom: 50px;
+}
 h1 {
-  color: darkblue;
+  color: #3299d9;
   text-align: center;
+  padding: 50px;
+  font-family: "Dosis", sans-serif;
 }
 h3 {
   margin: 40px 0 0;
@@ -55,8 +78,10 @@ li:after {
   white-space: pre;
 }
 a {
-  color: #42b983;
+  color: #3299d9;
   text-decoration: none;
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
 }
 .table-no-borders {
   border-collapse: collapse;
@@ -81,7 +106,35 @@ a {
   display: table-cell;
 }
 img {
-  width: 50%;
-  height: auto;
+  width: 100px;
+  height: 100px;
+  padding: 5px 0px;
+}
+.vtuberList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+.vtuber {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 130px;
+  border: 2px solid #173f5f;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+  margin: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.7);
+}
+.vtuberInfo {
+  padding-left: 10px;
+  align-self: flex-start;
+}
+.description {
+  font-size: 12px;
+  padding-top: 5px;
 }
 </style>
