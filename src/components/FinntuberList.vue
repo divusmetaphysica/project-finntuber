@@ -3,11 +3,14 @@
     <h1>List of Finnish VTubers</h1>
     <div class="vtuberList">
       <div class="vtuber" v-for="ft in activeTalents" :key="ft.name">
-        <img :src="ft.profile_image_url" />
+        <a :href="ft.channel">
+          <img :src="ft.profile_image_url" />
+        </a>
         <div class="vtuberInfo">
-          <b>
-            <a :href="ft.channel">{{ ft.name }} </a> </b
-          ><br />
+          <b
+            ><a :href="ft.channel">{{ ft.name }} </a>
+          </b>
+          <br />
           <div class="description">
             {{ trimDescription(ft.description) }}
           </div>
@@ -26,7 +29,7 @@ export default {
     };
   },
   async beforeMount() {
-    this.talents = await import("../assets/finntubersV2.json");
+    this.talents = await import("../assets/finntubers.json");
     this.talents = this.talents.default;
   },
   methods: {
