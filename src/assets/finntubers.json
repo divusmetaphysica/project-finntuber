@@ -378,7 +378,7 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ff1d7c83-1747-4cca-9753-7707ded5decd-profile_image-300x300.png"
   },
   {
-    "name": "poarapon",
+    "name": "Poara Pon",
     "type": "3D",
     "channel": "https://www.twitch.tv/poarapon",
     "description": "Hello I'm Pon and I play video games. A lot. Will you be my ponstar? ❤︎",
@@ -488,6 +488,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/21f70133-d923-4c3d-9d64-52c5992fbd6c-profile_image-300x300.png"
   },
   {
+    "name": "Tarinatar",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/tarinatar",
+    "description": "Fin ♀ Digital artist",
+    "channel_name": "tarinatar",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/865e775f-f455-4900-a948-5291b87c38f7-profile_image-300x300.png"
+  },
+  {
     "name": "Tarrukka",
     "type": "PNG",
     "channel": "https://www.twitch.tv/tarrukka",
@@ -518,5 +526,13 @@
     "description": "A Virtual Finnish variety streamer and occasional memester.",
     "channel_name": "valtheknight",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1a94f494-bfa1-401b-a3ab-1b38a15b9ad2-profile_image-300x300.jpg"
+  },
+  {
+    "name": "Kira (YungCatGirl)",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/yungcatgirl",
+    "description": "professional egirl",
+    "channel_name": "yungcatgirl",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5c7c5cd8-8002-4de4-84b8-0f68b3ad90cc-profile_image-300x300.png"
   }
 ]
