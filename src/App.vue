@@ -11,6 +11,9 @@ import FinntuberList from "./components/FinntuberList.vue";
 
 export default {
   name: "App",
+  created() {
+    document.title = "Project Finntubers";
+  },
   components: {
     FinntuberList,
   },
