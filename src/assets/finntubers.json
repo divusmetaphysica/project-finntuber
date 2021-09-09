@@ -72,6 +72,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7c74bb2d-bbc2-43f3-914a-7e7767150865-profile_image-300x300.png"
   },
   {
+    "name": "BasedCHAI",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/basedchai",
+    "description": "Ｓｋｉｍａｓｋｓ　ａｎｄ　ｖｏｄｋａ　いい",
+    "channel_name": "basedchai",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/79c1e497-f124-409d-9e33-1050621a33dc-profile_image-300x300.png"
+  },
+  {
     "name": "Beuha",
     "type": "3D",
     "channel": "https://www.youtube.com/channel/UCUoBMVJeo2681ZdHa4w6QTA",
@@ -85,7 +93,7 @@
     "channel": "https://www.twitch.tv/blue_venus_4",
     "description": "Hayaa🖤💙Welcome to the chaos and i hope you enjoy my streams :3 I am very chaotic on my streams, so if you came here to watch some good gameplay.. dis ain't it🖤💙But if you like chaotic and maybe funny gaming you're in the right place 🌸🖤💙🌸",
     "channel_name": "blue_venus_4",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b2149cb5-727d-4a3d-a6cd-a847f6c75f2a-profile_image-300x300.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/21fbff25-3460-4953-9fdf-fbf0766cf3c9-profile_image-300x300.png"
   },
   {
     "name": "Cattu",
@@ -292,6 +300,14 @@
     "description": "The one-stop location for SoulsBorne Maso! If it tortures you, I'm into it!",
     "channel_name": "letaniabelladone",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ce1078a3-be03-4743-8640-d964493c55f6-profile_image-300x300.png"
+  },
+  {
+    "name": "LumiKkoyan",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/lumikkoyan",
+    "description": "Moi moi to all! The mystical finnish firefox of the north is here to illuminate your day! Would you like to see the Aurora Borealis with me? Vtuber, hobby artist and variety streamer. A gamer?? And a girl??? Languages: EN/FI",
+    "channel_name": "lumikkoyan",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/abd54b89-95b2-407c-9c55-63250cd38949-profile_image-300x300.png"
   },
   {
     "name": "Lumituber",
