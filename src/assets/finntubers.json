@@ -16,6 +16,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/66dcd2c5-7f57-4c28-951d-9cfb3bd6192f-profile_image-300x300.png"
   },
   {
+    "name": "Akselmo",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/akselmo",
+    "description": "I'm not very good at video games",
+    "channel_name": "akselmo",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7d61434e-f0c2-43c0-b5d0-8cad9f2bb6ce-profile_image-300x300.png"
+  },
+  {
     "name": "AlchemisTeeps",
     "type": "2D",
     "channel": "https://www.twitch.tv/alchemisteeps",
@@ -203,7 +211,7 @@
     "channel": "https://www.twitch.tv/henuu00",
     "description": "Oh! You found me! Dont be shy, come say hi!",
     "channel_name": "henuu00",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ca112b76-220d-4d60-8124-9d481a62e44c-profile_image-300x300.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/58b7389d-03ac-4eae-a8b0-dc59660bdb07-profile_image-300x300.png"
   },
   {
     "name": "HoracchiVT",
@@ -236,6 +244,14 @@
     "description": "Hi I’m a smol elf Vtuber from Finland I love horror games :3",
     "channel_name": "jokujotai",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d5285f82-6759-47f9-bcef-1c215abaa71d-profile_image-300x300.png"
+  },
+  {
+    "name": "KatsPurr",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/katspurr",
+    "description": "Heya! I'm a friendly 50-something variety streamer who loves everything \"sandbox\". Especially sandbox MMOs. What I offer is a friendly and chill atmosphere. I've also been told that I have a soothing voice, so if you need a stream you can just wind down to after a long hard day, come and hang out!",
+    "channel_name": "katspurr",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e4965336-993f-4c8c-b05c-bbffdc745710-profile_image-300x300.jpg"
   },
   {
     "name": "Kiki Sagawa",
@@ -340,6 +356,14 @@
     "description": "Hello there! I'm Mist and I'm chill dhampir girl from winter wonderland called Finland~ Join my Crystal Maze Alliance for some great time, lame jokes and lot of chaos!",
     "channel_name": "mistralhq",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/de61c574-84e2-47ba-8eef-e99dd8fb6593-profile_image-300x300.png"
+  },
+  {
+    "name": "MossCoat_vtuber",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/mosscoat_vtuber",
+    "description": "Hello! I'm Moss, an indie vtuber who loves mysteries and simulator games. He/him, 18+ recommended!",
+    "channel_name": "mosscoat_vtuber",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e77b432-7e59-43a5-9591-a0c47b63c186-profile_image-300x300.png"
   },
   {
     "name": "Nomi",
