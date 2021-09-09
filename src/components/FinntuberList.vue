@@ -12,7 +12,7 @@
           </b>
           <br />
           <div class="description">
-            {{ trimDescription(ft.description) }}
+            {{ ft.description }}
           </div>
         </div>
       </div>
@@ -31,15 +31,6 @@ export default {
   async beforeMount() {
     this.talents = await import("../assets/finntubers.json");
     this.talents = this.talents.default;
-  },
-  methods: {
-    trimDescription: function (desc) {
-      const limit = 135;
-      if (desc !== null && desc.length > limit) {
-        return desc.substring(0, limit) + "...";
-      }
-      return desc;
-    },
   },
   computed: {
     activeTalents: function () {
@@ -139,5 +130,10 @@ img {
 .description {
   font-size: 12px;
   padding-top: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
 </style>
