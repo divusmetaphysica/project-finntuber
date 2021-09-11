@@ -21,6 +21,8 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   name: "ListingComponent",
   data() {
@@ -28,13 +30,29 @@ export default {
       talents: [],
     };
   },
-  async beforeMount() {
-    this.talents = await import("../assets/finntubers.json");
-    this.talents = this.talents.default;
+  async mounted() {
+    let talents = await import("../assets/finntubers.json");
+    talents = talents.default;
+    const logins = talents
+      .map((x) => x.channel_name)
+      .filter((x) => x != undefined && x != null && x !== "")
+      .join(",");
+    await axios
+      .get(`/api/twitch?logins=${logins}`)
+      .then((response) => {
+        if (response.status === 200) {
+          talents.forEach((y) =>
+            Object.assign(y, response.data[y.channel_name])
+          );
+        }
+      })
+      .catch((x) => console.log(x));
+
+    this.talents = talents;
+    console.log(this.talents);
   },
   computed: {
     activeTalents: function () {
-      console.log(this.talents);
       return this.talents.filter((i) => i.channel !== null);
     },
   },
