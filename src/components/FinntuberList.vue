@@ -5,7 +5,14 @@
       <div class="vtuber" v-for="ft in activeTalents" :key="ft.name">
         <a :href="ft.channel">
           <img :src="ft.profile_image_url" />
+          <template v-if="ft.stream != undefined">
+            <div class="live-status">
+              <div id="circle"></div>
+              <b style="color: red">LIVE</b>
+            </div>
+          </template>
         </a>
+
         <div class="vtuberInfo">
           <b
             ><a :href="ft.channel">{{ ft.name }} </a>
@@ -23,6 +30,8 @@
 <script>
 import axios from "axios";
 
+const notMissing = (x) => x != undefined && x != null && x !== "";
+
 export default {
   name: "ListingComponent",
   data() {
@@ -31,12 +40,12 @@ export default {
     };
   },
   async mounted() {
-    let talents = await import("../assets/finntubers.json");
-    talents = talents.default;
+    const talents = (await import("../assets/finntubers.json")).default;
     const logins = talents
       .map((x) => x.channel_name)
-      .filter((x) => x != undefined && x != null && x !== "")
+      .filter(notMissing)
       .join(",");
+
     await axios
       .get(`/api/twitch?logins=${logins}`)
       .then((response) => {
@@ -95,27 +104,9 @@ a {
   font-family: "Dosis", sans-serif;
   font-size: 18px;
 }
-.table-no-borders {
-  border-collapse: collapse;
-}
-.table-td {
-  text-align: left;
-}
 #div {
   display: flex;
   justify-content: center;
-}
-.table {
-  align-self: center;
-}
-.row {
-  display: table;
-  width: 100%; /*Optional*/
-  table-layout: fixed; /*Optional*/
-  border-spacing: 10px; /*Optional*/
-}
-.column {
-  display: table-cell;
 }
 img {
   width: 100px;
@@ -133,7 +124,7 @@ img {
   display: flex;
   align-items: center;
   width: 300px;
-  height: 130px;
+  height: 150px;
   border: 2px solid #173f5f;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
@@ -153,5 +144,19 @@ img {
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
+}
+.live-status {
+  /* border: 2px solid #173f5f; */
+  /* border-radius: 12px; */
+  text-align: center;
+  font-size: 10px;
+}
+#circle {
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin-inline: 0px 5px;
 }
 </style>

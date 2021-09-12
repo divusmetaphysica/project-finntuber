@@ -59,6 +59,18 @@
       "options": {
         "cwd": "${workspaceFolder}/api"
       }
+    },
+    {
+      "type": "shell",
+      "label": "SWA run",
+      "command": "swa start dist --api api",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "dependsOn": [
+        "npm: build"
+      ]
     }
   ]
 }
