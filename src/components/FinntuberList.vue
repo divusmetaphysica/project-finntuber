@@ -5,6 +5,7 @@
       <div class="vtuber" v-for="ft in activeTalents" :key="ft.name">
         <a :href="ft.channel">
           <img :src="ft.profile_image_url" />
+
           <template v-if="ft.stream != undefined">
             <div class="live-status">
               <div id="circle"></div>
@@ -111,7 +112,8 @@ a {
 img {
   width: 100px;
   height: 100px;
-  padding: 5px 0px;
+  /* padding: 5px 0px; */
+  border-radius: 10px;
 }
 .vtuberList {
   display: flex;
@@ -146,8 +148,8 @@ img {
   -webkit-box-orient: vertical;
 }
 .live-status {
-  /* border: 2px solid #173f5f; */
-  /* border-radius: 12px; */
+  border: 2px solid red;
+  border-radius: 12px;
   text-align: center;
   font-size: 10px;
 }
