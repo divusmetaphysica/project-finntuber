@@ -42,6 +42,7 @@ export default {
   },
   async mounted() {
     const talents = (await import("../assets/finntubers.json")).default;
+    console.log("Loaded static streamer info.");
     const logins = talents
       .map((x) => x.channel_name)
       .filter(notMissing)
@@ -54,12 +55,12 @@ export default {
           talents.forEach((y) =>
             Object.assign(y, response.data[y.channel_name])
           );
+          console.log("Loaded Twitch user info.");
         }
       })
       .catch((x) => console.log(x));
 
     this.talents = talents;
-    console.log(this.talents);
   },
   computed: {
     activeTalents: function () {
