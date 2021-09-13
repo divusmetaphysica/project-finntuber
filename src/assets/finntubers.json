@@ -182,6 +182,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/593c44e7-9c6a-409f-aeee-cfaded8b3ebe-profile_image-300x300.png"
   },
   {
+    "name": "FluffyJanna",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/fluffyjanna",
+    "description": "Hiiii, my name is Janna, I'm a very shy and introverted, but also a Huge nerd for everything tech and a sucker for shooters. I'm super gay for keyboards!",
+    "channel_name": "fluffyjanna",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b5930d58-a7a9-41da-81c4-42b6836e26c8-profile_image-300x300.png"
+  },
+  {
     "name": "GilenRogue",
     "type": "3D",
     "channel": "https://www.twitch.tv/gilenrogue",
@@ -382,6 +390,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e77b432-7e59-43a5-9591-a0c47b63c186-profile_image-300x300.png"
   },
   {
+    "name": "Nikkevirta",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/nikkevirta",
+    "description": "Hey dudes/dudettes, I'm Nick the Poodle and I don't play games. I BEAT THEM... That sounded cool, right?",
+    "channel_name": "nikkevirta",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/901c3087-cb45-4ffb-82d1-8a08202b4bed-profile_image-300x300.png"
+  },
+  {
     "name": "Nomi",
     "type": "Not yet streaming",
     "channel": null,
@@ -418,7 +434,7 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ff1d7c83-1747-4cca-9753-7707ded5decd-profile_image-300x300.png"
   },
   {
-    "name": "Poara Pon",
+    "name": "PoaraPon",
     "type": "3D",
     "channel": "https://www.twitch.tv/poarapon",
     "description": "Hello I'm Pon and I play video games. A lot. Will you be my ponstar? ❤︎",
@@ -440,6 +456,14 @@
     "description": "Mai-hi!! My name is Mai Pupuna and I stream games all the way from a fictional realm!! I got isekai'd one day and turned into a magical bunny girl... I decided to make the most of it and become a VTuber!!",
     "channel_name": "pupunamai",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6490c51b-a66c-4bae-9951-d46e83b0d7f9-profile_image-300x300.png"
+  },
+  {
+    "name": "PUMPKA_vt",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/pumpka_vt",
+    "description": "A spooktacular virtual pumpkin at your service! かぼー",
+    "channel_name": "pumpka_vt",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/26bb77cc-a63a-4134-a36f-06fa9dc5aee1-profile_image-300x300.png"
   },
   {
     "name": "RepoReponen",
@@ -566,6 +590,14 @@
     "description": "A Virtual Finnish variety streamer and occasional memester.",
     "channel_name": "valtheknight",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1a94f494-bfa1-401b-a3ab-1b38a15b9ad2-profile_image-300x300.jpg"
+  },
+  {
+    "name": "Vuoripeikko",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/vuoripeikko",
+    "description": "Finnish gamer, who plays a variety of games. And likes looking like a cute panda.",
+    "channel_name": "vuoripeikko",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bc80c430-8d9c-4370-9376-cbf1e5ca598c-profile_image-300x300.png"
   },
   {
     "name": "Kira (YungCatGirl)",

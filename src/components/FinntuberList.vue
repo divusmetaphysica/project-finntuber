@@ -31,6 +31,7 @@
 <script>
 import axios from "axios";
 
+// const refreshInterval = 10 * 60 * 1000;
 const notMissing = (x) => x != undefined && x != null && x !== "";
 
 export default {
@@ -153,6 +154,7 @@ img {
   border-radius: 12px;
   text-align: center;
   font-size: 10px;
+  padding-top: 2px;
 }
 #circle {
   width: 10px;
