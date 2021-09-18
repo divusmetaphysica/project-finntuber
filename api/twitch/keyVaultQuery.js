@@ -14,19 +14,15 @@ const credential = new DefaultAzureCredential();
 // Lastly, create our secrets client and connect to the service
 const client = new SecretClient(URL, credential);
 
-const getCurrentKey = async () => {
-  const secret = await client.getSecret(SECRET_NAME);
+const getCurrentAccessToken = async () => {
+  const secret = await client
+    .getSecret(SECRET_NAME)
+    .catch(x => console.log(x));
   return secret.value;
 }
-const setNewKey = async (newKey) => await client.setSecret(SECRET_NAME, newKey);
+const setNewAccessToken = async (newKey) => await client.setSecret(SECRET_NAME, newKey);
 
 module.exports = {
-  getCurrentKey: getCurrentKey,
-  setNewKey: setNewKey
+  getCurrentSecret: getCurrentAccessToken,
+  setNewSecret: setNewAccessToken
 }
-// async function main() {
-//   const latestSecret = await getCurrentKey();
-//   console.log(`Latest version of the secret ${SECRET_NAME}: `, latestSecret);
-// }
-
-// main();

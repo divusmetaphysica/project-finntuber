@@ -8,14 +8,42 @@ const TWITCH_AUTH_URL = "https://id.twitch.tv/oauth2/token";
 // &client_secret=<your client secret>
 // &grant_type=client_credentials
 
+/**
+ * Construct the Authorization header for Axios query for Twitch queries.
+ *
+ * @param {String} accessToken
+ * @returns Ready Axios header
+ */
+const authHeader = (accessToken) => {
+    return {
+        headers: {
+            "Authorization": `Bearer ${accessToken}`,
+            "Client-Id": `${process.env.TWITCH_CLIENT_ID}`
+        }
+    }
+}
+
+/**
+ * Load Access Token from environment variable if it exists, otherwise
+ * from the Azure KeyVault.
+ *
+ * @returns Current secret if found.
+ */
 const getAccessToken = async () => {
     if (process.env.TWITCH_ACCESS_TOKEN) {
         return process.env.TWITCH_ACCESS_TOKEN;
     } else {
-        return await vault.getCurrentSecret();
+        let accessToken = await vault
+            .getCurrentSecret()
+            .catch(x => console.log(x));
+        return accessToken;
     }
 }
 
+/**
+ *
+ * @returns
+ */
 const newAccessToken = async () => {
     let accessToken = null;
     const params = {
@@ -28,28 +56,24 @@ const newAccessToken = async () => {
     await axios
         .post(TWITCH_AUTH_URL, null, params)
         .then(
-            x => { accessToken = { token: x.data.access_token, type: x.data.token_type } },
+            x => { accessToken = x.data.access_token },
             x => console.log(x)
         )
         .catch(x => console.log(x));
 
     if (accessToken != null && accessToken != undefined) {
-        await vault.setNewKey(accessToken.token);
+        await vault.setNewSecret(accessToken);
         console.log("Set new access token to Key Vault");
     }
     return accessToken;
 }
 
-const getAuthConfig = async () => {
-    let accessToken = await getAccessToken();
-    return {
-        headers: {
-            "Authorization": `Bearer ${accessToken}`,
-            "Client-Id": `${process.env.TWITCH_CLIENT_ID}`
-        }
-    }
-}
-
+/**
+ *
+ * @param {Object} config
+ * @param {Array{String}} arr
+ * @returns
+ */
 const loadTwitchInfo = async (config, arr) => {
     let results = new Object();
 
@@ -62,6 +86,7 @@ const loadTwitchInfo = async (config, arr) => {
     return results;
 }
 
+//
 const loadTwitchStreams = async (config, arr) => {
     let results = new Object();
 
@@ -79,10 +104,10 @@ module.exports = async function (context, req) {
     context.log(`Requesting twitch data for ${logins}`);
 
     const userNames = logins.split(",");
+    let accessToken = await getAccessToken();
+    let config = authHeader(accessToken);
 
-    const config = await getAuthConfig();
     const info = await loadTwitchInfo(config, userNames);
-
     const streams = await loadTwitchStreams(config, userNames);
     Object.entries(streams).forEach(entry => info[entry[0]]["stream"] = entry[1]);
 
