@@ -88,6 +88,7 @@ module.exports = async function (context, req) {
 
   if (info.status != undefined && info.status == 401) {
     accessToken = await auth.getNewAccessToken();
+    context.log("Updated new Access Token to KeyVault.")
     authHeader = makeConfig(accessToken);
 
     info = await loadTwitchInfo(userNames, authHeader);
