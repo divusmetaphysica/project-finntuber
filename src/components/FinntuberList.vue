@@ -31,7 +31,7 @@
 <script>
 import axios from "axios";
 
-// const refreshInterval = 10 * 60 * 1000;
+const refreshInterval = 10 * 60 * 1000;
 const notMissing = (x) => x != undefined && x != null && x !== "";
 
 export default {
@@ -39,35 +39,50 @@ export default {
   data() {
     return {
       talents: [],
+      timerId: null,
     };
   },
   async mounted() {
     const talents = (await import("../assets/finntubers.json")).default;
     console.log("Loaded static streamer info.");
-    const logins = talents
-      .map((x) => x.channel_name)
-      .filter(notMissing)
-      .join(",");
-
-    await axios
-      .get(`/api/twitch?logins=${logins}`)
-      .then((response) => {
-        if (response.status === 200) {
-          talents.forEach((y) =>
-            Object.assign(y, response.data[y.channel_name])
-          );
-          console.log("Loaded Twitch user info.");
-        }
-      })
-      .catch((x) => console.log(x));
-
     this.talents = talents;
+
+    await this.updateStreamerInfo();
+
+    this.timerId = setInterval(this.updateStreamerInfo, refreshInterval);
+    setTimeout(
+      () => { 
+        clearInterval(this.timerId); 
+        console.log("stop")
+      }, 
+      12*refreshInterval
+    );
   },
   computed: {
     activeTalents: function () {
       return this.talents.filter((i) => i.channel !== null);
     },
   },
+  methods: {
+    async updateStreamerInfo() {
+      const logins = this.talents
+        .map((x) => x.channel_name)
+        .filter(notMissing)
+        .join(",");
+
+      await axios
+        .get(`/api/twitch?logins=${logins}`)
+        .then((response) => {
+          if (response.status === 200) {
+            this.talents.forEach((y) =>
+              Object.assign(y, response.data[y.channel_name])
+            );
+            console.log("Loaded Twitch user info.");
+          }
+        })
+        .catch((x) => console.log(x));
+    }
+  }
 };
 </script>
 
