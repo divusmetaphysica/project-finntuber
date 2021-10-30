@@ -8,12 +8,12 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6030ccdb-76d5-4e18-ac99-f868ce577e82-profile_image-70x70.png"
   },
   {
-    "name": "AdreusPV",
+    "name": "AdreusVT",
     "type": "3D",
-    "channel": "https://www.twitch.tv/adreuspv",
+    "channel": "https://www.twitch.tv/adreusvt",
     "description": "Hi I'm Adreus. I'm a Mad Scientist Vtuber from Finland who streams a variety of games. Join me for chill vibes. I want to meet and talk to lot of people.",
-    "channel_name": "adreuspv",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/66dcd2c5-7f57-4c28-951d-9cfb3bd6192f-profile_image-70x70.png"
+    "channel_name": "adreusvt",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9696beec-7b35-46f8-aa21-30b9c3ae5776-profile_image-70x70.png"
   },
   {
     "name": "Akselmo",
@@ -142,14 +142,6 @@
     "description": "Just a voice and a face in the darkness of space, It's DT Stellar Broadcast. Come on down and join the crew.",
     "channel_name": "daletechnic",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/fd2515e1-591d-48ab-800b-e63cf2eaf2e2-profile_image-70x70.png"
-  },
-  {
-    "name": "DemonAreon",
-    "type": "2D",
-    "channel": "https://www.twitch.tv/DemonAreon",
-    "description": "Hey there, you've stumbled upon the channel of the Vstreamer called Areon the demon. Take a seat, grab a drink of your choice and enjoy this rollercoaster of shts n giggles.Anyway, hope you'll enjoy your stay (Psst. Give a follow it's free and it makes your new favorite demon happy)",
-    "channel_name": "demonareon",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/896561ce-52cd-4035-a68d-7da58ac17984-profile_image-70x70.png"
   },
   {
     "name": "Doot___Doot",
@@ -606,6 +598,14 @@
     "description": "Yahhooo!  Let's take a break and chill for a moment.\t(っ❛ ᴗ ❛ ς)",
     "channel_name": "tuisku404",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/aebd6e97-1a67-4d3f-b421-bc3d4954e3cd-profile_image-70x70.png"
+  },
+  {
+    "name": "v_areon",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/v_areon",
+    "description": "Hey there, you've stumbled upon the channel of the Vstreamer called Areon the demon. Take a seat, grab a drink of your choice and enjoy this rollercoaster of shts n giggles.Anyway, hope you'll enjoy your stay (Psst. Give a follow it's free and it makes your new favorite demon happy)",
+    "channel_name": "v_areon",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d9c27786-826f-49cc-b26e-8ee2358a385f-profile_image-70x70.png"
   },
   {
     "name": "Valtheknight",
