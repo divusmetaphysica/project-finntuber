@@ -10,7 +10,7 @@ The site is deployed to [Project Finntuber](www.finntubers.fi)
 
 Using locally Node version 14.15.5 and the deployment target is node v14
 
-```
+```bash
 npm install
 ```
 
@@ -31,7 +31,8 @@ npm install -g azure-functions-core-tools@3
 ```
 
 ### Compiles and hot-reloads for development
-```
+
+```bash
 npm run serve
 ```
 
@@ -42,12 +43,14 @@ npm run build && swa start dist --api api
 ```
 
 ### Compiles and minifies for production
-```
+
+```bash
 npm run build
 ```
 
 ### Lints and fixes files
-```
+
+```bash
 npm run lint
 ```
 
