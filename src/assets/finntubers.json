@@ -88,6 +88,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7c74bb2d-bbc2-43f3-914a-7e7767150865-profile_image-70x70.png"
   },
   {
+    "name": "Baptiste_VT",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/baptiste_vt",
+    "description": "[FIN/ENG] Beartuber (insert funny bap things) maiming and such, an un-bearable finnish soldier bear",
+    "channel_name": "baptiste_vt",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f938421a-3ef2-4b13-b2f8-eb1708f45a1d-profile_image-70x70.png"
+  },
+  {
     "name": "BasedCHAI",
     "type": "2D",
     "channel": "https://www.twitch.tv/basedchai",
@@ -109,7 +117,7 @@
     "channel": "https://www.twitch.tv/blue_venus_4",
     "description": "Hayaa🖤💙Welcome to the chaos and i hope you enjoy my streams :3 I am very chaotic on my streams, so if you came here to watch some good gameplay.. dis ain't it🖤💙But if you like chaotic and maybe funny gaming you're in the right place 🌸🖤💙🌸",
     "channel_name": "blue_venus_4",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34df6e87-1a83-435c-8d34-ff59a1eb33e4-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eaa23f4a-eba5-4611-aee1-7d65478ecdc9-profile_image-70x70.png"
   },
   {
     "name": "Cattu",
@@ -411,7 +419,7 @@
     "channel": "https://www.twitch.tv/nickfigglebottom",
     "description": "Hey taffers, I'm Nick Figglebottom and I don't play games. I BEAT THEM... That sounded cool, right?",
     "channel_name": "nickfigglebottom",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/901c3087-cb45-4ffb-82d1-8a08202b4bed-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b64e2e48-c2ad-4de7-bdd1-a2dc22a28b12-profile_image-70x70.png"
   },
   {
     "name": "Nomi",
@@ -541,7 +549,7 @@
     "channel": "https://www.twitch.tv/sinibunnie",
     "description": "I'm a goldfish",
     "channel_name": "sinibunnie",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ceadc76a-b5e8-41cd-ac48-a2b2c736805e-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/58978b4d-acb9-411e-a345-78b2ffe6cc52-profile_image-70x70.png"
   },
   {
     "name": "Sorrow2art",
@@ -622,6 +630,14 @@
     "description": "Finnish gamer, who plays a variety of games. And likes looking like a cute panda.",
     "channel_name": "vuoripeikko",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bc80c430-8d9c-4370-9376-cbf1e5ca598c-profile_image-70x70.png"
+  },
+  {
+    "name": "Xxeletah",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/xxeletah",
+    "description": "Cat/Demon Vtuber, who streams variety of games. Commentary in both english and finnish. Explicit language often, so be prepared for that.",
+    "channel_name": "xxeletah",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1498a91b-2eb0-48fc-b0d8-c2c237dd0d1d-profile_image-70x70.png"
   },
   {
     "name": "YungCatGirl",
