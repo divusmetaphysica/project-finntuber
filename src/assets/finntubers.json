@@ -93,7 +93,7 @@
     "channel": "https://www.twitch.tv/baptiste_vt",
     "description": "[FIN/ENG] Beartuber (insert funny bap things) maiming and such, an un-bearable finnish soldier bear",
     "channel_name": "baptiste_vt",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f938421a-3ef2-4b13-b2f8-eb1708f45a1d-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8db77da5-c8d6-45d3-9be2-977c0bc3393a-profile_image-70x70.png"
   },
   {
     "name": "BasedCHAI",
@@ -235,7 +235,7 @@
     "channel": "https://www.twitch.tv/haniepixie",
     "description": "Heyyoo! I'm Haniepixie but you can call me hanie or pixie! I hope we can hang out and be comfy together!",
     "channel_name": "haniepixie",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c2806b54-0a87-4834-90e9-4bec243b72b2-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/592dd2fb-89d9-4ec0-b3c5-6a9bf506839b-profile_image-70x70.png"
   },
   {
     "name": "Henuu00",
@@ -315,7 +315,7 @@
     "channel": "https://www.twitch.tv/kuutuber",
     "description": "Your local space devil with no manners! Nice to meet you! ♥",
     "channel_name": "kuutuber",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4a5c214a-726c-43a8-bed3-acb247722efd-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a2ffbb48-7aa7-4efa-b25b-37038cbdb81e-profile_image-70x70.png"
   },
   {
     "name": "LetaniaBelladone",
@@ -536,6 +536,14 @@
     "description": "An anime figure come to life. Lived years in shelf with other figures until one day I came conscious of myself. It's lonely in the shelf and want to talk with people. ",
     "channel_name": "shunicos",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cb8a6447-e247-4593-b958-173d2cb99028-profile_image-70x70.png"
+  },
+  {
+    "name": "sienimiili",
+    "type": "2D",
+    "channel": "https://ww.twitch.tv/sienimiili",
+    "description": "hello please enjoy your stay ♥",
+    "channel_name": "sienimiili",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/65cc4a42eb5e60cc-profile_image-70x70.jpeg"
   },
   {
     "name": "Sini Artmage",
