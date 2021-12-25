@@ -61,7 +61,7 @@
     "channel": "https://www.twitch.tv/anna6anana",
     "description": "An art and game channel run by coffee and bad humor. Welcome!",
     "channel_name": "anna6anana",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/69b62613-924c-4973-9d3e-a425586b2be7-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7b6e5745-c517-4392-acfd-5bc2c1a6881d-profile_image-70x70.png"
   },
   {
     "name": "AnteroKarhu",
@@ -117,7 +117,7 @@
     "channel": "https://www.twitch.tv/blue_venus_4",
     "description": "Hayaa I'm A Vtuber From Finland 🖤💙Welcome to the chaos and i hope you enjoy my streams :3 I am very chaotic on my streams, so if you came here to watch some good gameplay.. dis ain't it🖤💙But if you like chaotic and maybe funny gaming you're in the right place 🌸🖤💙🌸",
     "channel_name": "blue_venus_4",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eaa23f4a-eba5-4611-aee1-7d65478ecdc9-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c1eabc8f-bcb5-4983-bc10-6b0cfcc9c8af-profile_image-70x70.png"
   },
   {
     "name": "Cattu",
@@ -141,15 +141,15 @@
     "channel": "http://www.twitch.tv/citrusssoda",
     "description": "I'm a Finnish spitz dog Vtuber on a mission to play and finish all my games from my game library. Let's play them together and have some fun on the way!",
     "channel_name": "citrusssoda",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec0ff321-c191-4f1b-8217-fc8bfb14df1e-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3739b0f7-217f-4e2b-a19c-83f463365857-profile_image-70x70.png"
   },
   {
-    "name": "DaleTechnic",
+    "name": "DaleTechnic", 
     "type": "3D",
     "channel": "https://www.twitch.tv/daletechnic",
     "description": "Just a voice and a face in the darkness of space, It's DT Stellar Broadcast. Come on down and join the crew.",
     "channel_name": "daletechnic",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/fd2515e1-591d-48ab-800b-e63cf2eaf2e2-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e0e3454c-c4c3-4c8b-b223-727831699006-profile_image-70x70.png"
   },
   {
     "name": "Doot___Doot",
@@ -270,6 +270,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/40d70e96-a8e2-4a28-a217-52f36c3f54ee-profile_image-70x70.png"
   },
   {
+    "name": "JeffiinaPie",
+    "type": "2D",
+    "channel": "https://www.youtube.com/channel/UCKZqEHui9ujPQCPJ8n3O89g",
+    "description": "Hello! I am JeffiinaPie and I am officially now an axolotl Vtuber! I do art, as you can see from the speedpaints, and casual gaming here and there. I love axolotls, foxes and red pandas and I love the color schemes Halloween and Autumn provide :D",
+    "channel_name": "jeffiinapie",
+    "profile_image_url": "https://yt3.ggpht.com/P1fL6qfPd2gfPN1msuKkySqz9WkYF5apxO013lkroXDhWR9hLztdspY8bS4cnmiFa_iXo08VwA=s176-c-k-c0x00ffffff-no-rj"
+  },
+  {
     "name": "JokuJotai",
     "type": "2D",
     "channel": "https://www.twitch.tv/jokujotai",
@@ -307,7 +315,7 @@
     "channel": "https://www.twitch.tv/kurumiella",
     "description": "Double ear catgirl who plays way too much gacha and rhythm games and sucks at FPS games! Occasionally does ASMR and karaoke!",
     "channel_name": "kurumiella",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3b74d90b-199a-4daf-843e-282c5f723055-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b9e58420-cbf6-4f72-b5b6-62cba2592096-profile_image-70x70.png"
   },
   {
     "name": "KuuTuber",
@@ -339,7 +347,7 @@
     "channel": "https://www.twitch.tv/lumituber",
     "description": "Hello! My name is Lumi and I'm a comfy wolf girl from Finland! Awoo! Welcome to my Twitch channel! ",
     "channel_name": "lumituber",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/571c9fc7-f24b-4ae7-943e-8f8968fae7e8-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7de478b9-0639-4b93-950a-10cb3a96c04d-profile_image-70x70.png"
   },
   {
     "name": "LunkkiTV",
@@ -428,6 +436,14 @@
     "description": null
   },
   {
+    "name": "NotTrixxie",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/nottrixxie",
+    "description": "Boyfriend, and cat dad armed with dad jokes.",
+    "channel_name": "nottrixxie",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d1f93ac9-bd32-4f70-aa08-71f7c070afc4-profile_image-70x70.png"
+  },
+  {
     "name": "Novau",
     "type": "3D",
     "channel": "https://www.twitch.tv/novau",
@@ -479,7 +495,7 @@
     "channel": "https://www.twitch.tv/pupunamai",
     "description": "Mai-hi!! My name is Mai Pupuna and I stream games all the way from a fictional realm!! I got isekai'd one day and turned into a magical bunny girl... I decided to make the most of it and become a VTuber!!",
     "channel_name": "pupunamai",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6490c51b-a66c-4bae-9951-d46e83b0d7f9-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3cdb2904-c2f0-4406-9e35-bd771efaf264-profile_image-70x70.png"
   },
   {
     "name": "PUMPKA_vt",
@@ -558,6 +574,14 @@
     "description": "I'm a goldfish",
     "channel_name": "sinibunnie",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/58978b4d-acb9-411e-a345-78b2ffe6cc52-profile_image-70x70.png"
+  },
+  {
+    "name": "Sokerikko",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/sokerikko",
+    "description": "Welcome to Sokerikko! I'm Pulla, an illustrator and video game enthusiast from Finland who loves candy and dragons. I mostly play RPG and adventure games. Feel free to chat either in Finnish or in English!",
+    "channel_name": "sokerikko",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/aed68155-99c8-425d-969f-8961fb0d9fef-profile_image-70x70.png"
   },
   {
     "name": "Sorrow2art",
