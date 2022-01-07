@@ -24,14 +24,6 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7d61434e-f0c2-43c0-b5d0-8cad9f2bb6ce-profile_image-70x70.png"
   },
   {
-    "name": "AlchemisTeeps",
-    "type": "2D",
-    "channel": "https://www.twitch.tv/alchemisteeps",
-    "description": "Think you can handle my tricks?",
-    "channel_name": "alchemisteeps",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/05a7e055-04a8-4429-ba30-5e9244ce1565-profile_image-70x70.png"
-  },
-  {
     "name": "Alice Sawyer",
     "type": "2D",
     "channel": "https://www.twitch.tv/alicesawyer",
@@ -258,6 +250,14 @@
     "description": "Oh! You found me! Dont be shy, come say hi!",
     "channel_name": "henuu00",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/58b7389d-03ac-4eae-a8b0-dc59660bdb07-profile_image-70x70.png"
+  },
+  {
+    "name": "HopeNoah",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/hopenoah",
+    "description": "Think you can handle my tricks?",
+    "channel_name": "hopenoah",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e61cc112-2040-4458-81ee-5dd579b846b1-profile_image-70x70.png"
   },
   {
     "name": "HoracchiVT",
