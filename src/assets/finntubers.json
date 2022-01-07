@@ -190,6 +190,15 @@
     "description": null
   },
   {
+    "name": "EriaLunar",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/erialunar",
+    "description": "Hello there! I'm Mist, daytime catgirl. nighttime dhampir; full time Crystal Lord~ Hope you enjoy your stay in athenaeum ♥",
+    "channel_name": "erialunar",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/af2f8d40-df85-4cba-bac4-ecc103288e78-profile_image-70x70.png"
+  },
+
+  {
     "name": "Fenotype82",
     "type": "3D",
     "channel": "https://www.twitch.tv/fenotype82",
@@ -210,6 +219,14 @@
     "type": "Not yet streaming",
     "channel": null,
     "description": null
+  },
+  {
+    "name": "GhostGirlMarlie",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/ghostgirlmarlie",
+    "description": "Hi! I'm a ghost girl VTuber!! I'm still new and might mess up a lot of things but I shall do my best!!!!!!!!",
+    "channel_name": "ghostgirlmarlie",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a038c338-04c0-4eb2-8a6f-6e6f85b6be56-profile_image-70x70.png"
   },
   {
     "name": "GilenRogue",
@@ -249,7 +266,7 @@
     "channel": "https://www.twitch.tv/henuu00",
     "description": "Oh! You found me! Dont be shy, come say hi!",
     "channel_name": "henuu00",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/58b7389d-03ac-4eae-a8b0-dc59660bdb07-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/28dce324-3f0d-466b-8ac6-08d39e79dbd2-profile_image-70x70.png"
   },
   {
     "name": "HopeNoah",
@@ -330,6 +347,14 @@
     "description": "I am Vtuber from Finland, I am variety streamer who has big backlog of games from Steam which I intent play through.",
     "channel_name": "kizabum",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/716c4ac2-6eb6-4282-b56c-676791eb834d-profile_image-70x70.png"
+  },
+  {
+    "name": "kohiiz",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/kohiiz",
+    "description": "We gaming bois",
+    "channel_name": "kohiiz",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d2cd2626-4138-4009-9481-2b52dff53011-profile_image-70x70.png"
   },
   {
     "name": "KurumiElla",
@@ -427,15 +452,7 @@
     "channel_name": "missmeirising",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a03cc6c9-ef4f-4ab7-9151-603af3a5e1df-profile_image-70x70.png"
   },
-  {
-    "name": "MistralHQ",
-    "type": "3D",
-    "channel": "https://www.twitch.tv/mistralhq",
-    "description": "Hello there! I'm Mist, daytime catgirl. nighttime dhampir; full time Crystal Lord~ Hope you enjoy your stay in athenaeum ♥",
-    "channel_name": "mistralhq",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0fbc6118-558e-4590-8565-024546d3a0b9-profile_image-70x70.png"
-  },
-  {
+    {
     "name": "MossCoat_vtuber",
     "type": "2D",
     "channel": "https://www.twitch.tv/mosscoat_vtuber",
