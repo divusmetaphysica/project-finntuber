@@ -112,6 +112,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4b0d8f85-68ca-4cdc-9689-843f5c59154a-profile_image-70x70.png"
   },
   {
+    "name": "Caranraug",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/caranraug",
+    "description": "Streaming games and stuff.",
+    "channel_name": "caranraug",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/66b1099e-9ce5-4ff5-be29-1b0e3af7a139-profile_image-70x70.png"
+  },
+  {
     "name": "Cattu",
     "type": "3D",
     "channel": "https://www.twitch.tv/cattu",
