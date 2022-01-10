@@ -2,7 +2,7 @@
   {
     "name": "Acid_AI",
     "type": "3D",
-    "channel": "www.twitch.tv/acid_ai",
+    "channel": "https://www.twitch.tv/acid_ai",
     "description": "I am just an innocent AI that likes to play around.",
     "channel_name": "acid_ai",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6030ccdb-76d5-4e18-ac99-f868ce577e82-profile_image-70x70.png"
@@ -165,7 +165,7 @@
     "channel": "https://www.twitch.tv/eldritchmom",
     "description": "Outer Goddess and Eldritch Mom from beyond the reach of the mortal mind and profane blasphemous depths of unnerving space. I just try to have fun. I am not evil, just misunderstood.. (and maybe a little evil)",
     "channel_name": "eldritchmom",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/466567bd-07bf-4ad1-915f-71db34b047f5-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7a5a4717-09d4-4216-a088-a8941e70e079-profile_image-70x70.png"
   },
   {
     "name": "EmiVT",
@@ -355,6 +355,14 @@
     "description": "We gaming bois",
     "channel_name": "kohiiz",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d2cd2626-4138-4009-9481-2b52dff53011-profile_image-70x70.png"
+  },
+  {
+    "name": "Kricchan",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/kricchan",
+    "description": "A pink-haired Finnish person doing casual streaming, now with a Vtuber avatar. Follow my IRL self on IG: @kricchan_",
+    "channel_name": "kricchan",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ef047ea9-8469-4770-9619-97f3795cb1f6-profile_image-70x70.png"
   },
   {
     "name": "KurumiElla",
