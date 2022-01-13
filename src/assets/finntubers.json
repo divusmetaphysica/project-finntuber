@@ -215,6 +215,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b5930d58-a7a9-41da-81c4-42b6836e26c8-profile_image-70x70.png"
   },
   {
+    "name": "GaleNorbrook",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/galenorbrook",
+    "description": "Hey there, I'm Gale. I'm a sleepy snow leopard VTuber who loves lounging around and playing video games. Let's have a chill time!",
+    "channel_name": "galenorbrook",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6e60ce22-59b6-401f-a1c0-ea08aac070a3-profile_image-70x70.png"
+  },
+  {
     "name": "GHASTLYARACHNID",
     "type": "Not yet streaming",
     "channel": null,
