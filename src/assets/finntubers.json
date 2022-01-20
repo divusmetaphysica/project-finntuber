@@ -444,14 +444,6 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bdd7d5ac-13ce-43e3-8d65-72ad205b9a56-profile_image-70x70.png"
   },
   {
-    "name": "Mima_Nekotaku",
-    "type": "PNG",
-    "channel": "https://www.twitch.tv/mima_nekotaku",
-    "description": "A crazy catlady with the IQ of at least 5- you got any nuggets?",
-    "channel_name": "mima_nekotaku",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eed74c33-adc1-45d3-81bb-8294d33b8405-profile_image-70x70.png"
-  },
-  {
     "name": "Minimaali",
     "type": "3D",
     "channel": "https://www.twitch.tv/minimaali",
@@ -466,6 +458,14 @@
     "description": "Hey I'm Mei!! I'm a small Finnish gnome Vtuber. If I'm not here then I might be on my sister Joku's channel (its linked below) ",
     "channel_name": "missmeirising",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a03cc6c9-ef4f-4ab7-9151-603af3a5e1df-profile_image-70x70.png"
+  },
+  {
+    "name": "MiuTuber",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/miutuber",
+    "description": "I'm a Finnish VTuber. Mjäy oon tää kissa.",
+    "channel_name": "miutuber",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0b44d89e-fb37-42b7-8fc9-ff5c31c9e478-profile_image-70x70.png"
   },
   {
     "name": "MossCoat_vtuber",
