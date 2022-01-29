@@ -96,14 +96,6 @@
     "profile_image_url": "https://yt3.ggpht.com/gNo-xOkw-DhvMiq3Gkxw3WzC5kDfIz2Ngx7KZaR3saQt9llz66CSHHfqcCuzoHyLd_APmHIJxg=s88-c-k-c0x00ffffff-no-rj"
   },
   {
-    "name": "Blue_Venus_4",
-    "type": "3D",
-    "channel": "https://www.twitch.tv/blue_venus_4",
-    "description": "Hayaa I'm A Vtuber From Finland 🖤💙Welcome to the chaos and i hope you enjoy my streams :3 I am very chaotic on my streams, so if you came here to watch some good gameplay.. dis ain't it🖤💙But if you like chaotic and maybe funny gaming you're in the right place 🏹🖤💙🏹",
-    "channel_name": "blue_venus_4",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/28bb8da2-9c18-4104-a695-92c44972b53c-profile_image-70x70.png"
-  },
-  {
     "name": "Caranraug",
     "type": "2D",
     "channel": "https://www.twitch.tv/caranraug",
@@ -298,6 +290,14 @@
     "description": "Howdy! I'm Huhu Aho, a changeling VTuber from Finland!・・・they/she",
     "channel_name": "huhuaho",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/760229aa-b14e-4e73-ae3e-03a8f6b04789-profile_image-70x70.png"
+  },
+  {
+    "name": "Huntress_Venus",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/huntress_venus",
+    "description": "Hayaa I'm A Vtuber From Finland 🖤💙Welcome to the chaos and i hope you enjoy my streams :3 I am very chaotic on my streams, so if you came here to watch some good gameplay.. dis ain't it🖤💙But if you like chaotic and maybe funny gaming you're in the right place 🏹🖤💙🏹",
+    "channel_name": "huntress_venus",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/28bb8da2-9c18-4104-a695-92c44972b53c-profile_image-70x70.png"
   },
   {
     "name": "IlyasYakie",
@@ -724,6 +724,14 @@
     "description": "A cool rat from a galaxy far, far away",
     "channel_name": "thatlazyrat",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/12ac3577-a4c3-483e-aec2-283ef45cdc98-profile_image-70x70.png"
+  },
+  {
+    "name": "Tsalop",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/tsalop",
+    "description": "An aspiring artists and photographer from Finland that loves retro games and pixels... The content of the streams is generally aimed towards the older audience (+18) so viewer discretion is advised.",
+    "channel_name": "tsalop",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c0bd0a09-3b5a-464e-a562-f0322075f493-profile_image-70x70.png"
   },
   {
     "name": "v_areon",
