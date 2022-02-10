@@ -125,7 +125,7 @@
     "channel": "https://www.twitch.tv/ceciblossom",
     "description": "Aspiring vtuber from Finland~ New to streaming and still learning :3",
     "channel_name": "ceciblossom",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ee88f749-3be9-41f1-a0c4-b36a308e5d49-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/da3be445-1241-422e-85a0-8ed4a3d337a9-profile_image-70x70.png"
   },
   {
     "name": "Cefie",
@@ -242,6 +242,14 @@
     "description": "Hey there! I'm GilenRogue, a VTuber here to take over the world! Just kidding, I play games and stuff. - Music provided by Lofi Girl - Listen: bit.ly/lofigirI-playlists.",
     "channel_name": "gilenrogue",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f5d5a28c-c63f-4b20-9d5e-57cf40a40cf2-profile_image-70x70.png"
+  },
+  {
+    "name": "GuardianRexUwU",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/guardianrexuwu",
+    "description": "Hello, i am a person - Overlay by @meguminmay on twitter",
+    "channel_name": "guardianrexuwu",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/24e12cb1-773e-492d-b311-65f8ee3eaca3-profile_image-70x70.png"
   },
   {
     "name": "HallaVilutar",
@@ -372,6 +380,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8c62abb3-b70c-490b-b4b0-54ed2f4e781c-profile_image-70x70.png"
   },
   {
+    "name": "KuroChi_VT",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/KuroChi_VT",
+    "description": "Hiya! I'm Kuro Chi, a variety streamer and an artist in training. It is so nice to have you here!",
+    "channel_name": "kurochi_vt",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ea131949-414a-4800-9a76-2ba81f4eb8a8-profile_image-70x70.png"
+  },
+  {
     "name": "KurumiElla",
     "type": "3D",
     "channel": "https://www.twitch.tv/kurumiella",
@@ -449,7 +465,7 @@
     "channel": "https://www.twitch.tv/minimaali",
     "description": "IM MINI?? Hi!! I don't know what I'm doing, please love me okay?? ",
     "channel_name": "minimaali",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/25e5b9d1-aad5-4ed9-a204-501b9d8d09d3-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/09000751-1608-474b-b689-d39910440680-profile_image-70x70.png"
   },
   {
     "name": "MissMeiRising",
@@ -576,12 +592,26 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0b6f33e7-5766-466b-b77e-76857fdd50fd-profile_image-70x70.png"
   },
   {
+    "name": "Renotus",
+    "type": "PNG",
+    "channel": "https://www.twitch.tv/renotus",
+    "description": "You have found your way to creature club, take seat and enjoy your stay. The purpose of this channel is to kick me to play games, old and new. Olet löytänyt tiesi otusten clubille, ota mukava asento ja nauti vierailustasi. Tämän kanavan tarkoitus on potkia minua pelaamaan pelejä, vanhoja ja uusia.",
+    "channel_name": "renotus",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/437bb513-4c16-4401-bf8a-0f40f806c4a4-profile_image-70x70.png"
+  },
+  {
     "name": "RepoReponen",
     "type": "2D",
     "channel": "https://www.twitch.tv/reporeponen",
     "description": "🧡 Finnish werefox vtuber • Nonbinary • they/them • Lil sibling of @HuhuAho 🧡",
     "channel_name": "reporeponen",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ea7c0651-ed71-4dde-bcab-9cf594d85e78-profile_image-70x70.png"
+  },
+  {
+    "name": "RobiFubi Ch.",
+    "type": "Not yet streaming",
+    "channel": null,
+    "description": null
   },
   {
     "name": "Romolla",
@@ -678,6 +708,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/79583463-dcca-45d8-b154-b9771aa02fc8-profile_image-70x70.png"
   },
   {
+    "name": "spacefish",
+    "type": "PNG",
+    "channel": "https://www.twitch.tv/spacefish",
+    "description": "Fishy traveler from space. Still trying to find their place in this universe.",
+    "channel_name": "spacefish",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3e7a6197-a4ca-4cc0-af72-17073ffb6e4c-profile_image-70x70.png"
+  },
+  {
     "name": "Suvidriel",
     "type": "3D",
     "channel": "https://www.twitch.tv/suvidriel",
@@ -726,6 +764,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/12ac3577-a4c3-483e-aec2-283ef45cdc98-profile_image-70x70.png"
   },
   {
+    "name": "TurboA_",
+    "type": "PNG",
+    "channel": "https://www.twitch.tv/turboa_",
+    "description": "I make music, and procrastinate making music by playing video games on stream. Profile picture by https://twitter.com/RAGErkgk",
+    "channel_name": "turboa_",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6e418ec9-a3be-4954-8fd9-529cf86b1275-profile_image-70x70.png"
+  },
+  {
     "name": "v_areon",
     "type": "2D",
     "channel": "https://www.twitch.tv/v_areon",
@@ -748,6 +794,14 @@
     "description": "Wipe those disgusting sweaty swollen gorgeous hands and sit down, bro! This place is heavily radiated with non-authentic autism.",
     "channel_name": "visualpandaa",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/579f1e67-2bbb-4e41-9c98-869de0393fa7-profile_image-70x70.png"
+  },
+  {
+    "name": "vnek04",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/vnek04",
+    "description": "I'm a small Vneko from Finland. I like to play games and draw.",
+    "channel_name": "vnek04",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/dcaaca06-aa8e-4607-9a54-24f45e561bc2-profile_image-70x70.png"
   },
   {
     "name": "Vuoripeikko",
