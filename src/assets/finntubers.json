@@ -385,7 +385,7 @@
     "channel": "https://www.twitch.tv/KuroChi_VT",
     "description": "Hiya! I'm Kuro Chi, a variety streamer and an artist in training. It is so nice to have you here!",
     "channel_name": "kurochi_vt",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cc526027-79ab-48dc-80aa-56eeb6756e02-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/62624e91-6854-4c30-8884-1b72d27a6067-profile_image-70x70.png"
   },
   {
     "name": "KurumiElla",
@@ -468,14 +468,6 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/09000751-1608-474b-b689-d39910440680-profile_image-70x70.png"
   },
   {
-    "name": "MissMeiRising",
-    "type": "2D",
-    "channel": "https://www.twitch.tv/missmeirising",
-    "description": "Hey I'm Mei!! I'm a small Finnish gnome Vtuber. If I'm not here then I might be on my sister Joku's channel (its linked below) ",
-    "channel_name": "missmeirising",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a03cc6c9-ef4f-4ab7-9151-603af3a5e1df-profile_image-70x70.png"
-  },
-  {
     "name": "MiuTuber",
     "type": "2D",
     "channel": "https://www.twitch.tv/miutuber",
@@ -506,12 +498,12 @@
     "description": null
   },
   {
-    "name": "NotTrixxie",
+    "name": "LittleShroomz",
     "type": "2D",
-    "channel": "https://www.twitch.tv/nottrixxie",
+    "channel": "https://www.twitch.tv/littleshroomz",
     "description": "Boyfriend, and cat dad armed with dad jokes.",
-    "channel_name": "nottrixxie",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d1f93ac9-bd32-4f70-aa08-71f7c070afc4-profile_image-70x70.png"
+    "channel_name": "littleshroomz",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf6eb471-1100-4c47-a4e0-bcd4abc284b2-profile_image-70x70.png"
   },
   {
     "name": "Novau",
@@ -697,7 +689,7 @@
     "channel": "https://www.twitch.tv/sinibunnie",
     "description": "I'm an angel that has a brain of goldish",
     "channel_name": "sinibunnie",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3125ee53-e69f-40d5-ae00-0cf9b187708a-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/05b30533-8ee5-4096-ab2e-783038ee1e40-profile_image-70x70.png"
   },
   {
     "name": "Sokerikko",
@@ -802,6 +794,14 @@
     "description": "A Virtual Finnish variety streamer and occasional memester.",
     "channel_name": "valtheknight",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1a94f494-bfa1-401b-a3ab-1b38a15b9ad2-profile_image-70x70.jpg"
+  },
+  {
+    "name": "VVanamo",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/vvanamo",
+    "description": "Hey I'm Mei!! I'm a small Finnish gnome Vtuber. If I'm not here then I might be on my sister Joku's channel (its linked below) ",
+    "channel_name": "vvanamo",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a03cc6c9-ef4f-4ab7-9151-603af3a5e1df-profile_image-70x70.png"
   },
   {
     "name": "visualpandaa",

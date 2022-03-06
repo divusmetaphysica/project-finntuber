@@ -50,13 +50,10 @@ export default {
     await this.updateStreamerInfo();
 
     this.timerId = setInterval(this.updateStreamerInfo, refreshInterval);
-    setTimeout(
-      () => { 
-        clearInterval(this.timerId); 
-        console.log("stop")
-      }, 
-      12*refreshInterval
-    );
+    setTimeout(() => {
+      clearInterval(this.timerId);
+      console.log("stop");
+    }, 12 * refreshInterval);
   },
   computed: {
     activeTalents: function () {
@@ -66,23 +63,31 @@ export default {
   methods: {
     async updateStreamerInfo() {
       const logins = this.talents
+        .filter((x) => notMissing(x.channel) && x.channel.includes("twitch"))
         .map((x) => x.channel_name)
-        .filter(notMissing)
-        .join(",");
+        .filter(notMissing);
 
-      await axios
-        .get(`/api/twitch?logins=${logins}`)
-        .then((response) => {
-          if (response.status === 200) {
-            this.talents.forEach((y) =>
-              Object.assign(y, response.data[y.channel_name])
-            );
-            console.log("Loaded Twitch user info.");
-          }
-        })
-        .catch((x) => console.log(x));
-    }
-  }
+      // const chunked = async (array, chunkSize) =>
+      //   Array(Math.ceil(array.length / chunkSize))
+      //     .fill()
+      //     .map((_, index) => index * chunkSize)
+      //     .map((begin) => array.slice(begin, begin + chunkSize));
+      for (let i = 0; i < logins.length; i += 20) {
+        let loginsPart = logins.slice(i, i + 20).join(",");
+        await axios
+          .get(`/api/twitch?logins=${loginsPart}`)
+          .then((response) => {
+            if (response.status === 200) {
+              this.talents.forEach((y) =>
+                Object.assign(y, response.data[y.channel_name])
+              );
+              console.log("Loaded Twitch user info.");
+            }
+          })
+          .catch((x) => console.log(x));
+      }
+    },
+  },
 };
 </script>
 
