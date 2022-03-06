@@ -412,6 +412,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ce1078a3-be03-4743-8640-d964493c55f6-profile_image-70x70.png"
   },
   {
+    "name": "LittleShroomz",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/littleshroomz",
+    "description": "Boyfriend, and cat dad armed with dad jokes.",
+    "channel_name": "littleshroomz",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf6eb471-1100-4c47-a4e0-bcd4abc284b2-profile_image-70x70.png"
+  },
+  {
     "name": "LumiKkoyan",
     "type": "3D",
     "channel": "https://www.twitch.tv/lumikkoyan",
@@ -496,14 +504,6 @@
     "type": "Not yet streaming",
     "channel": null,
     "description": null
-  },
-  {
-    "name": "LittleShroomz",
-    "type": "2D",
-    "channel": "https://www.twitch.tv/littleshroomz",
-    "description": "Boyfriend, and cat dad armed with dad jokes.",
-    "channel_name": "littleshroomz",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf6eb471-1100-4c47-a4e0-bcd4abc284b2-profile_image-70x70.png"
   },
   {
     "name": "Novau",
