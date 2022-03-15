@@ -64,6 +64,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/271a2e0e-2475-4dda-b2ff-42b2806f4b91-profile_image-70x70.png"
   },
   {
+    "name": "ArtemisiaVT",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/artemisiavt",
+    "description": "Local plant lady PNGtuber here to bring you chill vibes. Mostly Genshin Impact and occasional other casual games like Stardew Valley and possibly art ❀",
+    "channel_name": "artemisiavt",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0405862e-4c50-4b38-ae81-e4b710a21138-profile_image-70x70.png"
+  },
+  {
     "name": "A_Fxxxing_Saiko",
     "type": "3D",
     "channel": "https://www.twitch.tv/a_fxxxing_saiko",
@@ -308,6 +316,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/40d70e96-a8e2-4a28-a217-52f36c3f54ee-profile_image-70x70.png"
   },
   {
+    "name": "InariLive",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/inarilive",
+    "description": "PngTuber and future vtuber here to bring you everything between fun and chill game streams to cozy and warm talk/game streams 🦊🦊🦊",
+    "channel_name": "inarilive",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c727ea4f-3a0b-43ec-a36e-82049ac6a8f1-profile_image-70x70.png"
+  },
+  {
     "name": "JeffiinaPie",
     "type": "2D",
     "channel": "https://www.twitch.tv/jeffiinapie",
@@ -394,6 +410,14 @@
     "description": "Your local space devil with no manners! Nice to meet you! ♥",
     "channel_name": "kuutuber",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/47eb40f3-61ff-4f63-8792-991782628a91-profile_image-70x70.png"
+  },
+  {
+    "name": "LLemoon",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/llemooon",
+    "description": "Hey all, I'm Lemon 🍋! I stream games and art here on my channel. Let's get to know each other and have a good time!",
+    "channel_name": "llemoon",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2dbe4315-df00-40ba-a21d-16c8e56a459c-profile_image-70x70.png"
   },
   {
     "name": "LetaniaBelladone",
