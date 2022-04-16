@@ -790,6 +790,14 @@
     "profile_image_url": "https://yt3.ggpht.com/PCftukU_S1m7WgvB7D5cpDu0XhgOEfo5Ok6ygDcmLqb4ndQmvw-rDF801GygOWPxgjjnfpXb=s176-c-k-c0x00ffffff-no-rj"
   },
   {
+    "name": "ToxTheTVCat",
+    "type": "PNG",
+    "channel": "https://www.twitch.tv/toxthetvcat",
+    "description": "Hi! ^^ I'm a fin/en Vtuber who plays games. I'm 19 years old and I'm gonna be streaming stuff like portal, fallout and whatever other games i can think of as well as art streams ! I'm not a native english speaker so please excuse my pronouciation and typos when they happen! &lt;3",
+    "channel_name": "toxthetvcat",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8bb93d36-d34e-4d86-ac92-316fedeb45c8-profile_image-70x70.png"
+  },
+  {
     "name": "Tsalop",
     "type": "3D",
     "channel": "https://www.twitch.tv/tsalop",
@@ -822,12 +830,12 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1a94f494-bfa1-401b-a3ab-1b38a15b9ad2-profile_image-70x70.jpg"
   },
   {
-    "name": "VVanamo",
-    "type": "2D",
-    "channel": "https://www.twitch.tv/vvanamo",
-    "description": "Hey I'm Mei!! I'm a small Finnish gnome Vtuber. If I'm not here then I might be on my sister Joku's channel (its linked below) ",
-    "channel_name": "vvanamo",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a03cc6c9-ef4f-4ab7-9151-603af3a5e1df-profile_image-70x70.png"
+    "name": "VibinMikey",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/vibinmikey",
+    "description": "Heya there! I'm a Finnish Vtuber called Vibin Mikey! Hope you enjoy your stay!",
+    "channel_name": "vibinmikey",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/feb5e84f-eb29-412d-8cff-753789c857ce-profile_image-70x70.png"
   },
   {
     "name": "visualpandaa",
@@ -852,6 +860,14 @@
     "description": "Finnish gamer, who plays a variety of games. And likes looking like a cute panda.",
     "channel_name": "vuoripeikko",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bc80c430-8d9c-4370-9376-cbf1e5ca598c-profile_image-70x70.png"
+  },
+  {
+    "name": "VVanamo",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/vvanamo",
+    "description": "Hey I'm Mei!! I'm a small Finnish gnome Vtuber. If I'm not here then I might be on my sister Joku's channel (its linked below) ",
+    "channel_name": "vvanamo",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a03cc6c9-ef4f-4ab7-9151-603af3a5e1df-profile_image-70x70.png"
   },
   {
     "name": "Xxeletah",
