@@ -316,6 +316,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e0e6c3b0-9beb-41ec-981b-430f51aaf67b-profile_image-70x70.png"
   },
   {
+    "name": "Ikirouta",
+    "type": "3D",
+    "channel": "https://www.youtube.com/channel/UCdzgmtDQvzfe289gE8J5crQ",
+    "description": "Hi! I'm Ikirouta but you can call me Routa ❄️ ENVtuber from Finland. I play games and draw my own comic. ",
+    "channel_name": "UCdzgmtDQvzfe289gE8J5crQ",
+    "profile_image_url": "https://yt3.ggpht.com/2SM9x4C3mJ9S9zMmuqwEvWbupmkt9aEIAcLOcWSf48TYjP_t9_ZLZbiYGY41SIGSyC2lKRkcdA=s176-c-k-c0x00ffffff-no-rj"
+  },
+  {
     "name": "IlyasYakie",
     "type": "2D",
     "channel": "https://www.twitch.tv/ilyasyakie",
@@ -666,10 +674,8 @@
   {
     "name": "Ruqaa",
     "type": "3D",
-    "channel": "https://www.twitch.tv/ruqaa",
-    "description": "Hi, i am Ruqa! Mix of crazy and more crazy, metalhead bnuuy and professional at boxing.. I SWEAR I CAN KARATE CHOP ATLEAST 1 PLANK!",
-    "channel_name": "ruqaa",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/dfe5e98f-999a-4a6a-a17e-557f7bd59d95-profile_image-70x70.png"
+    "channel": null,
+    "description": null
   },
   {
     "name": "rUSINALAPSI",
@@ -884,5 +890,13 @@
     "description": "Cat/Demon Vtuber, who streams variety of games. Commentary in both english and finnish. Explicit language often, so be prepared for that.",
     "channel_name": "xxeletah",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1498a91b-2eb0-48fc-b0d8-c2c237dd0d1d-profile_image-70x70.png"
+  },
+  {
+    "name": "Zeweri",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/zeweri",
+    "description": "Freelancer digital artist and gamer who streams on Twitch on Mon, Tue, Thurs, Fri and Sun. I love doing art and entertaining people and that's what I want to do.",
+    "channel_name": "zeweri",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9d5ab52b-d3a2-4127-b476-e397fcb01124-profile_image-70x70.png"
   }
 ]
