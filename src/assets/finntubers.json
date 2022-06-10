@@ -171,9 +171,9 @@
     "name": "EHopeJ_VT",
     "type": "2D",
     "channel": "https://www.twitch.tv/ehopej_vt",
-    "description": "",
+    "description": "Hi! I'm Dr. Hope Jeallous, a quack doctor of philosophy and a hobbyist alchemist from Finland. And Earnest Hope... You can just collectively call me Hope, to keep things simple. If you previously knew me as Kiwi, I'm still fine with being called that as well, as a nickname. ^^",
     "channel_name": "ehopej_vt",
-    "profile_image_url": "Hi! I'm Dr. Hope Jeallous, a quack doctor of philosophy and a hobbyist alchemist from Finland. And Earnest Hope... You can just collectively call me Hope, to keep things simple. If you previously knew me as Kiwi, I'm still fine with being called that as well, as a nickname. ^^"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/10a8168e-fff8-42e9-b8f3-344ce61aba37-profile_image-70x70.png"
   },
   {
     "name": "EldritchMom",
@@ -189,7 +189,7 @@
     "channel": "https://www.twitch.tv/elys_vt",
     "description": "Hello from Finland! I'm an Penguin VTuber, I make art and play rpg games. You can call me Elys, Ely or Lys.",
     "channel_name": "elys_vt",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bc4bfca4-a0c3-40bf-9570-e3a62864bd2a-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a7824dae-91fc-4b75-ac8b-895a74de4b20-profile_image-70x70.png"
   },
   {
     "name": "EmiVT",
@@ -417,7 +417,15 @@
     "channel": "https://www.twitch.tv/kurochivt",
     "description": "Hiya! I'm Kuro Chi, a variety streamer and an artist in training. It is so nice to have you here!",
     "channel_name": "kurochivt",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1f2cd8c2-05b3-44e5-b42e-0521bda454c9-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/22997be8-98e0-44ee-b681-f8b9c568a3b1-profile_image-70x70.png"
+  },
+  {
+    "name": "KuroVonWolfgang",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/kurovonwolfgang",
+    "description": "Hello! I'm Kuro. I like playing all kinds of games and will be streaming a variety of different games.",
+    "channel_name": "kurovonwolfgang",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bcc27f23-b1ab-45ec-affc-89d3a0f1afe8-profile_image-70x70.png"
   },
   {
     "name": "KurumiElla",
@@ -516,12 +524,20 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/09000751-1608-474b-b689-d39910440680-profile_image-70x70.png"
   },
   {
+    "name": "MintyNorth",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/mintynorth",
+    "description": "Polar bear vtuber from Finland",
+    "channel_name": "mintynorth",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6ea494de-2c39-49fb-9879-23d51ae68805-profile_image-70x70.png"
+  },
+  {
     "name": "MiuTuber",
     "type": "2D",
     "channel": "https://www.twitch.tv/miutuber",
     "description": "I'm a Finnish VTuber femboy & cat. Mjäy oon tää kissa.",
     "channel_name": "miutuber",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8f5e9ded-e799-4dd8-85c7-2e4132a785e2-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d2b4bdc0-d853-4fad-bf68-0e7fdb2c15dd-profile_image-70x70.png"
   },
   {
     "name": "MossCoat_vtuber",
@@ -624,6 +640,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4a4f519b-b965-4f89-9c35-698887ec0f59-profile_image-70x70.png"
   },
   {
+    "name": "ravenhaunts",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/ravenhaunts",
+    "description": "hi! i'm a ghost, ghostwriter, game designer, musician and a vtuber!",
+    "channel_name": "ravenhaunts",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2ef01d59-0569-47f9-b7b8-71531c5d42d2-profile_image-70x70.png"
+  },
+  {
     "name": "RavenousWhite",
     "type": "3D",
     "channel": "https://www.twitch.tv/ravenouswhite",
@@ -646,14 +670,6 @@
     "description": "🧡 Finnish werefox vtuber • Nonbinary • they/them • Lil sibling of @HuhuAho 🧡",
     "channel_name": "reporeponen",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ea7c0651-ed71-4dde-bcab-9cf594d85e78-profile_image-70x70.png"
-  },
-  {
-    "name": "RobiFubi",
-    "type": "png",
-    "channel": "https://www.twitch.tv/robifubi",
-    "description": "ye i do stuff",
-    "channel_name": "robifubi",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/601c2b5a-09c0-4fc1-b751-4a674e7dfbfa-profile_image-70x70.png"
   },
   {
     "name": "Romolla",
@@ -796,12 +812,20 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/12ac3577-a4c3-483e-aec2-283ef45cdc98-profile_image-70x70.png"
   },
   {
-    "name": "Theus Does Stuff",
+    "name": "TheDivis",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/thedivis",
+    "description": "Kitty vtuber using temporary 2D model till the actual one is done. (they/them)",
+    "channel_name": "thedivis",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a28e754c-a6ff-494e-84f8-debdb4eda87d-profile_image-70x70.png"
+  },
+  {
+    "name": "Timo_Theus",
     "type": "PNG",
-    "channel": "https://www.youtube.com/channel/UCdZP1KAWfWdPEvezoa7E0qw",
-    "description": "So, I'm Timotheus, Theus or Timo (depends on who's asking) and I'm from Finland. I am a smoll PNGtuber. This is a channel about playing lots of Minecraft, Early Access Game Reviews, and other nerdy stuff like cosplay. You can also find me on Twitch @VTheus_",
-    "channel_name": "UCdZP1KAWfWdPEvezoa7E0qw",
-    "profile_image_url": "https://yt3.ggpht.com/PCftukU_S1m7WgvB7D5cpDu0XhgOEfo5Ok6ygDcmLqb4ndQmvw-rDF801GygOWPxgjjnfpXb=s176-c-k-c0x00ffffff-no-rj"
+    "channel": "https://www.twitch.tv/timo_theus",
+    "description": "I'm creature who enjoys playing Minecraft and other games, especially those that are on early acces. I also love to draw both digitally and manually.",
+    "channel_name": "timo_theus",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/95c14a42-5f64-45eb-a9a7-8216d83c44d7-profile_image-70x70.png"
   },
   {
     "name": "ToxTheTVCat",
