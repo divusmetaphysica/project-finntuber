@@ -219,7 +219,7 @@
     "channel": "https://www.twitch.tv/eriamitsuki",
     "description": "Hello there! I'm Eria, time traveling beastfolk girl and one titled as Crystal Lord~ Hope you enjoy your stay in athenaeum ♥",
     "channel_name": "eriamitsuki",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3966d36a-3510-42fa-b2e1-5f3873261d82-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0782c4bc-f3c1-4d17-8910-9e7df59046e9-profile_image-70x70.png"
   },
   {
     "name": "FluffyJanna",
@@ -305,7 +305,7 @@
     "channel": "https://www.twitch.tv/hopenoah",
     "description": "Think you can handle my tricks?",
     "channel_name": "hopenoah",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e61cc112-2040-4458-81ee-5dd579b846b1-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd33f5da-120d-4395-982a-8435edc91536-profile_image-70x70.png"
   },
   {
     "name": "HoracchiVT",
@@ -372,12 +372,12 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b5e799a2-0cb0-4616-a919-7fe30a76483e-profile_image-70x70.png"
   },
   {
-    "name": "KarlWyn_Channel",
+    "name": "KarlWynter",
     "type": "2D",
-    "channel": "https://www.twitch.tv/karlwyn_channel",
-    "description": "Just a blue dragon VTuber from Finland having fun ;) Chill vibes",
-    "channel_name": "karlwyn_channel",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3b0320a2-abe0-4bac-bb66-60358d3b2cc1-profile_image-70x70.png"
+    "channel": "https://www.twitch.tv/karlwynter",
+    "description": "Rotating schedule 5:00 GMT / 13:00 GMT MON/FRI gaming, WED cooking",
+    "channel_name": "karlwynter",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0297f031-6282-48c1-8195-7344940fecfa-profile_image-70x70.png"
   },
   {
     "name": "KatsPurr",
@@ -468,11 +468,11 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ce1078a3-be03-4743-8640-d964493c55f6-profile_image-70x70.png"
   },
   {
-    "name": "LittleShroomz",
+    "name": "Shhrooomz",
     "type": "2D",
-    "channel": "https://www.twitch.tv/littleshroomz",
+    "channel": "https://www.twitch.tv/shhrooomz",
     "description": "Boyfriend, and cat dad armed with dad jokes.",
-    "channel_name": "littleshroomz",
+    "channel_name": "shhrooomz",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf6eb471-1100-4c47-a4e0-bcd4abc284b2-profile_image-70x70.png"
   },
   {
@@ -561,7 +561,7 @@
     "channel": "https://www.twitch.tv/nickdahdemon",
     "description": "im a demon from the 7th circle of hell who likes to cause mayhem (and draw).",
     "channel_name": "nickdahdemon",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e601c402-5639-4968-8d5c-1c93fabaf692-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/275737df-8085-47ce-b103-9c50a764e6b9-profile_image-70x70.png"
   },
   {
     "name": "Nomi",
@@ -862,9 +862,8 @@
   {
     "name": "v_areon",
     "type": "2D",
-    "channel": "https://www.twitch.tv/v_areon",
-    "description": "Hey there, you've stumbled upon the channel of the Vstreamer called Areon. Take a seat, grab a drink of your choice and enjoy this rollercoaster of shts n giggles.Anyway, hope you'll enjoy your stay (Psst. Give a follow it's free and it makes the screen boi happy :) )",
-    "channel_name": "v_areon",
+    "channel": null,
+    "description": null,
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a8d32815-88e2-44a3-8f69-e17079ecb42a-profile_image-70x70.png"
   },
   {
