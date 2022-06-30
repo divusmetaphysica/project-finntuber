@@ -470,14 +470,6 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ce1078a3-be03-4743-8640-d964493c55f6-profile_image-70x70.png"
   },
   {
-    "name": "Shhrooomz",
-    "type": "2D",
-    "channel": "https://www.twitch.tv/shhrooomz",
-    "description": "Boyfriend, and cat dad armed with dad jokes.",
-    "channel_name": "shhrooomz",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf6eb471-1100-4c47-a4e0-bcd4abc284b2-profile_image-70x70.png"
-  },
-  {
     "name": "LumimiYan",
     "type": "3D",
     "channel": "https://www.twitch.tv/lumimiyan",
@@ -720,6 +712,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/83da9bd1-b3fd-4eae-967c-1330a6cd6c0f-profile_image-70x70.png"
   },
   {
+    "name": "Shhrooomz",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/shhrooomz",
+    "description": "Boyfriend, and cat dad armed with dad jokes.",
+    "channel_name": "shhrooomz",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf6eb471-1100-4c47-a4e0-bcd4abc284b2-profile_image-70x70.png"
+  },
+  {
     "name": "Shunicos",
     "type": "3D",
     "channel": "https://www.twitch.tv/shunicos",
@@ -748,6 +748,14 @@
     "description": "I'm an angel that has a brain of goldish",
     "channel_name": "sinibunnie",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e4add757-b499-47a1-8bd4-dbd5aa675142-profile_image-70x70.png"
+  },
+  {
+    "name": "SirFoxy",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/sirfoxy",
+    "description": "Hello. Welcome to my stream. My Twitter: https://twitter.com/SirStream. I'm pretty laid back guy, who enjoys playing with friends and it is helping me to deal with life.",
+    "channel_name": "sirfoxy",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/867d40d7-ff4e-4197-8ee4-ff86bfe70adb-profile_image-70x70.png"
   },
   {
     "name": "Sokerikko",
