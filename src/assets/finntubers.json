@@ -230,10 +230,12 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b5930d58-a7a9-41da-81c4-42b6836e26c8-profile_image-70x70.png"
   },
   {
-    "name": "GHASTLYARACHNID",
-    "type": "Not yet streaming",
-    "channel": null,
-    "description": null
+    "name": "ghastlyarachnid",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/ghastlyarachnid",
+    "description": "Well hello there! Name's Alexander, a local friendly karelian tarantula boy, streamer, artist and fruitcake",
+    "channel_name": "ghastlyarachnid",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c8ad13f9-d695-4270-b816-8e195c7747e9-profile_image-70x70.png"
   },
   {
     "name": "GhostGirlMarlie",
