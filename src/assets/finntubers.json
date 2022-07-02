@@ -712,6 +712,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/83da9bd1-b3fd-4eae-967c-1330a6cd6c0f-profile_image-70x70.png"
   },
   {
+    "name": "sade_vt",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/sade_vt",
+    "description": "Hi, I’m Sade, an upcoming VTuber!",
+    "channel_name": "sade_vt",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f35e63c-1183-4e8a-9277-b8c42d07b1b2-profile_image-70x70.png"
+  },
+  {
     "name": "Shhrooomz",
     "type": "2D",
     "channel": "https://www.twitch.tv/shhrooomz",
