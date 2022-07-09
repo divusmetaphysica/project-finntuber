@@ -720,6 +720,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/83da9bd1-b3fd-4eae-967c-1330a6cd6c0f-profile_image-70x70.png"
   },
   {
+    "name": "sade_vt",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/sade_vt",
+    "description": "Hi, I’m Sade, an upcoming VTuber!",
+    "channel_name": "sade_vt",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f35e63c-1183-4e8a-9277-b8c42d07b1b2-profile_image-70x70.png"
+  },
+  {
     "name": "Shhrooomz",
     "type": "2D",
     "channel": "https://www.twitch.tv/shhrooomz",
@@ -939,6 +947,14 @@
     "description": "Cat/Demon Vtuber, who streams variety of games. Commentary in both english and finnish. Explicit language often, so be prepared for that.",
     "channel_name": "xxeletah",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1498a91b-2eb0-48fc-b0d8-c2c237dd0d1d-profile_image-70x70.png"
+  },
+  {
+    "name": "y0mitsu",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/y0mitsu",
+    "description": "Hi! I'm a vtuber who streams art and random gameplays! ♥ vtuber rig & art by me",
+    "channel_name": "y0mitsu",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b2be123f-756f-43cc-a07d-3c1d9e030d63-profile_image-70x70.png"
   },
   {
     "name": "Zeweri",
