@@ -251,7 +251,7 @@
     "channel": "https://www.twitch.tv/gilenrogue",
     "description": "Hey there! I'm GilenRogue, a VTuber here to take over the world! Just kidding, I play games and stuff. - Music provided by Lofi Girl - Listen: bit.ly/lofigirI-playlists.",
     "channel_name": "gilenrogue",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f5d5a28c-c63f-4b20-9d5e-57cf40a40cf2-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/076a1fd6-b041-4c72-b473-48ca3c00d439-profile_image-70x70.png"
   },
   {
     "name": "Gisuli",
@@ -260,6 +260,14 @@
     "description": "I don't use mic cause I want people to be able to chat with me without sound, like at work. Streaming schedule is whenever I have time I play games or do commissions, Sunday is only for drawing streams",
     "channel_name": "gisuli",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/047f6bbf-0c3d-4a8b-b12b-bf8768f0cfa4-profile_image-70x70.png"
+  },
+  {
+    "name": "GlitterStar666",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/glitterstar666",
+    "description": "Hey!! I am GlitterStar your favorite fallen star on twitch who collect stars one by one!!! I play lot of different games and just having fun!! n_n~ welcome to join my ☆StarArmy☆ ps. my favorite number is 666! :3",
+    "channel_name": "glitterstar666",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c5f47e9f-c950-4eba-a4e2-1d0b647c832e-profile_image-70x70.png"
   },
   {
     "name": "GuardianRexsUwU",
@@ -423,11 +431,10 @@
   },
   {
     "name": "KuroChiVT",
-    "type": "3D",
-    "channel": "https://www.twitch.tv/kurochivt",
-    "description": "Hiya! I'm Kuro Chi, a variety streamer and an artist in training. It is so nice to have you here!",
-    "channel_name": "kurochivt",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/22997be8-98e0-44ee-b681-f8b9c568a3b1-profile_image-70x70.png"
+    "type": null,
+    "channel": null,
+    "description": "",
+    "profile_image_url": null
   },
   {
     "name": "KuroVonWolfgang",
@@ -539,7 +546,7 @@
     "channel": "https://www.twitch.tv/mikidolly",
     "description": "I'm from another planet, that's why I'm always so lost. Welcome ❤",
     "channel_name": "mikidolly",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b9ae66fb-26a5-437d-aee7-cb81c1a8d313-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/248cd5f7-cc32-4c4b-a5a9-4ab3d0ee184f-profile_image-70x70.jpeg"
   },
   {
     "name": "MiuTuber",
@@ -725,7 +732,7 @@
     "channel": "https://www.twitch.tv/sade_vt",
     "description": "Hi, I’m Sade, an upcoming VTuber!",
     "channel_name": "sade_vt",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f35e63c-1183-4e8a-9277-b8c42d07b1b2-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/fa9e8327-9a7d-47bf-8817-87a57a4a8c7e-profile_image-70x70.png"
   },
   {
     "name": "Shhrooomz",
@@ -939,6 +946,14 @@
     "description": "Hey I'm Mei!! I'm a small Finnish gnome Vtuber. If I'm not here then I might be on my sister Joku's channel (its linked below) ",
     "channel_name": "vvanamo",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a03cc6c9-ef4f-4ab7-9151-603af3a5e1df-profile_image-70x70.png"
+  },
+  {
+    "name": "WhispersOfNox",
+    "type": "PNG",
+    "channel": "https://www.twitch.tv/whispersofnox",
+    "description": "Dreamy God of Sleep called Nox from the cosmos... above Finland! Very much into ASMR and Vtuber culture in general, hoping to make a proper debut one day. Thank you so much for checking me out!",
+    "channel_name": "whispersofnox",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9005045a-237f-41c0-87be-4ed70e26afe4-profile_image-70x70.png"
   },
   {
     "name": "Xxeletah",
