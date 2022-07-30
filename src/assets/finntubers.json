@@ -310,6 +310,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/28dce324-3f0d-466b-8ac6-08d39e79dbd2-profile_image-70x70.png"
   },
   {
+    "name": "HipsuVT",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/hipsuvt",
+    "description": "I am but a wee baby getting back to streaming, please be kind to me, I will reward you with kindness!",
+    "channel_name": "hipsuvt",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7e5b16b7-b0af-4551-8c2e-d3541ba522f4-profile_image-70x70.png"
+  },
+  {
     "name": "HopeNoah",
     "type": "2D",
     "channel": "https://www.twitch.tv/hopenoah",
@@ -735,6 +743,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/fa9e8327-9a7d-47bf-8817-87a57a4a8c7e-profile_image-70x70.png"
   },
   {
+    "name": "SaunaJatuli",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/saunajatuli",
+    "description": "Hellou, I’m Finnish Vtuber. I love retrogames, anime/manga & simple things in life. ENG/FIN. I have split content to be Gaming on Youtube and Variety on Twitch",
+    "channel_name": "sade_vt",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1411916b-9921-40bc-821c-772349d53b5c-profile_image-70x70.png"
+  },
+  {
     "name": "Shhrooomz",
     "type": "2D",
     "channel": "https://www.twitch.tv/shhrooomz",
@@ -861,6 +877,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a28e754c-a6ff-494e-84f8-debdb4eda87d-profile_image-70x70.png"
   },
   {
+    "name": "TieflingMelissa",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/tieflingmelissa",
+    "description": "Hey there! My name is Melissa Belladonna, your local Tiefling Alchemist Vtuber. I stream D&D content with gaming and ASMR on the side. If you like what you see, then grab that d20 and roll for initiative!",
+    "channel_name": "tieflingmelissa",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/546d1515-4586-4c6d-9394-f6bc6b5e54ff-profile_image-70x70.png"
+  },
+  {
     "name": "Timo_Theus",
     "type": "PNG",
     "channel": "https://www.twitch.tv/timo_theus",
@@ -940,7 +964,7 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bc80c430-8d9c-4370-9376-cbf1e5ca598c-profile_image-70x70.png"
   },
   {
-    "name": "iVanamoVT",
+    "name": "VanamoVT",
     "type": "2D",
     "channel": "https://www.twitch.tv/vanamovt",
     "description": "Hey I'm Vanamo (or Van for short)!! All models by my amazing sister @JokuJotai",
@@ -954,6 +978,14 @@
     "description": "Dreamy God of Sleep called Nox from the cosmos... above Finland! Very much into ASMR and Vtuber culture in general, hoping to make a proper debut one day. Thank you so much for checking me out!",
     "channel_name": "whispersofnox",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9005045a-237f-41c0-87be-4ed70e26afe4-profile_image-70x70.png"
+  },
+  {
+    "name": "VrOssan",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/vrossan",
+    "description": "Finnish dude living in Finland again after living in Japan for almost a decade. I play a variety of games and talk with chat a lot. Sometimes I do cooking too. #VR #Vtuber Business contact: OssanTwitch@gmail.com",
+    "channel_name": "vrossan",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6c2a1105-36df-4c0d-9215-b22886a35617-profile_image-70x70.png"
   },
   {
     "name": "Xxeletah",
