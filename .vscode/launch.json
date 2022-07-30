@@ -14,7 +14,8 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "envFile": "${workspaceFolder}/.env.local"
+      "envFile": "${workspaceFolder}/.env.local",
+      "cwd": "${workspaceFolder}"
     },
     {
       "name": "Attach to Node Functions",

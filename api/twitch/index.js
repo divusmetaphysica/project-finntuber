@@ -47,7 +47,7 @@ const loadTwitchInfo = async (userLogins, authHeader) => {
       } else {
         // Something happened in setting up the request that triggered an Error
         console.log(error.config);
-        console.log('Error', error.toJSON());
+        console.log(error);
       }
     });
 
