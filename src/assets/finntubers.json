@@ -430,6 +430,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b5e799a2-0cb0-4616-a919-7fe30a76483e-profile_image-70x70.png"
   },
   {
+    "name": "Juetue",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/juetue",
+    "description": "The only conductor of The Thought-Train. May i get your tickets, please? What you can expect are scuffed streams, incomprehensible muttering and never seen before gameplay.",
+    "channel_name": "juetue",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c722222a-bf17-4721-812a-272e226bc0c3-profile_image-70x70.png"
+  },
+  {
     "name": "KarlWynter",
     "type": "2D",
     "channel": "https://www.twitch.tv/karlwynter",
