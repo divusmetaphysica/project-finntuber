@@ -112,6 +112,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/79c1e497-f124-409d-9e33-1050621a33dc-profile_image-70x70.png"
   },
   {
+    "name": "bearwithus",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/bearwithus",
+    "description": "Hi, I'm Patrick Bear. Join me and my mascot \"mellow\" Bear. I love retro 80s 90s stuff! We also complain a lot.. ┬┴┬┴┤ᵒᴥᵒᶅ├┬┴┬",
+    "channel_name": "bearwithus",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8ad15cbe-0c0e-44f3-9f8a-79892a607a8c-profile_image-70x70.png"
+  },
+  {
     "name": "Beuha",
     "type": "3D",
     "channel": "https://www.youtube.com/channel/UCUoBMVJeo2681ZdHa4w6QTA",
@@ -436,6 +444,14 @@
     "description": "The only conductor of The Thought-Train. May i get your tickets, please? What you can expect are scuffed streams, incomprehensible muttering and never seen before gameplay.",
     "channel_name": "juetue",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c722222a-bf17-4721-812a-272e226bc0c3-profile_image-70x70.png"
+  },
+  {
+    "name": "karin_ch",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/karin_ch",
+    "description": "Cool ojou with an interest in JRPGs and retro games!",
+    "channel_name": "karin_ch",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a7809467-d940-4273-ae27-f3af60d0eea4-profile_image-70x70.jpeg"
   },
   {
     "name": "KarlWynter",
@@ -884,6 +900,14 @@
     "description": "Hello. Welcome to my stream. My Twitter: https://twitter.com/SirStream. I'm pretty laid back guy, who enjoys playing with friends and it is helping me to deal with life.",
     "channel_name": "sirfoxy",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/867d40d7-ff4e-4197-8ee4-ff86bfe70adb-profile_image-70x70.png"
+  },
+  {
+    "name": "Sofeliaa",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/sofeliaa",
+    "description": "Just a gal from Finland playing games, I am Sofelia but my friends also call me cat. Enjoy the games and all the catlove all around! ^^",
+    "channel_name": "sofeliaa",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/sofeliaa-profile_image-99450c8bf1a572e7-70x70.jpeg"
   },
   {
     "name": "Sokerikko",
