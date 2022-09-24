@@ -69,7 +69,7 @@
     "channel": "https://www.twitch.tv/artemisiavt",
     "description": "Local plant lady PNGtuber here to bring you chill vibes. Mostly Genshin Impact and occasional other casual games like Stardew Valley and possibly art ❀",
     "channel_name": "artemisiavt",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0405862e-4c50-4b38-ae81-e4b710a21138-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2966d96d-5f19-4cf4-b560-5e1d4f20883b-profile_image-70x70.png"
   },
   {
     "name": "ArunaLunaEN",
@@ -208,6 +208,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f83fa03a-c095-49df-9e38-bfa8183b9fd7-profile_image-70x70.png"
   },
   {
+    "name": "EdwardSnow",
+    "type": "2D",
+    "channel": "https://www.youtube.com/channel/UCsEVgNCYtD8LTOvqmrHJ4Sg",
+    "description": "Coffee drinker, Japanese fan boy and nerd.\nSome of the videos are in Finnish and some in English, but I always mark them.\nI hope you enjoy my videos ^^\nHave a nice day: D",
+    "channel_name": "edwardsnow",
+    "profile_image_url": "https://yt3.ggpht.com/8o5gAVf214nXYMdL21EbKzvAodwsl6HEfJwTFSP3OXo1CTvfYn6ruRR6vYyDDEpNlRB4wh-EPQ=s88-c-k-c0x00ffffff-no-rj"
+  },
+  {
     "name": "EHopeJ_VT",
     "type": "2D",
     "channel": "https://www.twitch.tv/ehopej_vt",
@@ -270,6 +278,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b5930d58-a7a9-41da-81c4-42b6836e26c8-profile_image-70x70.png"
   },
   {
+    "name": "FurukawaMiki",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/furukawamiki",
+    "description": "I'm from another planet, that's why I'm always so lost. Welcome ❤",
+    "channel_name": "furukawamiki",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7cb0ce3d-4cd4-47c5-a74d-8cbf9ece61df-profile_image-70x70.png"
+  },
+  {
     "name": "Fuugis",
     "type": "2D",
     "channel": "https://www.twitch.tv/fuugis",
@@ -299,7 +315,7 @@
     "channel": "https://www.twitch.tv/gilenrogue",
     "description": "Hey there! I'm GilenRogue, a VTuber here to take over the world! Just kidding, I play games and stuff. - Music provided by Lofi Girl - Listen: bit.ly/lofigirI-playlists.",
     "channel_name": "gilenrogue",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/076a1fd6-b041-4c72-b473-48ca3c00d439-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6c134706-82a6-486d-9836-f79f67b31d73-profile_image-70x70.png"
   },
   {
     "name": "Gisuli",
@@ -371,7 +387,7 @@
     "channel": "https://www.twitch.tv/hopenoah",
     "description": "Think you can handle my tricks?",
     "channel_name": "hopenoah",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d8e7824f-5994-44e7-909b-a598e7045b30-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/82f01af1-44d1-4d29-8861-c0f750eaf858-profile_image-70x70.png"
   },
   {
     "name": "HoracchiVT",
@@ -587,7 +603,7 @@
     "channel": "https://www.twitch.tv/maijandeerus",
     "description": "Hi :D I am maijandeerus and I will make some streams here I am from Finland but I can speak English somehow too, I don’t really like to talk much but I can maybe do an talking stream. Ummm I am a vtuber and I usally stream only on the weekend thank you if you like to watch 💙",
     "channel_name": "maijandeerus",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/947c7d74-167a-4fbc-a5f2-8025d494c4f3-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b80aa18a-4564-4d9c-82f8-8cd226028659-profile_image-70x70.png"
   },
   {
     "name": "Malactus",
@@ -628,14 +644,6 @@
     "description": "Polar bear vtuber from Finland",
     "channel_name": "mintynorth",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6ea494de-2c39-49fb-9879-23d51ae68805-profile_image-70x70.png"
-  },
-  {
-    "name": "MikiDolly",
-    "type": "3D",
-    "channel": "https://www.twitch.tv/mikidolly",
-    "description": "I'm from another planet, that's why I'm always so lost. Welcome ❤",
-    "channel_name": "mikidolly",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7cb0ce3d-4cd4-47c5-a74d-8cbf9ece61df-profile_image-70x70.png"
   },
   {
     "name": "MishuEsther",
@@ -832,6 +840,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2bea09ec-b769-440b-bdc9-3c545b9e4194-profile_image-70x70.png"
   },
   {
+    "name": "RustoCa",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/rustoca",
+    "description": "An extremely awkward and cringe boneboi.",
+    "channel_name": "rustoca",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0f907d3f-0a7d-4467-9dfd-4eda763bcf18-profile_image-70x70.png"
+  },
+  {
     "name": "SadeN",
     "type": "3D",
     "channel": "https://www.twitch.tv/saden_0",
@@ -861,7 +877,7 @@
     "channel": "https://www.twitch.tv/shhrooomz",
     "description": "Boyfriend, and cat dad armed with dad jokes.",
     "channel_name": "shhrooomz",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf6eb471-1100-4c47-a4e0-bcd4abc284b2-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/578277eb-70b5-484a-a734-8a04cd2fcd0a-profile_image-70x70.png"
   },
   {
     "name": "Shunicos",
@@ -1035,7 +1051,7 @@
     "channel": "https://www.twitch.tv/toxthetvcat",
     "description": "Hi! ^^ I'm a fin/en Vtuber who plays games. I'm 19 years old and I'm gonna be streaming stuff like portal, fallout and whatever other games i can think of as well as art streams ! I'm not a native english speaker so please excuse my pronouciation and typos when they happen! &lt;3",
     "channel_name": "toxthetvcat",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8bb93d36-d34e-4d86-ac92-316fedeb45c8-profile_image-70x70.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c65d7ee8-8774-4804-be89-6af7c8cd35c8-profile_image-70x70.png"
   },
   {
     "name": "Tsalop",
