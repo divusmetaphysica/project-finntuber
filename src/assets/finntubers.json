@@ -614,6 +614,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bc00a250-6822-4bd1-8ea6-8a21a6e81d5e-profile_image-70x70.png"
   },
   {
+    "name": "lunarontti",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/lunarontti",
+    "description": "rontti // vtuber in training",
+    "channel_name": "lunarontti",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/412f3377-9cef-4445-86ad-f4673d602289-profile_image-70x70.png"
+  },
+  {
     "name": "LunkkiTV",
     "type": "2D&3D",
     "channel": "https://www.twitch.tv/lunkkitv",
