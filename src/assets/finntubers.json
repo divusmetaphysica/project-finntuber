@@ -192,6 +192,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c1663e3b-a7c8-431d-84ab-da3e266abad4-profile_image-70x70.png"
   },
   {
+    "name": "DangojabaJefu",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/dangojabajefu",
+    "description": "A blob that plays games... badly. Tries to chill and have a good time.",
+    "channel_name": "dangojabajefu",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5ebf15d4-95f2-49bd-9108-097ba65f6a10-profile_image-70x70.png"
+  },
+  {
     "name": "DeliVT",
     "type": "3D",
     "channel": "https://www.twitch.tv/delivt",
@@ -598,12 +606,12 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/891ef3b2-23f9-4f9d-8e21-9299323e6eb3-profile_image-70x70.png"
   },
   {
-    "name": "LumimiYan",
+    "name": "Yuu_Ren",
     "type": "3D",
-    "channel": "https://www.twitch.tv/lumimiyan",
-    "description": "Moi moi to all! The mystical finnish firefox of the north is here to illuminate your day! Would you like to see the Aurora Borealis with me? Vtuber, hobby artist and variety streamer. A gamer?? And a girl??? Languages: EN/FI",
-    "channel_name": "lumimiyan",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0cc06fd5-e8ad-4c34-8096-9b08218cfab1-profile_image-70x70.png"
+    "channel": "https://www.twitch.tv/yuu_ren",
+    "description": "Moi moi! Languages: EN/FI",
+    "channel_name": "Yuu_Ren",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cda20057-dfa2-40a1-9caf-917cb4dc4aa3-profile_image-70x70.png"
   },
   {
     "name": "Lumituber",
