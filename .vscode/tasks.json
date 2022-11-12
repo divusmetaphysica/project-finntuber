@@ -10,7 +10,10 @@
       },
       "problemMatcher": [],
       "label": "npm: build",
-      "detail": "vue-cli-service build"
+      "detail": "vue-cli-service build",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
     },
     {
       "type": "npm",
@@ -31,7 +34,10 @@
       "script": "serve",
       "problemMatcher": [],
       "label": "npm: serve",
-      "detail": "vue-cli-service serve"
+      "detail": "vue-cli-service serve",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
     },
     {
       "type": "func",

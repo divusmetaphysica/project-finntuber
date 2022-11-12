@@ -56,3 +56,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Calculate current vtuber count
+
+```bash
+cat finntubers.json | jq '.[] | select( .channel != null) | .name' | sed 's/"//g' | sort | wc -l
+```
