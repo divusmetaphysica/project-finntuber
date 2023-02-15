@@ -136,6 +136,14 @@
     "profile_image_url": "https://yt3.ggpht.com/gNo-xOkw-DhvMiq3Gkxw3WzC5kDfIz2Ngx7KZaR3saQt9llz66CSHHfqcCuzoHyLd_APmHIJxg=s88-c-k-c0x00ffffff-no-rj"
   },
   {
+    "name": "Blizzarska",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/blizzarska",
+    "description": "Streamer from Finland. Always trailing on powdery snow. Usually doing \"Striimi pelailu / Stream Playthroughs\". png-Vtuber (ENG/FIN)",
+    "channel_name": "blizzarska",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cc47da50-38ec-4d35-b9ac-5f922747d625-profile_image-70x70.png"
+  },
+  {
     "name": "Bonssuli",
     "type": "2D",
     "channel": "https://www.twitch.tv/bonssuli",
@@ -878,6 +886,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6ac4005-ea6c-4540-820d-84e2c149d5dd-profile_image-70x70.png"
   },
   {
+    "name": "Renmimii",
+    "type": "PNG",
+    "channel": "https://www.twitch.tv/renmimii",
+    "description": "Hiya! I'm Renmi! I'm a 24-year old Non-binary pngtuber (They/Them) from Finland! I have SLI and Dyslexia. I'll hope i can play games like Minecraft, draw or just chat with you all. I really hope we get along and remember to stay hydrated!! I'll Stream in Finnish & English",
+    "channel_name": "renmimii",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e18966d5-e60e-496a-8314-522e6fe6950a-profile_image-70x70.png"
+  },
+  {
     "name": "Renotus",
     "type": "PNG",
     "channel": "https://www.twitch.tv/renotus",
@@ -980,6 +996,14 @@
     "description": "I'm a young cat daddy who mostly focuses on Dead by Daylight content",
     "channel_name": "itswildnox",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a66953b7-a9c4-4495-99d3-5561c3d7d812-profile_image-70x70.png"
+  },
+  {
+    "name": "Shaakku",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/shaakku",
+    "description": "🎀 Vtuber 🎀 Artist 🎀 she/her 🎀Hi, welcome to my stream! I'm Shaakku, a Finnish digital artist who is exploring the world of art, games and vtubers to grow her inner strength and find her ultimate passion ♥ Join me on this journey to unleash our ULTIMATE POTENTIAL!!",
+    "channel_name": "shaakku",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/48cea016-6d27-449e-8048-f95395049937-profile_image-70x70.png"
   },
   {
     "name": "Shunicos",
@@ -1204,6 +1228,14 @@
     "description": "Heya there! I'm a Finnish Vtuber called Vibin Mikey! Hope you enjoy your stay!",
     "channel_name": "vibinmikey",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/feb5e84f-eb29-412d-8cff-753789c857ce-profile_image-70x70.png"
+  },
+  {
+    "name": "VirnaLive",
+    "type": "2D",
+    "channel": "https://www.twitch.tv/virnalive",
+    "description": "👹 Demon Vtuber 👹 Finnish 👹 They/Them 👹 Pre-debut 👹",
+    "channel_name": "virnalive",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/48e50125-36af-48e1-aa13-c7af155fc952-profile_image-70x70.png"
   },
   {
     "name": "visualpandaa",
