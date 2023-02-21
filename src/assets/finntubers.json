@@ -23,7 +23,7 @@
     "channel": "https://www.twitch.tv/adreusvt",
     "description": "I'm a Mad Scientist Vtuber. I play a lot of Pokemon mainly shiny hunting and then some other Nintendo games and JRPGs when something comes out that interests me. Follow and watch for chill vibes.",
     "channel_name": "adreusvt",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ae506d85-01e6-47b1-abd1-5c8754e8c997-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4838837d-d627-4460-9b9e-f3f66f66f560-profile_image-300x300.png",
     "id": "115354857"
   },
   {
@@ -316,7 +316,7 @@
     "name": "EriaMitsuki",
     "type": "3D",
     "channel": "https://www.twitch.tv/eriamitsuki",
-    "description": "Chaotic seiso catgirl/vampire with attention span of hamster ready to make your day PAWSOME!",
+    "description": "Chaotic catgirl/vampire with attention span of hamster ready to make your day PAWSOME!",
     "channel_name": "eriamitsuki",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/53be1716-cc7e-4061-8b2c-39745142420b-profile_image-300x300.png",
     "id": "118515589"
@@ -329,6 +329,14 @@
     "channel_name": "erikamitsuru",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/69904d21-ae68-4f8d-a24d-43582f5d2b63-profile_image-300x300.png",
     "id": "856278283"
+  },
+  {
+    "name": "EumiBun",
+    "channel": "https://www.twitch.tv/eumibun",
+    "id": "119761251",
+    "channel_name": "eumibun",
+    "description": "I am Eumi, a coffee addicted bunny! | Arts and games | Let's have fun! I'm still figuring this out (ゝз○`)",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7476e8da-438f-4c87-af0b-f71c712c7349-profile_image-300x300.png"
   },
   {
     "name": "FluffyJanna",
@@ -401,6 +409,14 @@
     "channel_name": "glitterstar666",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c5f47e9f-c950-4eba-a4e2-1d0b647c832e-profile_image-300x300.png",
     "id": "416037151"
+  },
+  {
+    "name": "GrayBotVT",
+    "channel": "https://www.twitch.tv/graybotvt",
+    "id": "102057033",
+    "channel_name": "graybotvt",
+    "description": "Stranded starship AI doing streams and vibing. PngTuber using veadotubemini and art by @Panzerbunn on Twitter",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a8f485fb-0013-4c42-9756-789b1e51409c-profile_image-300x300.png"
   },
   {
     "name": "HallaVilutar",
@@ -671,6 +687,14 @@
     "id": "503222655"
   },
   {
+    "name": "LanttuX",
+    "channel": "https://www.twitch.tv/lanttux",
+    "id": "140407255",
+    "channel_name": "lanttux",
+    "description": "Finnish variety streamer | Content creator | Vtuber | Artist | EN/FI",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8304ba6e-6535-460f-8c78-764923187a9a-profile_image-300x300.png"
+  },
+  {
     "name": "letaniavt",
     "type": "2D",
     "channel": "https://www.twitch.tv/letaniavt",
@@ -755,7 +779,7 @@
     "name": "maijandeerus",
     "type": "2D",
     "channel": "https://www.twitch.tv/maijandeerus",
-    "description": "Hi I'm just a random ass stinky vampire ;D I do speak English and Finnish both are good for chat ^^ I don't talk much on my streams but that will maybe chance in time. Hope you enjoy watching me you  wonderful person ❤️",
+    "description": "Just a random ass vampire ❤️",
     "channel_name": "maijandeerus",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b80aa18a-4564-4d9c-82f8-8cd226028659-profile_image-300x300.png",
     "id": "742276069"
@@ -1007,7 +1031,7 @@
     "name": "RepoVT",
     "type": "2D",
     "channel": "https://www.twitch.tv/repovt",
-    "description": "✦ Finnish Werefox Vtuber ✦ Nonbinary ✦ they/them ✦ 666CLUB Member✦",
+    "description": "✦ Finnish Werefox Vtuber ✦ Nonbinary ✦ they/them ✦ 666CLUB Member ✦",
     "channel_name": "repovt",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/66787dce-2576-469e-b0b4-97b2115dd82a-profile_image-300x300.png",
     "id": "686458739"
@@ -1191,6 +1215,14 @@
     "channel_name": "starblom",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/017631be-c594-4692-827d-e11caa2fb1cb-profile_image-300x300.png",
     "id": "48439052"
+  },
+  {
+    "name": "Suotti",
+    "channel": "https://www.twitch.tv/suotti",
+    "id": "55202304",
+    "channel_name": "suotti",
+    "description": "Hi! A Finnish nerd here. If I happen to stream, it'll be of PSX games, Pokemons and various PC games.",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e0674f9d-30c6-45ac-8885-aa956d3b2b73-profile_image-300x300.png"
   },
   {
     "name": "Suvidriel",
