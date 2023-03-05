@@ -68,14 +68,14 @@
     "channel": "https://www.twitch.tv/anna6anana",
     "description": "An art and game channel run by coffee and bad humor. Welcome!",
     "channel_name": "anna6anana",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7b6e5745-c517-4392-acfd-5bc2c1a6881d-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d72b6ab8-af49-4549-8e12-b8806de9eeef-profile_image-300x300.png",
     "id": "124336111"
   },
   {
     "name": "AnteroKarhu",
     "type": "3D",
     "channel": "https://www.twitch.tv/anterokarhu",
-    "description": "beartuber :3",
+    "description": "Suomenkielisen vtuubaus kontentin soolokärry",
     "channel_name": "anterokarhu",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3d40c7ba-eeb8-4fd6-b27b-37885a3571b9-profile_image-300x300.png",
     "id": "102263951"
@@ -210,7 +210,7 @@
     "channel": "https://www.twitch.tv/colourberi",
     "description": "Hi! I'm Beri and I draw sometimes here ~",
     "channel_name": "colourberi",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/274997d3-10ed-4fd4-ba93-a7e68a55030d-profile_image-300x300.jpeg",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/af6ba353-e1a1-4d6c-8557-f27c8ecdc6bb-profile_image-300x300.jpeg",
     "id": "244627178"
   },
   {
@@ -335,7 +335,7 @@
     "channel": "https://www.twitch.tv/eumibun",
     "id": "119761251",
     "channel_name": "eumibun",
-    "description": "I am Eumi, a coffee addicted pink bunny!  | Please sit down with us to The Coffee Table and become a Bunchiato (ゝз○`) | I mainly stream arts and games, let's have fun together&lt;3 | I started streaming on January 14th 2023",
+    "description": "I am Eumi, a coffee addicted pink bunny!  | Please sit down with us to The Coffee Table and become a Bunchiato (ゝз○`) | I mainly stream arts and games | I started streaming on January 14th 2023 | **Please note that I can't stream consistently, this is a HOBBY. DON'T sub if that is a problem!**",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7476e8da-438f-4c87-af0b-f71c712c7349-profile_image-300x300.png"
   },
   {
@@ -360,7 +360,7 @@
     "name": "Fuugis",
     "type": "2D",
     "channel": "https://www.twitch.tv/fuugis",
-    "description": "That friendly little dogo behind the fence of your neighbor's yard, hoping for some good pats! 🐾 | Beginner streamer! 🎮🎨 | Speaking: 🇫🇮🇬🇧  (Streams are mainly in Finnish)",
+    "description": "That friendly little dogo behind the fence of your neighbor's yard, hoping for some good pats! 🐾 | Beginner streamer! 🎮🎨 | Speaking: FIN/ENG",
     "channel_name": "fuugis",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e4880e6c-b9ac-4f35-93af-0958136c424d-profile_image-300x300.png",
     "id": "106304854"
@@ -539,7 +539,7 @@
     "channel": "https://www.twitch.tv/innocentlilith",
     "channel_name": "innocentlilith",
     "description": "Your somewhat stereotypical Europian vampire who is getting bored in her damp old castle! Please stay put while we establish connection up in here! 🏰",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e5f402fb-d918-4767-87d3-cec676a1bce0-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/33ae0e9c-0891-4223-b150-3460b2ea4a4f-profile_image-300x300.png",
     "id": "739608828"
   },
   {
@@ -789,7 +789,7 @@
     "channel": "https://www.twitch.tv/maijandeerus",
     "description": "Just a random ass vampire ❤️",
     "channel_name": "maijandeerus",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b80aa18a-4564-4d9c-82f8-8cd226028659-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cbdc43fe-4f59-4a7a-a3c4-173d4920510d-profile_image-300x300.png",
     "id": "742276069"
   },
   {
@@ -834,7 +834,7 @@
     "channel": "https://www.twitch.tv/minimaali",
     "description": "I'm Minimaali the mouse maali. I don't know what I am doing, please love me? :)",
     "channel_name": "minimaali",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/948b8389-26b5-48f8-8040-9f6f9a6841b2-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b4869dd3-322f-4efb-9fe5-4e00daa753b0-profile_image-300x300.png",
     "id": "86659824"
   },
   {
@@ -883,6 +883,14 @@
     "id": "157139134"
   },
   {
+    "name": "Not_Dawn_",
+    "channel": "https://www.twitch.tv/not_dawn_",
+    "id": "709279705",
+    "channel_name": "not_dawn_",
+    "description": "Just your friendly neighborhood demon ;)",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf1a7600-4551-4108-9b52-414bd49aa6f0-profile_image-300x300.jpeg"
+  },
+  {
     "name": "Novau",
     "type": "3D",
     "channel": "https://www.twitch.tv/novau",
@@ -906,7 +914,7 @@
     "channel": "https://www.twitch.tv/osopuni",
     "description": "ill scream in your ear",
     "channel_name": "osopuni",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2f93d962-ddd4-41f2-a99c-785ab5f6c868-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/717288bb-3bdd-4e07-b5df-7308e47606e0-profile_image-300x300.png",
     "id": "593786615"
   },
   {
@@ -1185,7 +1193,7 @@
     "channel": "https://www.twitch.tv/sofeliaa",
     "description": "Just a gal from Finland playing games, I am Sofelia but my friends also call me cat. Enjoy the games and all the catlove all around! ^^",
     "channel_name": "sofeliaa",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/sofeliaa-profile_image-99450c8bf1a572e7-300x300.jpeg",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/44e4c9cc-e590-41f1-a619-9beba0e9d39f-profile_image-300x300.png",
     "id": "101384575"
   },
   {
