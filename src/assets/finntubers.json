@@ -23,8 +23,16 @@
     "channel": "https://www.twitch.tv/adreusvt",
     "description": "I'm a Mad Scientist Vtuber. I play a lot of Pokemon mainly shiny hunting and then some other Nintendo games and JRPGs when something comes out that interests me. Follow and watch for chill vibes.",
     "channel_name": "adreusvt",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4838837d-d627-4460-9b9e-f3f66f66f560-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cbeac512-e581-445e-b3c4-ce0ecb775e91-profile_image-300x300.png",
     "id": "115354857"
+  },
+  {
+    "name": "Aggrotard",
+    "channel": "https://www.twitch.tv/aggrotard",
+    "id": "45577892",
+    "channel_name": "aggrotard",
+    "description": "30 something VArtist from the wastelands of Finland. I stream art, retro and horror games.",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/25bdf5b4-5ccb-431b-8177-cfb4c5cd9d4a-profile_image-300x300.png"
   },
   {
     "name": "Akselmo",
@@ -54,6 +62,14 @@
     "id": "154971907"
   },
   {
+    "name": "AlvusFI",
+    "channel": "https://www.twitch.tv/alvusfi",
+    "id": "91525507",
+    "channel_name": "alvusfi",
+    "description": "Finnish wizard, magical systems engineer and aspiring gentleman and a VTuber debuting on March 31st!",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cf11ed1c-d303-4c0e-90e4-09c0bd409ddc-profile_image-300x300.png"
+  },
+  {
     "name": "AndromedaVT",
     "type": "2D",
     "channel": "https://www.twitch.tv/andromedavt",
@@ -68,14 +84,14 @@
     "channel": "https://www.twitch.tv/anna6anana",
     "description": "An art and game channel run by coffee and bad humor. Welcome!",
     "channel_name": "anna6anana",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7b6e5745-c517-4392-acfd-5bc2c1a6881d-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d72b6ab8-af49-4549-8e12-b8806de9eeef-profile_image-300x300.png",
     "id": "124336111"
   },
   {
     "name": "AnteroKarhu",
     "type": "3D",
     "channel": "https://www.twitch.tv/anterokarhu",
-    "description": "beartuber :3",
+    "description": "Suomenkielisen vtuubaus kontentin soolokärry",
     "channel_name": "anterokarhu",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3d40c7ba-eeb8-4fd6-b27b-37885a3571b9-profile_image-300x300.png",
     "id": "102263951"
@@ -114,6 +130,14 @@
     "channel_name": "aztraliss",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/30a61385-9cf2-4559-8157-0282c8549b9e-profile_image-300x300.png",
     "id": "806821629"
+  },
+  {
+    "name": "BADISkettu",
+    "type": "2D",
+    "channel": "https://www.youtube.com/c/BADISkettu",
+    "description": "Kukaan ei ikinä päivitä tätä tekstiä tai kirjota tänne mitään järkevää. Olen tehnyt monen monta vuotta just sitä mikä on huvittanut tälle kanavalle. Tämä ilmenee esimerkiksi siinä, että punaisen langan löytäminen kanavastani on mahdotonta. Pelaan pelejä, teen pelivideoita, streamaan, puhun ajankohtaisista sekä satunnaisista aiheista, ränttään, teen käännösbiisejä ja omaa musiikkia... lista vaan jatkuu. Ainoa yhdistävä tekijä on minä ja mun virtuaalinen kettu-hahmo. Kaipa voisi sanoa, että olen virtuaalinen tubaaja...eli vibaaja? Ehkä suomen tilatuin itsenäinen, ei yrityksen omistama suomenkielinen vibaaja-kanava. Tilaajamäärällä ei ole YouTubessa mitään merkitystä, eikä mulle oikeestaa mitään hyötyä, joten tilaa vaan jos sua kiinnostaa nähä mun kontsaa.",
+    "channel_name": "BADISkettu",
+    "profile_image_url": "https://yt3.googleusercontent.com/rmKsUCGbDHMOGn-lzZVH3hxGQujQC06tCdjjMP9oiVFriZw53rIZl1oCwoUSdicoFI0uhnoE=s176-c-k-c0x00ffffff-no-rj"
   },
   {
     "name": "Baptiste_vt",
@@ -210,7 +234,7 @@
     "channel": "https://www.twitch.tv/colourberi",
     "description": "Hi! I'm Beri and I draw sometimes here ~",
     "channel_name": "colourberi",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/274997d3-10ed-4fd4-ba93-a7e68a55030d-profile_image-300x300.jpeg",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/af6ba353-e1a1-4d6c-8557-f27c8ecdc6bb-profile_image-300x300.jpeg",
     "id": "244627178"
   },
   {
@@ -313,11 +337,11 @@
     "id": "639832078"
   },
   {
-    "name": "EriaMitsuki",
+    "name": "EriaVT",
     "type": "3D",
-    "channel": "https://www.twitch.tv/eriamitsuki",
+    "channel": "https://www.twitch.tv/eriavt",
     "description": "Chaotic catgirl/vampire with attention span of hamster ready to make your day PAWSOME!",
-    "channel_name": "eriamitsuki",
+    "channel_name": "eriavt",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/53be1716-cc7e-4061-8b2c-39745142420b-profile_image-300x300.png",
     "id": "118515589"
   },
@@ -335,8 +359,8 @@
     "channel": "https://www.twitch.tv/eumibun",
     "id": "119761251",
     "channel_name": "eumibun",
-    "description": "I am Eumi, a coffee addicted bunny! | Arts and games | Let's have fun! I'm still figuring this out (ゝз○`)",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7476e8da-438f-4c87-af0b-f71c712c7349-profile_image-300x300.png"
+    "description": "I am Eumi, a coffee addicted pink bunny!  | Please sit down with us to The Coffee Table and become a Bunchiato (ゝз○`) | I mainly stream arts and games | I started streaming on January 14th 2023 | **Please note that I can't stream consistently, this is a HOBBY. DON'T sub if that is a problem!**",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/42ae19a6-dfc6-4e63-a628-e9c50ee08b1e-profile_image-300x300.png"
   },
   {
     "name": "FluffyJanna",
@@ -351,7 +375,7 @@
     "name": "FurukawaMiki",
     "type": "3D",
     "channel": "https://www.twitch.tv/furukawamiki",
-    "description": "[EN] [FIN] Hi, I'm Miki! Im a shapeshifter probably, constantly changing my model. Welcome ❤",
+    "description": "[EN] [FIN] Hi, I'm Miki! Im a shapeshifter probably. Welcome ❤",
     "channel_name": "furukawamiki",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d4531c6e-128a-4936-b974-97a41cc43d43-profile_image-300x300.png",
     "id": "707026513"
@@ -360,7 +384,7 @@
     "name": "Fuugis",
     "type": "2D",
     "channel": "https://www.twitch.tv/fuugis",
-    "description": "That friendly little dogo behind the fence of your neighbor's yard, hoping for some good pats! 🐾 | Beginner streamer! 🎮🎨 | Speaking: 🇫🇮🇬🇧  (Streams are mainly in Finnish)",
+    "description": "That friendly little dogo behind the fence of your neighbor's yard, hoping for some good pats! 🐾 | Beginner streamer! 🎮🎨 | Speaking: FIN/ENG",
     "channel_name": "fuugis",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e4880e6c-b9ac-4f35-93af-0958136c424d-profile_image-300x300.png",
     "id": "106304854"
@@ -535,6 +559,22 @@
     "id": "159874810"
   },
   {
+    "name": "InkeySoup",
+    "channel": "https://www.twitch.tv/inkeysoup",
+    "id": "41590715",
+    "channel_name": "inkeysoup",
+    "description": "Mostly art streams, sometimes other stuff",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4a6fe596-392c-493c-9a2e-05f77200a9cb-profile_image-300x300.png"
+  },
+  {
+    "name": "InnocentLilith",
+    "channel": "https://www.twitch.tv/innocentlilith",
+    "channel_name": "innocentlilith",
+    "description": "Your somewhat stereotypical Europian vampire who is getting bored in her damp old castle! Please stay put while we establish connection up in here! 🏰",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/33ae0e9c-0891-4223-b150-3460b2ea4a4f-profile_image-300x300.png",
+    "id": "739608828"
+  },
+  {
     "name": "isla moon",
     "type": "2D",
     "channel": "https://www.youtube.com/channel/UCe_HAnwptjW5v3tFTS9SOhg",
@@ -570,6 +610,14 @@
     "id": "179929321"
   },
   {
+    "name": "JayEmPlays",
+    "channel": "https://www.twitch.tv/jayemplays",
+    "id": "23777053",
+    "channel_name": "jayemplays",
+    "description": "Moi, miten menee? Meikä on JayEm, ja striimailen tänne Twitchiin abouttirallaa kaikkea mikä meikäläistä kiinnostaa, aina Overwatchista Spyroon ja Bloodbornesta One Piece-peleihin. Samalla nimellä meikä on aikanaan lähtenyt YouTubesta liikkeelle.",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3b9ee604-fccb-4558-95df-9a08aa2dd34d-profile_image-300x300.png"
+  },
+  {
     "name": "JeffiinaPie",
     "type": "2D",
     "channel": "https://www.twitch.tv/jeffiinapie",
@@ -582,9 +630,9 @@
     "name": "jokujotai",
     "type": "2D",
     "channel": "https://www.twitch.tv/jokujotai",
-    "description": "A nerd trying to learn stuff",
+    "description": "Lmao",
     "channel_name": "jokujotai",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/23bc8431-ec7b-445b-931d-3259eb194e50-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/16a9edef-6975-482b-8fbc-a28cdf8c633b-profile_image-300x300.png",
     "id": "582397314"
   },
   {
@@ -600,9 +648,9 @@
     "name": "karin_ch",
     "type": "2D",
     "channel": "https://www.twitch.tv/karin_ch",
-    "description": "Cool ojou with an interest in JRPGs and retro games!",
+    "description": "A young lady with an interest in JRPGs and retro games! \t(─‿‿─)",
     "channel_name": "karin_ch",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a7809467-d940-4273-ae27-f3af60d0eea4-profile_image-300x300.jpeg",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7e1a141e-9cff-4f36-956c-0734d241f886-profile_image-300x300.png",
     "id": "783100976"
   },
   {
@@ -636,7 +684,7 @@
     "name": "Kiyomi_T",
     "type": "2D",
     "channel": "https://www.twitch.tv/kiyomi_t",
-    "description": "Hiya! I'm Kiyomi. I'm your local gremlin with ADHD. I love to do 0-brain gaming and art! ",
+    "description": "Hiya! I'm Kiyomi. I'm your local gremlin with ADHD. I love to do 0-brain gaming and art! LIVE:TUESDAY,THURSDAY AND SATURDAY 4PM GMT+2 ",
     "channel_name": "kiyomi_t",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7eaa6957-1f02-4b8a-9fa4-655dfe882b7d-profile_image-300x300.png",
     "id": "98756164"
@@ -691,7 +739,7 @@
     "channel": "https://www.twitch.tv/lanttux",
     "id": "140407255",
     "channel_name": "lanttux",
-    "description": "Finnish variety streamer | Content creator | Vtuber | Artist | EN/FI",
+    "description": "Finnish Variety streamer | Content creator | Vtuber | Artist | EN/FI",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8304ba6e-6535-460f-8c78-764923187a9a-profile_image-300x300.png"
   },
   {
@@ -720,6 +768,14 @@
     "channel_name": "lothshark",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/891ef3b2-23f9-4f9d-8e21-9299323e6eb3-profile_image-300x300.png",
     "id": "52056646"
+  },
+  {
+    "name": "LucaroxVT",
+    "channel": "https://www.twitch.tv/lucaroxvt",
+    "id": "169043802",
+    "channel_name": "lucaroxvt",
+    "description": "Hey hey! Luca here, i'm a vtuber from finland. I stream everytime i can so stay tuned Luca out! ;)",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad312ad1-b45f-48a8-8866-d3f0dd32bfb7-profile_image-300x300.png"
   },
   {
     "name": "Lumituber",
@@ -781,7 +837,7 @@
     "channel": "https://www.twitch.tv/maijandeerus",
     "description": "Just a random ass vampire ❤️",
     "channel_name": "maijandeerus",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b80aa18a-4564-4d9c-82f8-8cd226028659-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cbdc43fe-4f59-4a7a-a3c4-173d4920510d-profile_image-300x300.png",
     "id": "742276069"
   },
   {
@@ -815,9 +871,9 @@
     "name": "mikantine",
     "type": "2D",
     "channel": "https://www.twitch.tv/mikantine",
-    "description": "YAHHOO ~ ! ! Welcome to the strongest mandarin pilot's CHANNEL ! ! Prepare your feet to be sniffed ! !",
+    "description": "☆OYAHORAA ~ !! Welcome to the strongest mandarin pilot's CHANNEL !! I  also do ART !!! YIPPEE !!",
     "channel_name": "mikantine",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7cf81655-665c-40a9-8869-9c8fc47fe2f1-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/675d5276-c20d-40f7-af6d-619909303b85-profile_image-300x300.png",
     "id": "466284395"
   },
   {
@@ -826,7 +882,7 @@
     "channel": "https://www.twitch.tv/minimaali",
     "description": "I'm Minimaali the mouse maali. I don't know what I am doing, please love me? :)",
     "channel_name": "minimaali",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/948b8389-26b5-48f8-8040-9f6f9a6841b2-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b4869dd3-322f-4efb-9fe5-4e00daa753b0-profile_image-300x300.png",
     "id": "86659824"
   },
   {
@@ -875,6 +931,14 @@
     "id": "157139134"
   },
   {
+    "name": "Not_Dawn_",
+    "channel": "https://www.twitch.tv/not_dawn_",
+    "id": "709279705",
+    "channel_name": "not_dawn_",
+    "description": "Just your friendly neighborhood demon ;)",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1b222bd3-ef43-4b61-938e-c835d16b48c5-profile_image-300x300.png"
+  },
+  {
     "name": "Novau",
     "type": "3D",
     "channel": "https://www.twitch.tv/novau",
@@ -896,9 +960,9 @@
     "name": "osopuni",
     "type": "3D",
     "channel": "https://www.twitch.tv/osopuni",
-    "description": "ill scream in your ear",
+    "description": "Vtuber that loves your personality",
     "channel_name": "osopuni",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2f93d962-ddd4-41f2-a99c-785ab5f6c868-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a83b4c01-571d-4197-8c8e-3fb1ddd9d128-profile_image-300x300.png",
     "id": "593786615"
   },
   {
@@ -1049,7 +1113,7 @@
     "name": "RosaPohjantahti",
     "type": "2D",
     "channel": "https://www.twitch.tv/rosapohjantahti",
-    "description": "Debut, who knows when~Rosa Henriikka Pohjantähti Finnish witch guardian traveling between worlds -a fashion lover. Spiky and persistent as the Finnish climbing rose.",
+    "description": "Rosa Henriikka Pohjantähti Finnish witch guardian traveling between worlds -a fashion lover. Spiky and persistent as the Finnish climbing rose.",
     "channel_name": "rosapohjantahti",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/02892626-a41b-4057-a2f3-c83371e1423b-profile_image-300x300.png",
     "id": "841173361"
@@ -1132,8 +1196,16 @@
     "channel": "https://www.twitch.tv/shaakku",
     "description": "🎀 Vtuber 🎀 Artist 🎀 she/her 🎀Hi, welcome to my stream! I'm Shaakku, a Finnish digital artist who is exploring the world of art, games and vtubers to grow her inner strength and find her ultimate passion ♥   Join me on this journey to unleash our ULTIMATE POTENTIAL!!",
     "channel_name": "shaakku",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/48cea016-6d27-449e-8048-f95395049937-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3cf01e4a-0540-4569-8bd3-33037cd67a0e-profile_image-300x300.png",
     "id": "125572557"
+  },
+  {
+    "name": "Sharkpacasaur",
+    "channel": "https://www.twitch.tv/sharkpacasaur",
+    "id": "211805020",
+    "channel_name": "sharkpacasaur",
+    "description": "Voice actress, gamer, musician, and pizza enthusiast living in a place far away from my beloved deep-dish. She/Her",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9899addd-2538-462f-b052-7bef3e14f889-profile_image-300x300.png"
   },
   {
     "name": "Shunicos",
@@ -1177,7 +1249,7 @@
     "channel": "https://www.twitch.tv/sofeliaa",
     "description": "Just a gal from Finland playing games, I am Sofelia but my friends also call me cat. Enjoy the games and all the catlove all around! ^^",
     "channel_name": "sofeliaa",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/sofeliaa-profile_image-99450c8bf1a572e7-300x300.jpeg",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/44e4c9cc-e590-41f1-a619-9beba0e9d39f-profile_image-300x300.png",
     "id": "101384575"
   },
   {
@@ -1217,12 +1289,12 @@
     "id": "48439052"
   },
   {
-    "name": "Suotti",
-    "channel": "https://www.twitch.tv/suotti",
+    "name": "Suo_Hillankukka",
+    "channel": "https://www.twitch.tv/suo_hillankukka",
     "id": "55202304",
-    "channel_name": "suotti",
-    "description": "Hi! A Finnish nerd here. If I happen to stream, it'll be of PSX games, Pokemons and various PC games.",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e0674f9d-30c6-45ac-8885-aa956d3b2b73-profile_image-300x300.png"
+    "channel_name": "suo_hillankukka",
+    "description": "Hi! A Finnish vtuber and a nerd here. If I happen to stream, it'll be chill games and art.",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4b9c47f1-8a1b-46e2-a82e-ead2bb01361f-profile_image-300x300.png"
   },
   {
     "name": "Suvidriel",
@@ -1282,7 +1354,7 @@
     "name": "The_Skele",
     "type": "2D",
     "channel": "https://www.twitch.tv/the_skele",
-    "description": "Hey! My name is Skele/Sam, i'm a 18y simple guy from Scandinavia that's just trying to have fun and meet new people everyday. I play variety of games from VR-Games to MMO-RPG Games mostly anything that gets around. I'm also active on twitter so if you want to know about my IRL, go ahead and check it",
+    "description": "Hey! My name is Skele/Sam, i'm a 19y simple guy from Scandinavia that's just trying to have fun and meet new people everyday. I play variety of games from VR-Games to MMO-RPG Games mostly anything that gets around. I'm also active on twitter so if you want to know about my IRL, go ahead and check it",
     "channel_name": "the_skele",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/210ffd83-0b49-492e-87ae-77fdb3da7a09-profile_image-300x300.png",
     "id": "244009120"
@@ -1300,7 +1372,7 @@
     "name": "thekissaihminen",
     "type": "3D",
     "channel": "https://www.twitch.tv/thekissaihminen",
-    "description": "im finnish guy from cold lapland playing variety of games (monster hunter, hatsune miku, genshin impact, sao series and whatever i have)  ",
+    "description": "im finnish guy from cold lapland playing variety of games (monster hunter, hatsune miku, genshin impact, sao series and whatever i have)  so feel free to play with me if you have same game and ask away if you have any questions",
     "channel_name": "thekissaihminen",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/54cc3fc1-b2b2-4961-9bec-0a7762154b82-profile_image-300x300.png",
     "id": "118513784"
@@ -1398,7 +1470,7 @@
     "name": "VirnaLive",
     "type": "2D",
     "channel": "https://www.twitch.tv/virnalive",
-    "description": "👹 Demon Vtuber 👹 Finnish 👹 They/Them 👹 Pre-debut 👹",
+    "description": "👹 Demon Vtuber 👹 Finnish 👹 They/Him 👹 Pre-debut 👹",
     "channel_name": "virnalive",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/48e50125-36af-48e1-aa13-c7af155fc952-profile_image-300x300.png",
     "id": "547482373"
@@ -1452,9 +1524,9 @@
     "name": "WhispersOfNox",
     "type": "PNG",
     "channel": "https://www.twitch.tv/whispersofnox",
-    "description": "Elven God of Sleep from the cosmos, directly above Finland~ Streaming ASMR every other day at 9PM EEST ♡ Streams are considered 18+",
+    "description": "Elven God of Sleep from the cosmos, directly above Finland 💜 Streaming ASMR every other day at 10PM EEST~ Streams are considered 18+",
     "channel_name": "whispersofnox",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1b8e49be-5ed1-41b9-8010-e5a9579022a3-profile_image-300x300.jpeg",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6ca1016c-01dc-4946-afc3-dfc24e268451-profile_image-300x300.png",
     "id": "790739413"
   },
   {
@@ -1463,7 +1535,7 @@
     "channel": "https://www.twitch.tv/xxeletah",
     "description": "Finnish Demon(?) variety Vstreamer & beginner speedrunner. I curse a lot, so heads up to that. ",
     "channel_name": "xxeletah",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/79267ac9-933b-4bf8-89c4-1bd1528a35a3-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/882f2cf2-df84-471b-a728-a442f672788e-profile_image-300x300.png",
     "id": "162311542"
   },
   {
