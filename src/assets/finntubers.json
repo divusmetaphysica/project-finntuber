@@ -23,8 +23,16 @@
     "channel": "https://www.twitch.tv/adreusvt",
     "description": "I'm a Mad Scientist Vtuber. I play a lot of Pokemon mainly shiny hunting and then some other Nintendo games and JRPGs when something comes out that interests me. Follow and watch for chill vibes.",
     "channel_name": "adreusvt",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4838837d-d627-4460-9b9e-f3f66f66f560-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cbeac512-e581-445e-b3c4-ce0ecb775e91-profile_image-300x300.png",
     "id": "115354857"
+  },
+  {
+    "name": "Aggrotard",
+    "channel": "https://www.twitch.tv/aggrotard",
+    "id": "45577892",
+    "channel_name": "aggrotard",
+    "description": "30 something VArtist from the wastelands of Finland. I stream art, retro and horror games.",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/25bdf5b4-5ccb-431b-8177-cfb4c5cd9d4a-profile_image-300x300.png"
   },
   {
     "name": "Akselmo",
@@ -52,6 +60,14 @@
     "channel_name": "almamaito",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8685a0a9-6a95-4798-9d5b-c09ae1432c09-profile_image-300x300.png",
     "id": "154971907"
+  },
+  {
+    "name": "AlvusFI",
+    "channel": "https://www.twitch.tv/alvusfi",
+    "id": "91525507",
+    "channel_name": "alvusfi",
+    "description": "Finnish wizard, magical systems engineer and aspiring gentleman and a VTuber debuting on March 31st!",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/cf11ed1c-d303-4c0e-90e4-09c0bd409ddc-profile_image-300x300.png"
   },
   {
     "name": "AndromedaVT",
@@ -114,6 +130,14 @@
     "channel_name": "aztraliss",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/30a61385-9cf2-4559-8157-0282c8549b9e-profile_image-300x300.png",
     "id": "806821629"
+  },
+  {
+    "name": "BADISkettu",
+    "type": "2D",
+    "channel": "https://www.youtube.com/c/BADISkettu",
+    "description": "Kukaan ei ikinä päivitä tätä tekstiä tai kirjota tänne mitään järkevää. Olen tehnyt monen monta vuotta just sitä mikä on huvittanut tälle kanavalle. Tämä ilmenee esimerkiksi siinä, että punaisen langan löytäminen kanavastani on mahdotonta. Pelaan pelejä, teen pelivideoita, streamaan, puhun ajankohtaisista sekä satunnaisista aiheista, ränttään, teen käännösbiisejä ja omaa musiikkia... lista vaan jatkuu. Ainoa yhdistävä tekijä on minä ja mun virtuaalinen kettu-hahmo. Kaipa voisi sanoa, että olen virtuaalinen tubaaja...eli vibaaja? Ehkä suomen tilatuin itsenäinen, ei yrityksen omistama suomenkielinen vibaaja-kanava. Tilaajamäärällä ei ole YouTubessa mitään merkitystä, eikä mulle oikeestaa mitään hyötyä, joten tilaa vaan jos sua kiinnostaa nähä mun kontsaa.",
+    "channel_name": "BADISkettu",
+    "profile_image_url": "https://yt3.googleusercontent.com/rmKsUCGbDHMOGn-lzZVH3hxGQujQC06tCdjjMP9oiVFriZw53rIZl1oCwoUSdicoFI0uhnoE=s176-c-k-c0x00ffffff-no-rj"
   },
   {
     "name": "Baptiste_vt",
@@ -336,7 +360,7 @@
     "id": "119761251",
     "channel_name": "eumibun",
     "description": "I am Eumi, a coffee addicted pink bunny!  | Please sit down with us to The Coffee Table and become a Bunchiato (ゝз○`) | I mainly stream arts and games | I started streaming on January 14th 2023 | **Please note that I can't stream consistently, this is a HOBBY. DON'T sub if that is a problem!**",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7476e8da-438f-4c87-af0b-f71c712c7349-profile_image-300x300.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/42ae19a6-dfc6-4e63-a628-e9c50ee08b1e-profile_image-300x300.png"
   },
   {
     "name": "FluffyJanna",
@@ -586,6 +610,14 @@
     "id": "179929321"
   },
   {
+    "name": "JayEmPlays",
+    "channel": "https://www.twitch.tv/jayemplays",
+    "id": "23777053",
+    "channel_name": "jayemplays",
+    "description": "Moi, miten menee? Meikä on JayEm, ja striimailen tänne Twitchiin abouttirallaa kaikkea mikä meikäläistä kiinnostaa, aina Overwatchista Spyroon ja Bloodbornesta One Piece-peleihin. Samalla nimellä meikä on aikanaan lähtenyt YouTubesta liikkeelle.",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/3b9ee604-fccb-4558-95df-9a08aa2dd34d-profile_image-300x300.png"
+  },
+  {
     "name": "JeffiinaPie",
     "type": "2D",
     "channel": "https://www.twitch.tv/jeffiinapie",
@@ -616,9 +648,9 @@
     "name": "karin_ch",
     "type": "2D",
     "channel": "https://www.twitch.tv/karin_ch",
-    "description": "Cool ojou with an interest in JRPGs and retro games!",
+    "description": "A young lady with an interest in JRPGs and retro games! \t(─‿‿─)",
     "channel_name": "karin_ch",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a7809467-d940-4273-ae27-f3af60d0eea4-profile_image-300x300.jpeg",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7e1a141e-9cff-4f36-956c-0734d241f886-profile_image-300x300.png",
     "id": "783100976"
   },
   {
@@ -738,6 +770,14 @@
     "id": "52056646"
   },
   {
+    "name": "LucaroxVT",
+    "channel": "https://www.twitch.tv/lucaroxvt",
+    "id": "169043802",
+    "channel_name": "lucaroxvt",
+    "description": "Hey hey! Luca here, i'm a vtuber from finland. I stream everytime i can so stay tuned Luca out! ;)",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad312ad1-b45f-48a8-8866-d3f0dd32bfb7-profile_image-300x300.png"
+  },
+  {
     "name": "Lumituber",
     "type": "3D",
     "channel": "https://www.twitch.tv/lumituber",
@@ -831,9 +871,9 @@
     "name": "mikantine",
     "type": "2D",
     "channel": "https://www.twitch.tv/mikantine",
-    "description": "☆OYAHOO ~ !! Welcome to the strongest mandarin pilot's CHANNEL !! I  also do ART !!! YIPPEE !!",
+    "description": "☆OYAHORAA ~ !! Welcome to the strongest mandarin pilot's CHANNEL !! I  also do ART !!! YIPPEE !!",
     "channel_name": "mikantine",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7cf81655-665c-40a9-8869-9c8fc47fe2f1-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/675d5276-c20d-40f7-af6d-619909303b85-profile_image-300x300.png",
     "id": "466284395"
   },
   {
@@ -1160,6 +1200,14 @@
     "id": "125572557"
   },
   {
+    "name": "Sharkpacasaur",
+    "channel": "https://www.twitch.tv/sharkpacasaur",
+    "id": "211805020",
+    "channel_name": "sharkpacasaur",
+    "description": "Voice actress, gamer, musician, and pizza enthusiast living in a place far away from my beloved deep-dish. She/Her",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9899addd-2538-462f-b052-7bef3e14f889-profile_image-300x300.png"
+  },
+  {
     "name": "Shunicos",
     "type": "3D",
     "channel": "https://www.twitch.tv/shunicos",
@@ -1324,7 +1372,7 @@
     "name": "thekissaihminen",
     "type": "3D",
     "channel": "https://www.twitch.tv/thekissaihminen",
-    "description": "im finnish guy from cold lapland playing variety of games (monster hunter, hatsune miku, genshin impact, sao series and whatever i have)  ",
+    "description": "im finnish guy from cold lapland playing variety of games (monster hunter, hatsune miku, genshin impact, sao series and whatever i have)  so feel free to play with me if you have same game and ask away if you have any questions",
     "channel_name": "thekissaihminen",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/54cc3fc1-b2b2-4961-9bec-0a7762154b82-profile_image-300x300.png",
     "id": "118513784"
@@ -1422,7 +1470,7 @@
     "name": "VirnaLive",
     "type": "2D",
     "channel": "https://www.twitch.tv/virnalive",
-    "description": "👹 Demon Vtuber 👹 Finnish 👹 They/Them 👹 Pre-debut 👹",
+    "description": "👹 Demon Vtuber 👹 Finnish 👹 They/Him 👹 Pre-debut 👹",
     "channel_name": "virnalive",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/48e50125-36af-48e1-aa13-c7af155fc952-profile_image-300x300.png",
     "id": "547482373"
@@ -1476,7 +1524,7 @@
     "name": "WhispersOfNox",
     "type": "PNG",
     "channel": "https://www.twitch.tv/whispersofnox",
-    "description": "Elven God of Sleep from the cosmos, directly above Finland 💜 Streaming ASMR every other day at 9PM EEST~ Streams are considered 18+",
+    "description": "Elven God of Sleep from the cosmos, directly above Finland 💜 Streaming ASMR every other day at 10PM EEST~ Streams are considered 18+",
     "channel_name": "whispersofnox",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6ca1016c-01dc-4946-afc3-dfc24e268451-profile_image-300x300.png",
     "id": "790739413"
