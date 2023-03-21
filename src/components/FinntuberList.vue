@@ -64,7 +64,7 @@ export default {
     async updateStreamerInfo() {
       const logins = this.talents
         .filter((x) => notMissing(x.channel) && x.channel.includes("twitch"))
-        .map((x) => x.channel_name)
+        .map((x) => x.id)
         .filter(notMissing);
 
       // const chunked = async (array, chunkSize) =>

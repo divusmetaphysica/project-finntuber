@@ -3,20 +3,6 @@
   "tasks": [
     {
       "type": "npm",
-      "script": "build",
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "problemMatcher": [],
-      "label": "npm: build",
-      "detail": "vue-cli-service build",
-      "options": {
-        "cwd": "${workspaceFolder}"
-      }
-    },
-    {
-      "type": "npm",
       "script": "lint",
       "problemMatcher": [],
       "label": "npm: lint",
@@ -69,14 +55,23 @@
     {
       "type": "shell",
       "label": "SWA run",
-      "command": "swa start dist --api api",
+      "command": "swa start dist --api-location api",
       "problemMatcher": [],
       "options": {
         "cwd": "${workspaceFolder}"
       },
       "dependsOn": [
-        "npm: build"
-      ]
+        "npm: build",
+        "env: variables"
+      ],
+    },
+    {
+      "type": "shell",
+      "label": "env: variables",
+      "command": "set -a; source .env.local; set +a",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
     }
   ]
 }

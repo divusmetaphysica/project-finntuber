@@ -39,7 +39,10 @@ npm run serve
 To run also the functions run
 
 ```bash
-npm run build && swa start dist --api api
+set -a # automatically export all variables
+source .env.local
+set +a
+npm run build && swa start dist --api-location api
 ```
 
 ### Compiles and minifies for production
