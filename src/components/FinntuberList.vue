@@ -64,7 +64,7 @@ export default {
     async updateStreamerInfo() {
       const logins = this.talents
         .filter((x) => notMissing(x.channel) && x.channel.includes("twitch"))
-        .map((x) => x.channel_name)
+        .map((x) => x.id)
         .filter(notMissing);
 
       // const chunked = async (array, chunkSize) =>
@@ -75,7 +75,7 @@ export default {
       for (let i = 0; i < logins.length; i += 20) {
         let loginsPart = logins.slice(i, i + 20).join(",");
         await axios
-          .get(`/api/twitch?logins=${loginsPart}`)
+          .get(`/api/twitch?ids=${loginsPart}`)
           .then((response) => {
             if (response.status === 200) {
               this.talents.forEach((y) =>
