@@ -20,9 +20,9 @@ const makeConfig = (token) => {
  * @param {Object} authHeader
  * @returns Streamer data.
  */
-const loadTwitchInfo = async (userLogins, authHeader) => {
+const loadTwitchInfo = async (userIds, authHeader) => {
   let results = new Object();
-  const logins = userLogins.map(userName => `login=${userName}`).join("&");
+  const logins = userIds.map(userName => `id=${userName}`).join("&");
 
   await axios
     .get(`${TWITCH_USERS_URL}?${logins}`, authHeader)
@@ -61,9 +61,9 @@ const loadTwitchInfo = async (userLogins, authHeader) => {
  * @param {Object} authHeader, authentication header
  * @returns Streaming info.
  */
-const loadTwitchStreams = async (userLogins, authHeader) => {
+const loadTwitchStreams = async (userIds, authHeader) => {
   let results = new Object();
-  const logins = userLogins.map(userName => `user_login=${userName}`).join("&");
+  const logins = userIds.map(userName => `user_id=${userName}`).join("&");
 
   await axios
     .get(`${TWITCH_STREAMS_URL}?${logins}`, authHeader)
@@ -74,27 +74,27 @@ const loadTwitchStreams = async (userLogins, authHeader) => {
 }
 
 module.exports = async function (context, req) {
-  const logins = (req.query.logins || (req.body && req.body.logins));
+  const logins = (req.query.ids || (req.body && req.body.ids));
   context.log(`Requesting twitch data for ${logins}`);
 
   // Construct authentication headers for Axios.
   let accessToken = await auth.getCurrentToken();
   let authHeader = makeConfig(accessToken);
-  const userNames = logins.split(",");
+  const userIds = logins.split(",");
 
   // Initial call, if it fails to Unauthorized return the error and refresh
   // access token. With the new token attempt to get user info again.
-  let info = await loadTwitchInfo(userNames, authHeader);
+  let info = await loadTwitchInfo(userIds, authHeader);
 
   if (info.status != undefined && info.status == 401) {
     accessToken = await auth.getNewAccessToken();
     context.log("Updated new Access Token to KeyVault.")
     authHeader = makeConfig(accessToken);
 
-    info = await loadTwitchInfo(userNames, authHeader);
+    info = await loadTwitchInfo(userIds, authHeader);
   }
 
-  let streams = await loadTwitchStreams(userNames, authHeader);
+  let streams = await loadTwitchStreams(userIds, authHeader);
   Object.entries(streams).forEach(entry => info[entry[0]]["stream"] = entry[1])
 
   context.res = {
