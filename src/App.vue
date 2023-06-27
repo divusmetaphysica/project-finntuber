@@ -1,40 +1,18 @@
 <template>
-  <div class="page">
-    <h1>List of Finnish VTubers</h1>
-    <Tabs>
-      <Tab title="NOW LIVE"><NowLive /></Tab>
-      <Tab title="BROWSE"><FinntuberList name="List of Finnish VTubers"/></Tab>
-      <Tab title="FAQ"><Faq /></Tab>
-    </Tabs>
-
-    <div class="bottom-banner">
-      <div>Maintainer: @divinemetaphys on Twitter</div>
-      <div>Designer: @mariel_vt on Twitter</div>
-    </div>
+  <div class="content">
+    <router-view />
+  </div>
+  <div class="bottom-banner">
+    <div>Maintainer: @divinemetaphys on Twitter</div>
+    <div>Designer: @mariel_vt on Twitter</div>
   </div>
 </template>
 
 <script>
-import Faq from "./components/Faq.vue";
-import FinntuberList from "./components/FinntuberList.vue";
-import NowLive from "./components/NowLive.vue";
-import Tab from "./components/Tab.vue";
-import Tabs from "./components/Tabs.vue";
-
 export default {
   name: "App",
-  data() {
-    return { tabs: [] };
-  },
   created() {
     document.title = "Project Finntubers";
-  },
-  components: {
-    Faq,
-    FinntuberList,
-    NowLive,
-    Tab,
-    Tabs,
   },
 };
 </script>
@@ -45,21 +23,33 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-.page {
-  padding-bottom: 50px;
+
+html,
+body {
+  height: 100%;
 }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   background-image: linear-gradient(180deg, #d1e9ff 0%, #3299d9 100%);
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 h1 {
   color: #3299d9;
   text-align: center;
   padding: 50px;
   font-family: "Dosis", sans-serif;
+}
+.content {
+  max-width: 1600px;
+  margin: 0 auto;
+  flex: 1;
 }
 .bottom-banner {
   color: snow;

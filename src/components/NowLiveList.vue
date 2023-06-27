@@ -98,6 +98,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap");
 .page {
   padding-bottom: 50px;
+  color: midnightblue;
 }
 h1 {
   color: #3299d9;
