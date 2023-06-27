@@ -1,25 +1,30 @@
 <template>
-  <div class="vtuberList">
-    <div class="vtuber" v-for="ft in activeTalents" :key="ft.name">
-      <a :href="ft.channel">
-        <img :src="ft.profile_image_url" />
+  <div class="page">
+    <div class="vtuberList">
+      <template v-for="ft in activeTalents" :key="ft.name">
+        <div class="vtuber" v-if="ft.stream != undefined">
+          <a :href="ft.channel">
+            <img :src="ft.profile_image_url" />
 
-        <template v-if="ft.stream != undefined">
-          <div class="live-status">
-            <div id="circle"></div>
-            <b style="color: red">LIVE</b>
+            <div class="live-status">
+              <div id="circle"></div>
+              <b style="color: red">LIVE</b>
+            </div>
+          </a>
+
+          <div class="vtuberInfo">
+            <b
+              ><a :href="ft.channel">{{ ft.name }} </a>
+            </b>
+            <br />
+            <div class="description">
+              {{ ft.description }}
+            </div>
           </div>
-        </template>
-      </a>
-
-      <div class="vtuberInfo">
-        <b
-          ><a :href="ft.channel">{{ ft.name }} </a>
-        </b>
-        <br />
-        <div class="description">
-          {{ ft.description }}
         </div>
+      </template>
+      <div v-show="activeTalents.every((ft) => ft.stream == undefined)">
+        No streamers currently online
       </div>
     </div>
   </div>
@@ -91,6 +96,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap");
+.page {
+  padding-bottom: 50px;
+}
+h1 {
+  color: #3299d9;
+  text-align: center;
+  padding: 50px;
+  font-family: "Dosis", sans-serif;
+}
 h3 {
   margin: 40px 0 0;
 }
