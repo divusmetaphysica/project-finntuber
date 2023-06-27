@@ -60,6 +60,8 @@
 .page {
   padding-bottom: 50px;
   color: midnightblue;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 
 section:not(:last-child) {
