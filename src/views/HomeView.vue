@@ -59,14 +59,14 @@ nav {
   border: 10px solid white;
   border-bottom: none;
   border-radius: 10px 10px 0 0;
-  width: 300px;
-  height: 100px;
+  width: 200px;
+  height: 80px;
   font-family: "Dosis", sans-serif;
   text-decoration: none;
   font-size: 24px;
   color: #075484;
   text-align: center;
-  padding: 24px 0;
+  padding: 14px 0;
 }
 
 .tab a.router-link-exact-active {

@@ -1,4 +1,14 @@
 <template>
+  <div class="infoBar">
+    <div>Total streamers: {{ activeTalents.length }}</div>
+    <div>
+      <label for="sort-select">Sort by </label>
+      <select v-model="sorting" id="sort-select">
+        <option value="lastlive">Last live</option>
+        <option value="alphabetical">Alphabetical</option>
+      </select>
+    </div>
+  </div>
   <div class="vtuberList">
     <div class="vtuber" v-for="ft in activeTalents" :key="ft.name">
       <a :href="ft.channel">
@@ -37,6 +47,7 @@ export default {
     return {
       talents: [],
       timerId: null,
+      sorting: "lastlive",
     };
   },
   async mounted() {
@@ -83,6 +94,51 @@ export default {
           })
           .catch((x) => console.log(x));
       }
+      this.talents.sortTalents(); // TODO check this is actually working
+    },
+    sortTalents(newVal) {
+      switch (newVal) {
+        case "alphabetical":
+          this.sortAlphabetical();
+          break;
+        case "lastlive":
+          this.sortLastLive();
+          break;
+        default:
+          break;
+      }
+    },
+    sortAlphabetical() {
+      this.talents = this.talents.sort((a, b) => {
+        let fa = a.name.toLowerCase(),
+          fb = b.name.toLowerCase();
+        if (fa < fb) {
+          return -1;
+        }
+        if (fa > fb) {
+          return 1;
+        }
+        return 0;
+      });
+    },
+    sortLastLive() {
+      /* TODO real sorting */
+      this.talents = this.talents.sort((a, b) => {
+        let fa = a.name.toLowerCase(),
+          fb = b.name.toLowerCase();
+        if (fa < fb) {
+          return 1;
+        }
+        if (fa > fb) {
+          return -1;
+        }
+        return 0;
+      });
+    },
+  },
+  watch: {
+    sorting(newVal) {
+      this.sortTalents(newVal);
     },
   },
 };
@@ -124,6 +180,15 @@ img {
   height: 100px;
   /* padding: 5px 0px; */
   border-radius: 10px;
+}
+.infoBar {
+  margin: 0 auto;
+  padding-bottom: 36px;
+  max-width: 1600px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
 }
 .vtuberList {
   display: flex;

@@ -33,7 +33,7 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d1e9ff; /* TODO remove */
+  background-color: #d1e9ff; /* TODO remove after real banner has been added */
   color: #2c3e50;
   height: 100%;
   min-height: 100%;
@@ -54,5 +54,6 @@ h1 {
   text-align: center;
   padding-bottom: 20px;
   padding-top: 20px;
+  z-index: 3; /* TODO this is not a proper fix */
 }
 </style>

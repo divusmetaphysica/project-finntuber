@@ -58,7 +58,7 @@
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap");
 .page {
-  padding-bottom: 50px;
+  padding: 0px 24px 50px 24px;
   color: midnightblue;
   margin: 0 auto;
   max-width: 1600px;
