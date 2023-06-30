@@ -211,7 +211,6 @@ img {
   justify-content: center;
   width: 300px;
   height: 150px;
-  border: 2px solid #173f5f;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
   margin: 10px;

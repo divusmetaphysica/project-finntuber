@@ -4,27 +4,25 @@
       <template v-for="ft in activeTalents" :key="ft.name">
         <div class="vtuber" v-if="ft.stream != undefined">
           <a :href="ft.channel">
-            <img :src="ft.profile_image_url" />
-
-            <div class="live-status">
-              <div id="circle"></div>
-              <b style="color: red">LIVE</b>
-            </div>
+            <img :src="ft.stream.thumbnail_url" />
           </a>
 
           <div class="vtuberInfo">
-            <b
-              ><a :href="ft.channel">{{ ft.name }} </a>
+            <b>
+              <a :href="ft.channel">{{ ft.name }} </a>
             </b>
-            <br />
-            <div class="description">
-              {{ ft.description }}
+            <div>{{ ft.stream.title }}</div>
+            <div>{{ ft.stream.game_name }}</div>
+            <div class="tags">
+              <span class="tag" v-for="t in ft.stream.tags" :key="t">
+                {{ t }}
+              </span>
             </div>
           </div>
         </div>
       </template>
       <div v-show="activeTalents.every((ft) => ft.stream == undefined)">
-        No streamers currently online
+        No streamers currently online.
       </div>
     </div>
   </div>
@@ -135,9 +133,7 @@ a {
   justify-content: center;
 }
 img {
-  width: 100px;
-  height: 100px;
-  /* padding: 5px 0px; */
+  width: 100%;
   border-radius: 10px;
 }
 .vtuberList {
@@ -149,10 +145,8 @@ img {
 }
 .vtuber {
   display: flex;
-  align-items: center;
-  width: 300px;
-  height: 150px;
-  border: 2px solid #173f5f;
+  flex-direction: column;
+  width: 100%;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
   margin: 10px;
@@ -162,29 +156,49 @@ img {
 .vtuberInfo {
   padding-left: 10px;
   align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
 }
-.description {
+.vtuberInfo > :first-child {
+  margin-top: 5px;
+}
+.vtuberInfo > :not(:last-child) {
+  margin-bottom: 10px;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tag {
   font-size: 12px;
-  padding-top: 5px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
+  color: snow;
+  background-color: #3299d9;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-bottom: 5px;
 }
-.live-status {
-  border: 2px solid red;
-  border-radius: 12px;
-  text-align: center;
-  font-size: 10px;
-  padding-top: 2px;
+
+.tag:not(:last-child) {
+  margin-right: 5px;
 }
-#circle {
-  width: 10px;
-  height: 10px;
-  background: red;
-  border-radius: 50%;
-  display: inline-block;
-  margin-inline: 0px 5px;
+
+@media (min-width: 769px) {
+  .vtuber {
+    flex-direction: row;
+    width: 650px;
+    height: 200px;
+  }
+
+  img {
+    width: 320px;
+  }
+  .vtuberInfo > :first-child {
+    margin-top: 0px;
+  }
+  .vtuberInfo > :not(:last-child) {
+    margin-bottom: 0px;
+  }
 }
 </style>
