@@ -62,6 +62,7 @@ export default {
     const talents = (await import("../assets/finntubers.json")).default;
     console.log("Loaded static streamer info.");
     this.talents = talents;
+    this.sortTalents(this.sorting);
 
     await this.updateStreamerInfo();
 
@@ -102,7 +103,7 @@ export default {
           })
           .catch((x) => console.log(x));
       }
-      this.sortTalents(); // TODO check this is actually working
+      this.sortTalents(this.sorting);
     },
     sortTalents(newVal) {
       switch (newVal) {
@@ -130,18 +131,17 @@ export default {
       });
     },
     sortLastLive() {
-      /* TODO real sorting */
-      this.talents = this.talents.sort((a, b) => {
-        let fa = a.name.toLowerCase(),
-          fb = b.name.toLowerCase();
-        if (fa < fb) {
-          return 1;
-        }
-        if (fa > fb) {
-          return -1;
-        }
-        return 0;
-      });
+      // Most recently started streams first, then most recent vods, then the rest
+      let nowLive = this.talents
+        .filter((ft) => ft.stream != undefined)
+        .sort((a, b) => (a.stream.started_at > b.stream.started_at ? -1 : 1));
+      let hasVods = this.talents
+        .filter((ft) => ft.stream == undefined && ft.video != undefined)
+        .sort((a, b) => (a.video.published_at > b.video.published_at ? -1 : 1));
+      let noData = this.talents.filter(
+        (ft) => ft.stream == undefined && ft.video == undefined
+      );
+      this.talents = nowLive.concat(hasVods, noData);
     },
   },
   watch: {
