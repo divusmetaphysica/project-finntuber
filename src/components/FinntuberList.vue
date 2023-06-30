@@ -1,44 +1,46 @@
 <template>
-  <div class="infoBar">
-    <div>Total streamers: {{ activeTalents.length }}</div>
-    <div>
-      <label for="sort-select">Sort by </label>
-      <select v-model="sorting" id="sort-select">
-        <option value="lastlive">Last live</option>
-        <option value="alphabetical">Alphabetical</option>
-      </select>
-    </div>
-  </div>
-  <div class="vtuberList">
-    <div class="vtuber" v-for="ft in activeTalents" :key="ft.name">
-      <div class="vtuberMainInfo">
-        <a :href="ft.channel">
-          <img :src="ft.profile_image_url" />
-        </a>
-
-        <div class="vtuberInfo">
-          <b>
-            <a :href="ft.channel">{{ ft.name }} </a>
-          </b>
-          <br />
-          <div class="description">
-            {{ ft.description }}
-          </div>
-        </div>
+  <div class="finntuberList">
+    <div class="infoBar">
+      <div>Total streamers: {{ activeTalents.length }}</div>
+      <div>
+        <label for="sort-select">Sort by </label>
+        <select v-model="sorting" id="sort-select">
+          <option value="lastlive">Last live</option>
+          <option value="alphabetical">Alphabetical</option>
+        </select>
       </div>
-      <template v-if="ft.stream != undefined">
-        <a :href="ft.channel">
-          <div class="live-status">
-            <div id="circle"></div>
-            <b style="color: red">LIVE</b>
+    </div>
+    <div class="vtuberList">
+      <div class="vtuber" v-for="ft in activeTalents" :key="ft.name">
+        <div class="vtuberMainInfo">
+          <a :href="ft.channel">
+            <img :src="ft.profile_image_url" />
+          </a>
+
+          <div class="vtuberInfo">
+            <b>
+              <a :href="ft.channel">{{ ft.name }} </a>
+            </b>
+            <br />
+            <div class="description">
+              {{ ft.description }}
+            </div>
           </div>
-        </a>
-      </template>
-      <template v-if="ft.stream == undefined && ft.video != undefined">
-        <div class="last-live">
-          Last live: <timeago :datetime="ft.video.published_at" />
         </div>
-      </template>
+        <template v-if="ft.stream != undefined">
+          <a :href="ft.channel">
+            <div class="live-status">
+              <div id="circle"></div>
+              <b style="color: red">LIVE</b>
+            </div>
+          </a>
+        </template>
+        <template v-if="ft.stream == undefined && ft.video != undefined">
+          <div class="last-live">
+            Last live: <timeago :datetime="ft.video.published_at" />
+          </div>
+        </template>
+      </div>
     </div>
   </div>
 </template>
@@ -155,6 +157,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap");
+.finntuberList {
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -191,8 +195,8 @@ img {
 }
 .infoBar {
   margin: 0 auto;
-  padding-bottom: 36px;
-  max-width: 1600px;
+  padding: 0px 10px 36px 10px;
+  max-width: 400px;
   display: flex;
   justify-content: space-between;
   font-family: "Dosis", sans-serif;
@@ -253,5 +257,29 @@ img {
   border-radius: 50%;
   display: inline-block;
   margin-inline: 0px 5px;
+}
+
+@media (min-width: 657px) {
+  .infoBar {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 977px) {
+  .infoBar {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1297px) {
+  .infoBar {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1617px) {
+  .infoBar {
+    max-width: 1600px;
+  }
 }
 </style>

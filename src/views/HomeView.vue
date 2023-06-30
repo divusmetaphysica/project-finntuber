@@ -18,6 +18,10 @@
   <div class="page-content">
     <router-view></router-view>
   </div>
+  <div class="bottom-banner">
+    <div>Maintainer: @divinemetaphys on Twitter</div>
+    <div>Designer: @mariel_vt on Twitter</div>
+  </div>
 </template>
 
 <script>
@@ -80,6 +84,14 @@ nav {
   padding-top: 50px;
   position: relative;
   z-index: 3;
+}
+
+.bottom-banner {
+  color: snow;
+  background-color: #3299d9;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 @media (min-width: 769px) {

@@ -2,10 +2,6 @@
   <div class="content">
     <router-view />
   </div>
-  <div class="bottom-banner">
-    <div>Maintainer: @divinemetaphys on Twitter</div>
-    <div>Designer: @mariel_vt on Twitter</div>
-  </div>
 </template>
 
 <script>
@@ -48,12 +44,7 @@ h1 {
 }
 .content {
   flex: 1;
-}
-.bottom-banner {
-  color: snow;
-  text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  z-index: 3; /* TODO this is not a proper fix */
+  display: flex;
+  flex-direction: column;
 }
 </style>
