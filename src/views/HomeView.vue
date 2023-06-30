@@ -35,7 +35,7 @@ header {
   height: 300px;
   display: flex;
   flex-direction: column;
-  font-size: 28px;
+  font-size: 18px;
   z-index: 1;
   margin-bottom: -100px;
   padding-top: 20px;
@@ -48,7 +48,7 @@ nav {
 }
 
 .tab {
-  margin: 0 10px;
+  margin: 0 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,14 +59,14 @@ nav {
   border: 10px solid white;
   border-bottom: none;
   border-radius: 10px 10px 0 0;
-  width: 200px;
-  height: 80px;
+  width: 100px;
+  height: 56px;
   font-family: "Dosis", sans-serif;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 16px;
   color: #075484;
   text-align: center;
-  padding: 14px 0;
+  padding: 8px 0;
 }
 
 .tab a.router-link-exact-active {
@@ -80,5 +80,22 @@ nav {
   padding-top: 50px;
   position: relative;
   z-index: 3;
+}
+
+@media (min-width: 769px) {
+  .banner {
+    font-size: 28px;
+  }
+
+  .tab {
+    margin: 0 10px;
+  }
+
+  .tab a {
+    width: 200px;
+    height: 80px;
+    font-size: 24px;
+    padding: 14px 0;
+  }
 }
 </style>
