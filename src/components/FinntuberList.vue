@@ -11,26 +11,34 @@
   </div>
   <div class="vtuberList">
     <div class="vtuber" v-for="ft in activeTalents" :key="ft.name">
-      <a :href="ft.channel">
-        <img :src="ft.profile_image_url" />
+      <div class="vtuberMainInfo">
+        <a :href="ft.channel">
+          <img :src="ft.profile_image_url" />
+        </a>
 
-        <template v-if="ft.stream != undefined">
+        <div class="vtuberInfo">
+          <b>
+            <a :href="ft.channel">{{ ft.name }} </a>
+          </b>
+          <br />
+          <div class="description">
+            {{ ft.description }}
+          </div>
+        </div>
+      </div>
+      <template v-if="ft.stream != undefined">
+        <a :href="ft.channel">
           <div class="live-status">
             <div id="circle"></div>
             <b style="color: red">LIVE</b>
           </div>
-        </template>
-      </a>
-
-      <div class="vtuberInfo">
-        <b
-          ><a :href="ft.channel">{{ ft.name }} </a>
-        </b>
-        <br />
-        <div class="description">
-          {{ ft.description }}
+        </a>
+      </template>
+      <template v-if="ft.stream == undefined && ft.video != undefined">
+        <div class="last-live">
+          Last live: <timeago :datetime="ft.video.published_at" />
         </div>
-      </div>
+      </template>
     </div>
   </div>
 </template>
@@ -94,7 +102,7 @@ export default {
           })
           .catch((x) => console.log(x));
       }
-      this.talents.sortTalents(); // TODO check this is actually working
+      this.sortTalents(); // TODO check this is actually working
     },
     sortTalents(newVal) {
       switch (newVal) {
@@ -199,7 +207,8 @@ img {
 }
 .vtuber {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   width: 300px;
   height: 150px;
   border: 2px solid #173f5f;
@@ -208,6 +217,10 @@ img {
   margin: 10px;
   padding: 10px;
   background: rgba(255, 255, 255, 0.7);
+}
+.vtuberMainInfo {
+  display: flex;
+  align-items: center;
 }
 .vtuberInfo {
   padding-left: 10px;
@@ -227,6 +240,11 @@ img {
   border-radius: 12px;
   text-align: center;
   font-size: 10px;
+  padding-top: 2px;
+  width: 100px;
+}
+.last-live {
+  font-size: 12px;
   padding-top: 2px;
 }
 #circle {

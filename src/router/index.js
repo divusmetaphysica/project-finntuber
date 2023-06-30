@@ -10,7 +10,7 @@ const routes = [
     name: "home",
     component: HomeView,
     children: [
-      { path: "", component: NowLive }, // default tab that shows on /about route
+      { path: "", component: NowLive },
       { path: "browse", component: Browse },
       { path: "faq", component: Faq },
     ],

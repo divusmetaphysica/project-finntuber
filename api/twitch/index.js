@@ -1,17 +1,18 @@
-const axios = require('axios');
+const axios = require("axios");
 const auth = require("./authentication");
 
 const TWITCH_USERS_URL = "https://api.twitch.tv/helix/users";
 const TWITCH_STREAMS_URL = "https://api.twitch.tv/helix/streams";
+const TWITCH_VIDEOS_URL = "https://api.twitch.tv/helix/videos";
 
 const makeConfig = (token) => {
   return {
     headers: {
-      "Authorization": `Bearer ${token}`,
-      "Client-Id": process.env.TWITCH_CLIENT_ID
-    }
-  }
-}
+      Authorization: `Bearer ${token}`,
+      "Client-Id": process.env.TWITCH_CLIENT_ID,
+    },
+  };
+};
 
 /**
  * Query the user info from Twitch.
@@ -22,11 +23,11 @@ const makeConfig = (token) => {
  */
 const loadTwitchInfo = async (userIds, authHeader) => {
   let results = new Object();
-  const logins = userIds.map(userName => `id=${userName}`).join("&");
+  const logins = userIds.map((userName) => `id=${userName}`).join("&");
 
   await axios
     .get(`${TWITCH_USERS_URL}?${logins}`, authHeader)
-    .then(x => x.data.data.forEach(y => results[y.login] = y))
+    .then((x) => x.data.data.forEach((y) => (results[y.login] = y)))
     .catch(async (error) => {
       if (error.response) {
         const status = error.response.status;
@@ -52,7 +53,7 @@ const loadTwitchInfo = async (userIds, authHeader) => {
     });
 
   return results;
-}
+};
 
 /**
  * Load Twitch stream info for the provided logins.
@@ -63,18 +64,38 @@ const loadTwitchInfo = async (userIds, authHeader) => {
  */
 const loadTwitchStreams = async (userIds, authHeader) => {
   let results = new Object();
-  const logins = userIds.map(userName => `user_id=${userName}`).join("&");
+  const logins = userIds.map((userName) => `user_id=${userName}`).join("&");
 
   await axios
     .get(`${TWITCH_STREAMS_URL}?${logins}`, authHeader)
-    .then(x => x.data.data.forEach(y => results[y.user_login] = y))
-    .catch(x => console.log(x.toJSON()));
+    .then((x) => x.data.data.forEach((y) => (results[y.user_login] = y)))
+    .catch((x) => console.log(x.toJSON()));
 
   return results;
-}
+};
 
-module.exports = async function (context, req) {
-  const logins = (req.query.ids || (req.body && req.body.ids));
+/**
+ * Load the latest Twitch VOD info for the provided logins.
+ *
+ * @param {Array{String}} userLogins, contains appendable userlogin string
+ * @param {Object} authHeader, authentication header
+ * @returns The latest VOD info.
+ */
+
+const loadTwitchVideos = async (userIds, authHeader) => {
+  let results = new Object();
+  const logins = userIds.map((userName) => `user_id=${userName}`).join("&");
+
+  await axios
+    .get(`${TWITCH_VIDEOS_URL}?${logins}&first=1`, authHeader)
+    .then((x) => x.data.data.forEach((y) => (results[y.user_login] = y)))
+    .catch((x) => console.log(x.toJSON()));
+
+  return results;
+};
+
+module.exports = async function(context, req) {
+  const logins = req.query.ids || (req.body && req.body.ids);
   context.log(`Requesting twitch data for ${logins}`);
 
   // Construct authentication headers for Axios.
@@ -88,17 +109,24 @@ module.exports = async function (context, req) {
 
   if (info.status != undefined && info.status == 401) {
     accessToken = await auth.getNewAccessToken();
-    context.log("Updated new Access Token to KeyVault.")
+    context.log("Updated new Access Token to KeyVault.");
     authHeader = makeConfig(accessToken);
 
     info = await loadTwitchInfo(userIds, authHeader);
   }
 
   let streams = await loadTwitchStreams(userIds, authHeader);
-  Object.entries(streams).forEach(entry => info[entry[0]]["stream"] = entry[1])
+  Object.entries(streams).forEach(
+    (entry) => (info[entry[0]]["stream"] = entry[1])
+  );
+
+  let videos = await loadTwitchVideos(userIds, authHeader);
+  Object.entries(videos).forEach(
+    (entry) => (info[entry[0]]["video"] = entry[1])
+  );
 
   context.res = {
     // status: 200, /* Defaults to 200 */
-    body: info
+    body: info,
   };
-}
+};
