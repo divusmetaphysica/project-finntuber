@@ -51,6 +51,14 @@
         the rest of the community if you want!
       </p>
     </section>
+    <section>
+      <h2>Why is my "Last live" date wrong?</h2>
+      <p>
+        Twitch API doesn't actually offer any "last live" data, so the list uses
+        the date of the latest published video for each streamer. So, if you had
+        to take down your latest VOD, that's probably why.
+      </p>
+    </section>
   </div>
 </template>
 
