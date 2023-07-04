@@ -237,6 +237,7 @@ img {
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
+  word-break: break-word;
 }
 .live-status {
   border: 2px solid red;
