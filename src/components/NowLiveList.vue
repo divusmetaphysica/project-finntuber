@@ -33,6 +33,8 @@ import axios from "axios";
 
 const refreshInterval = 10 * 60 * 1000;
 const notMissing = (x) => x != undefined && x != null && x !== "";
+const WIDTH = "200";
+const HEIGHT = "120";
 
 export default {
   name: "ListingComponent",
@@ -78,8 +80,14 @@ export default {
           .get(`/api/twitch?ids=${loginsPart}`)
           .then((response) => {
             if (response.status === 200) {
-              this.talents.forEach((y) =>
-                Object.assign(y, response.data[y.channel_name])
+              this.talents.forEach((y) => {
+                let entry = response.data[y.channel_name];
+                if (entry !== undefined && entry !== null && entry.stream !== undefined && entry.stream.thumbnail_url !== undefined) {
+                  entry.stream.thumbnail_url = entry.stream.thumbnail_url
+                    .replace("{width}", WIDTH)
+                    .replace("{height}", HEIGHT);
+                }
+                Object.assign(y, entry)}
               );
               console.log("Loaded Twitch user info.");
             }
