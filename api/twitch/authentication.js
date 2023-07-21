@@ -3,11 +3,10 @@ const { SecretClient } = require("@azure/keyvault-secrets");
 const axios = require("axios");
 
 const TWITCH_AUTH_URL = "https://id.twitch.tv/oauth2/token";
-const KEYVAULT_URL = `https://${process.env.VAULT_NAME}.vault.azure.net`;
 const SECRET_NAME = "TwitchAccessToken";
 
 const credential = new DefaultAzureCredential();
-const client = new SecretClient(KEYVAULT_URL, credential);
+const client = new SecretClient(process.env.VAULT_URL, credential);
 
 /**
  * Load the Twitch access token from Azure Keyvault.

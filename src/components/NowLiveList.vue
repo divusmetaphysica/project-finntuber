@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <div class="vtuberList">
-      <template v-for="ft in activeTalents" :key="ft.name">
+      <template v-for="ft in streamersStore.activeTalents" :key="ft.name">
         <div class="vtuber" v-if="ft.stream != undefined">
           <a :href="ft.channel">
             <img :src="ft.stream.thumbnail_url" />
@@ -21,7 +21,7 @@
           </div>
         </div>
       </template>
-      <div v-show="activeTalents.every((ft) => ft.stream == undefined)">
+      <div v-show="streamersStore.activeTalents.every((ft) => ft.stream == undefined)">
         No streamers currently online.
       </div>
     </div>
@@ -29,73 +29,23 @@
 </template>
 
 <script>
-import axios from "axios";
-
-const refreshInterval = 10 * 60 * 1000;
-const notMissing = (x) => x != undefined && x != null && x !== "";
-const WIDTH = "200";
-const HEIGHT = "120";
+import { mapStores } from 'pinia';
+import { useStreamersStore } from '../stores/streamers';
 
 export default {
   name: "ListingComponent",
   data() {
     return {
-      talents: [],
-      timerId: null,
-    };
+      sorting: "lastlive"
+    }
   },
   async mounted() {
-    const talents = (await import("../assets/finntubers.json")).default;
-    console.log("Loaded static streamer info.");
-    this.talents = talents;
-
-    await this.updateStreamerInfo();
-
-    this.timerId = setInterval(this.updateStreamerInfo, refreshInterval);
-    setTimeout(() => {
-      clearInterval(this.timerId);
-      console.log("stop");
-    }, 12 * refreshInterval);
-  },
+    await this.streamersStore.initializeTalents(this.sorting);
+    await this.streamersStore.updateStreamerInfo();
+    this.streamersStore.setFuseStreamersStore},
   computed: {
-    activeTalents: function() {
-      return this.talents.filter((i) => i.channel !== null);
-    },
-  },
-  methods: {
-    async updateStreamerInfo() {
-      const logins = this.talents
-        .filter((x) => notMissing(x.channel) && x.channel.includes("twitch"))
-        .map((x) => x.id)
-        .filter(notMissing);
-
-      // const chunked = async (array, chunkSize) =>
-      //   Array(Math.ceil(array.length / chunkSize))
-      //     .fill()
-      //     .map((_, index) => index * chunkSize)
-      //     .map((begin) => array.slice(begin, begin + chunkSize));
-      for (let i = 0; i < logins.length; i += 20) {
-        let loginsPart = logins.slice(i, i + 20).join(",");
-        await axios
-          .get(`/api/twitch?ids=${loginsPart}`)
-          .then((response) => {
-            if (response.status === 200) {
-              this.talents.forEach((y) => {
-                let entry = response.data[y.channel_name];
-                if (entry !== undefined && entry !== null && entry.stream !== undefined && entry.stream.thumbnail_url !== undefined) {
-                  entry.stream.thumbnail_url = entry.stream.thumbnail_url
-                    .replace("{width}", WIDTH)
-                    .replace("{height}", HEIGHT);
-                }
-                Object.assign(y, entry)}
-              );
-              console.log("Loaded Twitch user info.");
-            }
-          })
-          .catch((x) => console.log(x));
-      }
-    },
-  },
+    ...mapStores(useStreamersStore)
+  }
 };
 </script>
 

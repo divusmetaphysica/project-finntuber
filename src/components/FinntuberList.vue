@@ -1,7 +1,7 @@
 <template>
   <div class="finntuberList">
     <div class="infoBar">
-      <div>Total streamers: {{ activeTalents.length }}</div>
+      <div>Total streamers: {{ streamersStore.talentCount }}</div>
       <div>
         <label for="sort-select">Sort by </label>
         <select v-model="sorting" id="sort-select">
@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="vtuberList">
-      <div class="vtuber" v-for="ft in activeTalents" :key="ft.name">
+      <div class="vtuber" v-for="ft in streamersStore.activeTalents" :key="ft.name">
         <div class="vtuberMainInfo">
           <a :href="ft.channel">
             <img :src="ft.profile_image_url" />
@@ -46,109 +46,27 @@
 </template>
 
 <script>
-import axios from "axios";
-
-const refreshInterval = 10 * 60 * 1000;
-const notMissing = (x) => x != undefined && x != null && x !== "";
+import { mapStores } from 'pinia';
+import { useStreamersStore } from '../stores/streamers';
 
 export default {
   name: "ListingComponent",
   data() {
     return {
-      talents: [],
-      timerId: null,
-      sorting: "lastlive",
+      sorting: "lastlive"
     };
   },
   async mounted() {
-    const talents = (await import("../assets/finntubers.json")).default;
-    console.log("Loaded static streamer info.");
-    this.talents = talents;
-    this.sortTalents(this.sorting);
-
-    await this.updateStreamerInfo();
-
-    this.timerId = setInterval(this.updateStreamerInfo, refreshInterval);
-    setTimeout(() => {
-      clearInterval(this.timerId);
-      console.log("stop");
-    }, 12 * refreshInterval);
+    await this.streamersStore.initializeTalents(this.sorting);
+    await this.streamersStore.updateStreamerInfo();
+    this.streamersStore.setFetchTimer();
   },
   computed: {
-    activeTalents: function() {
-      return this.talents.filter((i) => i.channel !== null);
-    },
-  },
-  methods: {
-    async updateStreamerInfo() {
-      const logins = this.talents
-        .filter((x) => notMissing(x.channel) && x.channel.includes("twitch"))
-        .map((x) => x.id)
-        .filter(notMissing);
-
-      // const chunked = async (array, chunkSize) =>
-      //   Array(Math.ceil(array.length / chunkSize))
-      //     .fill()
-      //     .map((_, index) => index * chunkSize)
-      //     .map((begin) => array.slice(begin, begin + chunkSize));
-      for (let i = 0; i < logins.length; i += 20) {
-        let loginsPart = logins.slice(i, i + 20).join(",");
-        await axios
-          .get(`/api/twitch?ids=${loginsPart}`)
-          .then((response) => {
-            if (response.status === 200) {
-              this.talents.forEach((y) =>
-                Object.assign(y, response.data[y.channel_name])
-              );
-              console.log("Loaded Twitch user info.");
-            }
-          })
-          .catch((x) => console.log(x));
-      }
-      this.sortTalents(this.sorting);
-    },
-    sortTalents(newVal) {
-      switch (newVal) {
-        case "alphabetical":
-          this.sortAlphabetical();
-          break;
-        case "lastlive":
-          this.sortLastLive();
-          break;
-        default:
-          break;
-      }
-    },
-    sortAlphabetical() {
-      this.talents = this.talents.sort((a, b) => {
-        let fa = a.name.toLowerCase(),
-          fb = b.name.toLowerCase();
-        if (fa < fb) {
-          return -1;
-        }
-        if (fa > fb) {
-          return 1;
-        }
-        return 0;
-      });
-    },
-    sortLastLive() {
-      // Most recently started streams first, then most recent vods, then the rest
-      let nowLive = this.talents
-        .filter((ft) => ft.stream != undefined)
-        .sort((a, b) => (a.stream.started_at > b.stream.started_at ? -1 : 1));
-      let hasVods = this.talents
-        .filter((ft) => ft.stream == undefined && ft.video != undefined)
-        .sort((a, b) => (a.video.published_at > b.video.published_at ? -1 : 1));
-      let noData = this.talents.filter(
-        (ft) => ft.stream == undefined && ft.video == undefined
-      );
-      this.talents = nowLive.concat(hasVods, noData);
-    },
+    ...mapStores(useStreamersStore)
   },
   watch: {
     sorting(newVal) {
-      this.sortTalents(newVal);
+      this.streamersStore.sortTalents(newVal);
     },
   },
 };

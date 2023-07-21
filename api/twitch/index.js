@@ -4,6 +4,8 @@ const auth = require("./authentication");
 const TWITCH_USERS_URL = "https://api.twitch.tv/helix/users";
 const TWITCH_STREAMS_URL = "https://api.twitch.tv/helix/streams";
 const TWITCH_VIDEOS_URL = "https://api.twitch.tv/helix/videos";
+const WIDTH = "180";
+const HEIGHT = "100";
 
 const makeConfig = (token) => {
   return {
@@ -27,7 +29,7 @@ const loadTwitchInfo = async (userIds, authHeader) => {
 
   await axios
     .get(`${TWITCH_USERS_URL}?${logins}`, authHeader)
-    .then((x) => x.data.data.forEach((y) => (results[y.login] = y)))
+    .then((x) => x.data.data.forEach((y) => (results[y.id] = y)))
     .catch(async (error) => {
       if (error.response) {
         const status = error.response.status;
@@ -68,7 +70,12 @@ const loadTwitchStreams = async (userIds, authHeader) => {
 
   await axios
     .get(`${TWITCH_STREAMS_URL}?${logins}`, authHeader)
-    .then((x) => x.data.data.forEach((y) => (results[y.user_login] = y)))
+    .then((x) => x.data.data.forEach((y) => {
+      y.thumbnail_url = y.thumbnail_url
+        .replace("{width}", WIDTH)
+        .replace("{height}", HEIGHT);
+      results[y.user_id] = y;
+    }))
     .catch((x) => console.log(x.toJSON()));
 
   return results;
@@ -88,15 +95,14 @@ const loadTwitchVideos = async (userIds, authHeader) => {
 
   await axios
     .get(`${TWITCH_VIDEOS_URL}?${logins}&first=1`, authHeader)
-    .then((x) => x.data.data.forEach((y) => (results[y.user_login] = y)))
+    .then((x) => x.data.data.forEach((y) => (results[y.user_id] = y)))
     .catch((x) => console.log(x.toJSON()));
 
   return results;
 };
 
-module.exports = async function(context, req) {
+module.exports = async function (context, req) {
   const logins = req.query.ids || (req.body && req.body.ids);
-  context.log(`Requesting twitch data for ${logins}`);
 
   // Construct authentication headers for Axios.
   let accessToken = await auth.getCurrentToken();
