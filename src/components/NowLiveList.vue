@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <div class="vtuberList">
-      <template v-for="ft in streamersStore.activeTalents" :key="ft.name">
+      <template v-for="ft in streamersStore.activeStreamers" :key="ft.name">
         <div class="vtuber" v-if="ft.stream != undefined">
           <a :href="ft.channel">
             <img :src="ft.stream.thumbnail_url" />
@@ -21,7 +21,7 @@
           </div>
         </div>
       </template>
-      <div v-show="streamersStore.activeTalents.every((ft) => ft.stream == undefined)">
+      <div v-show="streamersStore.currentlyStreaming">
         No streamers currently online.
       </div>
     </div>
@@ -40,9 +40,10 @@ export default {
     }
   },
   async mounted() {
-    await this.streamersStore.initializeTalents(this.sorting);
-    await this.streamersStore.updateStreamerInfo();
-    this.streamersStore.setFuseStreamersStore},
+    await this.streamersStore.initializeStreamers(this.sorting);
+    await this.streamersStore.updateStreamerInfo(this.sorting);
+    this.streamersStore.setFetchTimer();
+  },
   computed: {
     ...mapStores(useStreamersStore)
   }

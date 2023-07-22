@@ -1,7 +1,7 @@
 <template>
   <div class="finntuberList">
     <div class="infoBar">
-      <div>Total streamers: {{ streamersStore.talentCount }}</div>
+      <div>Total streamers: {{ streamersStore.streamerCount }}</div>
       <div>
         <label for="sort-select">Sort by </label>
         <select v-model="sorting" id="sort-select">
@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="vtuberList">
-      <div class="vtuber" v-for="ft in streamersStore.activeTalents" :key="ft.name">
+      <div class="vtuber" v-for="ft in streamersStore.activeStreamers" :key="ft.name">
         <div class="vtuberMainInfo">
           <a :href="ft.channel">
             <img :src="ft.profile_image_url" />
@@ -57,16 +57,19 @@ export default {
     };
   },
   async mounted() {
-    await this.streamersStore.initializeTalents(this.sorting);
-    await this.streamersStore.updateStreamerInfo();
+    await this.streamersStore.initializeStreamers(this.sorting);
+    await this.streamersStore.updateStreamerInfo(this.sorting);
     this.streamersStore.setFetchTimer();
   },
   computed: {
     ...mapStores(useStreamersStore)
   },
   watch: {
+    activeStreamers() {
+      console.log("Streamer list updated");
+    },
     sorting(newVal) {
-      this.streamersStore.sortTalents(newVal);
+      this.streamersStore.sortStreamers(newVal);
     },
   },
 };

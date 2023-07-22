@@ -15,20 +15,40 @@ export const useStreamersStore = defineStore('streamers', {
     };
   },
   getters: {
-    activeTalents: (state) => state.streamers.filter((i) => i.channel !== null),
-    talentCount: (state) => state.streamers.filter((i) => i.channel !== null).length,
-    currentlyStreaming: (state) => state.activeTalents.every((ft) => ft.stream == undefined),
+    activeStreamers: (state) => state.streamers.filter((i) => i.channel !== null),
+    streamerCount: (state) => state.streamers.filter((i) => i.channel !== null).length,
+    currentlyStreaming: (state) => state.streamers.filter((i) => i.channel !== null).every((ft) => ft.stream == undefined),
   },
   actions: {
-    async initializeTalents(sorting) {
+    async initializeStreamers(sorting) {
       if (this.streamers.length === 0) {
-        const streamers = (await import("../assets/finntubers.json")).default;
+        let streamers = (await import("../assets/finntubers.json")).default;
         console.log("Loaded static streamer info.");
+
+        const logins = streamers
+          .filter((x) => notMissing(x.channel) && x.channel.includes("twitch"))
+          .map((x) => x.id)
+          .filter(notMissing);
+
+        for (let i = 0; i < logins.length; i += this.chunkSize) {
+          let loginsPart = logins.slice(i, i + this.chunkSize).join(",");
+          await axios
+            .get(`/api/twitch?ids=${loginsPart}`)
+            .then((response) => {
+              if (response.status === 200) {
+                streamers = streamers.map((y) =>
+                  Object.assign(y, response.data[y.id])
+                );
+                console.log("Loaded Twitch user info.");
+              }
+            })
+            .catch((x) => console.log(x));
+        }
         this.streamers = streamers;
-        this.sortTalents(sorting);
+        this.sortStreamers(sorting);
       }
     },
-    async updateStreamerInfo() {
+    async updateStreamerInfo(sorting) {
       const logins = this.streamers
         .filter((x) => notMissing(x.channel) && x.channel.includes("twitch"))
         .map((x) => x.id)
@@ -40,19 +60,17 @@ export const useStreamersStore = defineStore('streamers', {
           .get(`/api/twitch?ids=${loginsPart}`)
           .then((response) => {
             if (response.status === 200) {
-              this.$patch({
-                talent: this.streamers.map((y) =>
-                  Object.assign(y, response.data[y.id])
-                )
-              });
+              this.streamers = this.streamers.map((y) =>
+                Object.assign(y, response.data[y.id])
+              );
               console.log("Loaded Twitch user info.");
             }
           })
           .catch((x) => console.log(x));
       }
-      this.sortTalents(this.streamers);
+      this.sortStreamers(sorting);
     },
-    sortTalents(newVal) {
+    sortStreamers(newVal) {
       switch (newVal) {
         case "alphabetical":
           this.sortAlphabetical();
@@ -95,7 +113,7 @@ export const useStreamersStore = defineStore('streamers', {
       if (this.timerId === null) {
         this.timerId = setInterval(this.updateStreamerInfo, this.refreshInterval);
         setTimeout(() => {
-          clearInterval(this.streamersStore.timerId);
+          clearInterval(this.timerId);
           console.log("stop");
         }, 12 * this.refreshInterval);
       }
