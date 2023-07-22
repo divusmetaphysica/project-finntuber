@@ -58,7 +58,6 @@ export default {
   },
   async mounted() {
     await this.streamersStore.initializeStreamers(this.sorting);
-    await this.streamersStore.updateStreamerInfo(this.sorting);
     this.streamersStore.setFetchTimer();
   },
   computed: {
