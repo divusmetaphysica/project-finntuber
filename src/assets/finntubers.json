@@ -557,11 +557,7 @@
     "channel": "https://www.twitch.tv/hopenoah",
     "description": "",
     "channel_name": "hopenoah",
-<<<<<<< HEAD
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/443ff0b6-9e28-4105-a678-e38d6acff52c-profile_image-300x300.png",
-=======
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5f14a32d-9986-427b-bd75-55c2f823c931-profile_image-300x300.png",
->>>>>>> 10f3599 (Update defaults)
     "id": "144854931"
   },
   {
@@ -1106,11 +1102,7 @@
     "channel": "https://www.twitch.tv/playtoise",
     "id": "84607280",
     "channel_name": "playtoise",
-<<<<<<< HEAD
-    "description": "🐢 Tortoise Vtuber from Finland! 🐢 Streaming every Sunday, Monday, and Tuesday 5 p.m. GMT! 🐢 Thank you for visiting my channel! 🐢 ",
-=======
     "description": "Have you ever seen a 2D animated gaming tortoise who talks with a funny Finnish accent? Well now you have! Welcome and thanks for visiting my channel! I hope you enjoy my content. Now the same thing in Finnish: sama asia.",
->>>>>>> 10f3599 (Update defaults)
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9cb65f68-5cfe-4f07-8891-7ffa7ea89485-profile_image-300x300.png"
   },
   {
@@ -1215,13 +1207,8 @@
     "channel": "https://www.twitch.tv/rayneyoruka",
     "id": "152869685",
     "channel_name": "rayneyoruka",
-<<<<<<< HEAD
-    "description": " Hi I'm Rayne! A vampire from Spain living in Finland with Dissociative identity disorder and we love Streaming! I love playing games, listening to music and Vtubing, I hope you have a fun time with us! (+18!) More in vTubie uwu x3 vtubie.com/rayneyoruka/",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d1546739-9b5d-424b-81f0-9c88ee2b763c-profile_image-300x300.png"
-=======
     "description": "Hi I'm Rayne! A Vtuber from Spain living in Finland with dissociative identity disorder and we love streaming! I speak English primarily and Spanish for those who use it :D I love playing games, listening to music and Vtubing, I hope you have a fun time with us! (+18!)",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0143d057-fd16-4553-a99c-6c64bfb8c2c8-profile_image-300x300.png"
->>>>>>> 10f3599 (Update defaults)
   },
   {
     "name": "ReiMitsko",
@@ -1567,18 +1554,15 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5c2e7417-15aa-4b4d-a914-31570339dc8a-profile_image-300x300.png"
   },
   {
-<<<<<<< HEAD
-=======
-    "name": "The_Skele",
+    "name": "SkeleVT",
     "type": "2D",
-    "channel": "https://www.twitch.tv/the_skele",
+    "channel": "https://www.twitch.tv/skelevt",
     "description": "Hey! My name is Skele/Sam, i'm a 19y simple guy from Northern Eu that's just trying to have fun and meet new people everyday. I play variety of games from VR-Games to MMO-RPG Games mostly anything that gets around. I'm also active on twitter so if you want to know about my IRL, go ahead and check it",
-    "channel_name": "the_skele",
+    "channel_name": "skelevt",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c2033f22-0dc5-47e9-982a-f6ba8a0bb546-profile_image-300x300.png",
     "id": "244009120"
   },
   {
->>>>>>> 10f3599 (Update defaults)
     "name": "TheDivis",
     "type": "2D",
     "channel": "https://www.twitch.tv/thedivis",
