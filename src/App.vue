@@ -41,6 +41,8 @@ h1 {
   text-align: center;
   padding: 50px;
   font-family: "Dosis", sans-serif;
+  text-shadow: -3px -3px 0 #fff, 0 -3px 0 #fff, 3px -3px 0 #fff, 3px 0 0 #fff,
+    3px 3px 0 #fff, 0 3px 0 #fff, -3px 3px 0 #fff, -3px 0 0 #fff;
 }
 .content {
   flex: 1;
