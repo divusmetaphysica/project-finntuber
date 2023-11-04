@@ -48,7 +48,7 @@
 <script>
 import axios from "axios";
 
-const batchSize = 85;
+const batchSize = 80;
 const refreshInterval = 10 * 60 * 1000;
 const notMissing = (x) => x != undefined && x != null && x !== "";
 
