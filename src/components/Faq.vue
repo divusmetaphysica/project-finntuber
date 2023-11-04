@@ -70,6 +70,10 @@
   color: midnightblue;
   margin: 0 auto;
   max-width: 1600px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7);
 }
 
 section:not(:last-child) {
@@ -81,7 +85,7 @@ h2 {
 }
 
 a {
-  color: snow;
+  color: #3299d9;
   text-decoration: none;
   font-family: "Dosis", sans-serif;
   font-size: 18px;

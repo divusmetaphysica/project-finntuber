@@ -43,6 +43,11 @@ header {
   z-index: 1;
   margin-bottom: -100px;
   padding-top: 20px;
+  background-image: url("../assets/banner.png");
+  background-repeat: no-repeat;
+  background-size: auto 280px;
+  background-position: center top;
+  background-attachment: fixed;
 }
 
 nav {
