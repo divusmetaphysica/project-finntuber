@@ -48,7 +48,7 @@
 <script>
 import axios from "axios";
 
-const batchSize = 100;
+const batchSize = 80;
 const refreshInterval = 10 * 60 * 1000;
 const notMissing = (x) => x != undefined && x != null && x !== "";
 
@@ -87,11 +87,6 @@ export default {
         .map((x) => x.id)
         .filter(notMissing);
 
-      // const chunked = async (array, chunkSize) =>
-      //   Array(Math.ceil(array.length / chunkSize))
-      //     .fill()
-      //     .map((_, index) => index * chunkSize)
-      //     .map((begin) => array.slice(begin, begin + chunkSize));
       for (let i = 0; i < logins.length; i += batchSize) {
         let loginsPart = logins.slice(i, i + batchSize).join(",");
         await axios
