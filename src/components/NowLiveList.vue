@@ -33,7 +33,7 @@ import axios from "axios";
 
 const refreshInterval = 10 * 60 * 1000;
 const notMissing = (x) => x != undefined && x != null && x !== "";
-const WIDTH = "200";
+const WIDTH = "180";
 const HEIGHT = "100";
 
 export default {
