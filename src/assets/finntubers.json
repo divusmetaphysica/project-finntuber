@@ -1243,6 +1243,14 @@
     "id": "80889627"
   },
   {
+    "name": "RonjaPeikko",
+    "channel": "https://www.twitch.tv/ronjapeikko",
+    "id": "615054597",
+    "channel_name": "ronjapeikko",
+    "description": "Your favourite klutzy troll. Live Tuesdays and Thursdays 6 PM, Saturdays 12 PM (GMT+3!)",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6881db2a-9540-4a92-93bd-94a2512785e1-profile_image-300x300.png"
+  },
+  {
     "name": "Ronjunktion",
     "channel": "https://www.twitch.tv/ronjunktion",
     "id": "134951727",
