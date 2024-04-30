@@ -18,6 +18,14 @@
     "id": "37638448"
   },
   {
+    "name": "Akiricchi",
+    "channel": "https://www.twitch.tv/akiricchi",
+    "id": "46151584",
+    "channel_name": "akiricchi",
+    "description": "Half succubus/moon rabbit variety lewdtuber. Basically an escort NPC that walks slower than your walking speed, runs off when she sees a snack or something shiny and gets constantly in needless combat, but the reward cutscene is worth it.",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/827a0563-11fb-4c7d-a80c-aee89d075f70-profile_image-300x300.png"
+  },
+  {
     "name": "Akselmo",
     "type": "2D",
     "channel": "https://www.twitch.tv/akselmo",
@@ -130,14 +138,6 @@
     "channel_name": "aztraliss",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/30a61385-9cf2-4559-8157-0282c8549b9e-profile_image-300x300.png",
     "id": "806821629"
-  },
-  {
-    "name": "Azuriene",
-    "channel": "https://www.twitch.tv/azuriene",
-    "id": "46151584",
-    "channel_name": "azuriene",
-    "description": "Half succubus/moon rabbit variety lewdtuber. Basically an escort NPC that walks slower than your walking speed, runs off when she sees a snack or something shiny and gets constantly in needless combat, but the reward cutscene is worth it.",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/827a0563-11fb-4c7d-a80c-aee89d075f70-profile_image-300x300.png"
   },
   {
     "name": "BaconFlavour",
@@ -342,7 +342,7 @@
     "name": "DreamEmber",
     "type": "2D",
     "channel": "https://www.twitch.tv/dreamember",
-    "description": " Welcome Dreamers! ♡ I'm Ember, Finnish illustrator who decorates in EVERY game! Well, not in FPS, yet... (✿◦’ᴗ˘◦)♡ I play support role, draw cute things and love cake ♡",
+    "description": "Hello there! ♡ I'm Ember, a Finnish illustrator who loves drawing streaming graphics, especially animal emotes ✿ Let's chill and draw together! (＾▽＾)",
     "channel_name": "dreamember",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ee0aab59-479d-4fc7-8a7b-a6e7478a9f33-profile_image-300x300.png",
     "id": "435125429"
@@ -691,7 +691,7 @@
     "name": "jokujotai",
     "type": "2D",
     "channel": "https://www.twitch.tv/jokujotai",
-    "description": "Lmao",
+    "description": "Artist at Ohdake Vtuber Art Studio.",
     "channel_name": "jokujotai",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7bac5b9c-7cb5-4bec-b67a-0645b8545906-profile_image-300x300.png",
     "id": "582397314"
@@ -821,7 +821,7 @@
     "name": "KUUL",
     "type": "3D",
     "channel": "https://www.twitch.tv/kuul",
-    "description": "Kuu was taken so I had to make it cooler. Just call me Kuu! Your local AuDHD space devil  ♥ Business email: kuutuber@gmail.com",
+    "description": "Kuu was taken so I had to make it kuuler. Just call me Kuu! Your local AuDHD space devil  ♥ Business email: kuutuber@gmail.com",
     "channel_name": "kuul",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/811d7779-9d69-47cd-a5cc-56fc1ecfa01a-profile_image-300x300.png",
     "id": "503222655"
@@ -997,7 +997,7 @@
     "name": "MishuEsther",
     "type": "3D",
     "channel": "https://www.twitch.tv/mishuesther",
-    "description": "Hello!! ☆ Your local teapot collecting mouse!!!! (whispering squeaks in your ears) ☆ ",
+    "description": "Hello!! ☆ Your one and only teapot collecting mouse!!!! I draw, sing, play silly games and talk about tamagotchis and hatsune miku way more than i should! ☆ ",
     "channel_name": "mishuesther",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/fd2d356b-8cb1-4ef2-aab3-4e4d68f3538e-profile_image-300x300.png",
     "id": "780455788"
@@ -1084,7 +1084,7 @@
     "channel": "https://www.twitch.tv/odintte",
     "description": "meoww",
     "channel_name": "odintte",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e997ee6e-5c08-4ce2-bb41-cd27887f8d2d-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8915ff96-5ca4-4b17-9fe4-e890a95634d9-profile_image-300x300.png",
     "id": "593786615"
   },
   {
@@ -1180,7 +1180,7 @@
     "channel": "https://www.twitch.tv/puluvt",
     "id": "52860721",
     "channel_name": "puluvt",
-    "description": "Easily amused pigeon tamer who lives with her pigeon friend Marco in a liminal space city, in perpetual dusk. Variety Vtuber and a gamer!",
+    "description": "Pulu is an easily amused pigeon tamer who lives with her pigeon friend Marco in a liminal space city, bathed in perpetual dusk. Mostly playing games, sometimes drawing and occasionally singing karaoke to celebrate milestones! They're also quite chatty with the chat!",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/60f64ef1-58ae-45a0-a060-22406d73ba6e-profile_image-300x300.png"
   },
   {
@@ -1215,8 +1215,8 @@
     "channel": "https://www.twitch.tv/purrplepaws",
     "id": "942560367",
     "channel_name": "purrplepaws",
-    "description": "ayo",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/dc4c9cf3-6f30-4f03-8332-b8d3bd0491ce-profile_image-300x300.png"
+    "description": "purpel cat",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2c7fd6e6-fb1e-4f1e-96c0-d8ad9697ae09-profile_image-300x300.png"
   },
   {
     "name": "puuso_",
@@ -1302,7 +1302,7 @@
     "channel": "https://www.twitch.tv/ronjapeikko",
     "id": "615054597",
     "channel_name": "ronjapeikko",
-    "description": "Your favourite klutzy troll. Live Tuesdays and Thursdays 6 PM, Saturdays 12 PM (GMT+2!)",
+    "description": "Your favourite klutzy troll. Live Tuesdays and Thursdays 6 PM, Saturdays 2 PM (GMT+3!)",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6881db2a-9540-4a92-93bd-94a2512785e1-profile_image-300x300.png"
   },
   {
@@ -1594,6 +1594,14 @@
     "id": "173758569"
   },
   {
+    "name": "t0xichorsevt",
+    "channel": "https://www.twitch.tv/t0xichorsevt",
+    "id": "642713785",
+    "channel_name": "t0xichorsevt",
+    "description": "Local Radium cat :3 i'm a 21 years old and i like to play games and draw :&gt; sometimes i play and stream with friends too!",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ef7533cd-3f10-4f04-8b30-c9fa597e4729-profile_image-300x300.png"
+  },
+  {
     "name": "tarinatar",
     "type": "3D",
     "channel": "https://www.twitch.tv/tarinatar",
@@ -1700,14 +1708,6 @@
     "id": "55049833"
   },
   {
-    "name": "toxvt",
-    "channel": "https://www.twitch.tv/toxvt",
-    "id": "642713785",
-    "channel_name": "toxvt",
-    "description": "Local Radium cat :3 i'm a 21 years old and i like to play games and draw :&gt; sometimes i play and stream with friends too!",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ef7533cd-3f10-4f04-8b30-c9fa597e4729-profile_image-300x300.png"
-  },
-  {
     "name": "Tsalop",
     "type": "3D",
     "channel": "https://www.twitch.tv/tsalop",
@@ -1772,7 +1772,7 @@
     "channel": "https://www.twitch.tv/vanttuvt",
     "id": "741618191",
     "channel_name": "vanttuvt",
-    "description": "23 years old cat lady, gamer and an artist. ",
+    "description": "23 years old cat lady, gamer and an artist. Goddess of arcana and the keeper of cosmic secrets.",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5a8be360-a1a6-4cd1-b54e-cde8b23c220f-profile_image-300x300.png"
   },
   {
