@@ -2,45 +2,8 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "type": "npm",
-      "script": "build",
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "problemMatcher": [],
-      "label": "npm: build",
-      "detail": "vue-cli-service build",
-      "options": {
-        "cwd": "${workspaceFolder}"
-      }
-    },
-    {
-      "type": "npm",
-      "script": "lint",
-      "problemMatcher": [],
-      "label": "npm: lint",
-      "detail": "vue-cli-service lint"
-    },
-    {
-      "type": "npm",
-      "script": "install",
-      "problemMatcher": [],
-      "label": "npm: install",
-      "detail": "install dependencies from package"
-    },
-    {
-      "type": "npm",
-      "script": "serve",
-      "problemMatcher": [],
-      "label": "npm: serve",
-      "detail": "vue-cli-service serve",
-      "options": {
-        "cwd": "${workspaceFolder}"
-      }
-    },
-    {
       "type": "func",
+      "label": "func: host start",
       "command": "host start",
       "problemMatcher": "$func-node-watch",
       "isBackground": true,
@@ -65,18 +28,6 @@
       "options": {
         "cwd": "${workspaceFolder}/api"
       }
-    },
-    {
-      "type": "shell",
-      "label": "SWA run",
-      "command": "swa start dist --api api",
-      "problemMatcher": [],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "dependsOn": [
-        "npm: build"
-      ]
     }
   ]
 }
