@@ -6,11 +6,11 @@
 
 <script>
 export default {
-  name: "App",
+  name: 'App',
   created() {
-    document.title = "Project Finntubers";
+    document.title = 'Project Finntubers'
   },
-};
+}
 </script>
 
 <style>
@@ -40,9 +40,16 @@ h1 {
   color: #3299d9;
   text-align: center;
   padding: 50px;
-  font-family: "Dosis", sans-serif;
-  text-shadow: -4px -4px 0 #fff, 0 -4px 0 #fff, 4px -4px 0 #fff, 4px 0 0 #fff,
-    4px 4px 0 #fff, 0 4px 0 #fff, -4px 4px 0 #fff, -4px 0 0 #fff;
+  font-family: 'Dosis', sans-serif;
+  text-shadow:
+    -4px -4px 0 #fff,
+    0 -4px 0 #fff,
+    4px -4px 0 #fff,
+    4px 0 0 #fff,
+    4px 4px 0 #fff,
+    0 4px 0 #fff,
+    -4px 4px 0 #fff,
+    -4px 0 0 #fff;
 }
 .content {
   flex: 1;

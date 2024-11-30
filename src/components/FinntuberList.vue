@@ -5,7 +5,6 @@
       <div>
         <label for="sort-select">Sort by </label>
         <select v-model="sorting" id="sort-select">
-          <option value="lastlive">Last live</option>
           <option value="alphabetical">Alphabetical</option>
         </select>
       </div>
@@ -35,124 +34,115 @@
             </div>
           </a>
         </template>
-        <template v-if="ft.stream == undefined && ft.video != undefined">
-          <div class="last-live">
-            Last live: <timeago :datetime="ft.video.published_at" />
-          </div>
-        </template>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import axios from "axios";
+import axios from 'axios'
 
-const batchSize = 80;
-const refreshInterval = 10 * 60 * 1000;
-const notMissing = (x) => x != undefined && x != null && x !== "";
+const batchSize = 80
+const refreshInterval = 10 * 60 * 1000
+const notMissing = (x) => x != undefined && x != null && x !== ''
 
 export default {
-  name: "ListingComponent",
+  name: 'ListingComponent',
   data() {
     return {
       talents: [],
       timerId: null,
-      sorting: "lastlive",
-    };
+      sorting: 'lastlive',
+    }
   },
   async mounted() {
-    const talents = (await import("../assets/finntubers.json")).default;
-    console.log("Loaded static streamer info.");
-    this.talents = talents;
-    this.sortTalents(this.sorting);
+    const talents = (await import('../assets/finntubers.json')).default
+    console.log('Loaded static streamer info.')
+    this.talents = talents
+    this.sortTalents(this.sorting)
 
-    await this.updateStreamerInfo();
+    await this.updateStreamerInfo()
 
-    this.timerId = setInterval(this.updateStreamerInfo, refreshInterval);
+    this.timerId = setInterval(this.updateStreamerInfo, refreshInterval)
     setTimeout(() => {
-      clearInterval(this.timerId);
-      console.log("stop");
-    }, 12 * refreshInterval);
+      clearInterval(this.timerId)
+      console.log('stop')
+    }, 12 * refreshInterval)
   },
   computed: {
-    activeTalents: function() {
-      return this.talents.filter((i) => i.channel !== null);
+    activeTalents: function () {
+      return this.talents.filter((i) => i.channel !== null)
     },
   },
   methods: {
     async updateStreamerInfo() {
       const logins = this.talents
-        .filter((x) => notMissing(x.channel) && x.channel.includes("twitch"))
+        .filter((x) => notMissing(x.channel) && x.channel.includes('twitch'))
         .map((x) => x.id)
-        .filter(notMissing);
+        .filter(notMissing)
 
       for (let i = 0; i < logins.length; i += batchSize) {
-        let loginsPart = logins.slice(i, i + batchSize).join(",");
+        const loginsPart = logins.slice(i, i + batchSize).join(',')
         await axios
           .get(`/api/twitch?ids=${loginsPart}`)
           .then((response) => {
             if (response.status === 200) {
-              this.talents.forEach((y) =>
-                Object.assign(y, response.data[y.channel_name])
-              );
-              console.log("Loaded Twitch user info.");
+              this.talents.forEach((y) => Object.assign(y, response.data[y.channel_name]))
+              console.log('Loaded Twitch user info.')
             }
           })
-          .catch((x) => console.log(x));
+          .catch((x) => console.log(x))
       }
-      this.sortTalents(this.sorting);
+      this.sortTalents(this.sorting)
     },
     sortTalents(newVal) {
       switch (newVal) {
-        case "alphabetical":
-          this.sortAlphabetical();
-          break;
-        case "lastlive":
-          this.sortLastLive();
-          break;
+        case 'alphabetical':
+          this.sortAlphabetical()
+          break
+        case 'lastlive':
+          this.sortLastLive()
+          break
         default:
-          break;
+          break
       }
     },
     sortAlphabetical() {
       this.talents = this.talents.sort((a, b) => {
-        let fa = a.name.toLowerCase(),
-          fb = b.name.toLowerCase();
+        const fa = a.name.toLowerCase(),
+          fb = b.name.toLowerCase()
         if (fa < fb) {
-          return -1;
+          return -1
         }
         if (fa > fb) {
-          return 1;
+          return 1
         }
-        return 0;
-      });
+        return 0
+      })
     },
     sortLastLive() {
       // Most recently started streams first, then most recent vods, then the rest
-      let nowLive = this.talents
+      const nowLive = this.talents
         .filter((ft) => ft.stream != undefined)
-        .sort((a, b) => (a.stream.started_at > b.stream.started_at ? -1 : 1));
-      let hasVods = this.talents
+        .sort((a, b) => (a.stream.started_at > b.stream.started_at ? -1 : 1))
+      const hasVods = this.talents
         .filter((ft) => ft.stream == undefined && ft.video != undefined)
-        .sort((a, b) => (a.video.published_at > b.video.published_at ? -1 : 1));
-      let noData = this.talents.filter(
-        (ft) => ft.stream == undefined && ft.video == undefined
-      );
-      this.talents = nowLive.concat(hasVods, noData);
+        .sort((a, b) => (a.video.published_at > b.video.published_at ? -1 : 1))
+      const noData = this.talents.filter((ft) => ft.stream == undefined && ft.video == undefined)
+      this.talents = nowLive.concat(hasVods, noData)
     },
   },
   watch: {
     sorting(newVal) {
-      this.sortTalents(newVal);
+      this.sortTalents(newVal)
     },
   },
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
 .finntuberList {
 }
 h3 {
@@ -170,13 +160,13 @@ li {
   text-align: center;
 }
 li:after {
-  content: "\A";
+  content: '\A';
   white-space: pre;
 }
 a {
   color: #3299d9;
   text-decoration: none;
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 18px;
 }
 #div {
@@ -195,7 +185,7 @@ img {
   max-width: 400px;
   display: flex;
   justify-content: space-between;
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 18px;
 }
 .vtuberList {

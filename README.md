@@ -39,13 +39,19 @@ npm run serve
 To run also the functions run
 
 ```bash
-npm run build && swa start dist --api api
+npm run build && swa start dist --api-location api
 ```
 
 ### Compiles and minifies for production
 
 ```bash
 npm run build
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
 ```
 
 ### Lints and fixes files
@@ -55,10 +61,17 @@ npm run lint
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Calculate current vtuber count
 
 ```bash
 cat finntubers.json | jq '.[] | select( .channel != null) | .name' | sed 's/"//g' | sort | wc -l
+```
+
+## Project Setup
+
+```sh
+npm install
 ```
