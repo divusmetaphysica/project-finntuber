@@ -1,21 +1,14 @@
 <template>
-  <FinntuberList name="List of Finnish VTubers" />
-  <div class="bottom-banner">
-    <div>Maintainer: @divinemetaphys on Twitter</div>
-    <div>Designer: @mariel_vt on Twitter</div>
+  <div class="content">
+    <router-view />
   </div>
 </template>
 
 <script>
-import FinntuberList from "./components/FinntuberList.vue";
-
 export default {
   name: "App",
   created() {
     document.title = "Project Finntubers";
-  },
-  components: {
-    FinntuberList,
   },
 };
 </script>
@@ -26,17 +19,34 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
+
+html,
+body {
+  height: 100%;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #d1e9ff; /* TODO remove after real banner has been added */
   color: #2c3e50;
-  background-image: linear-gradient(180deg, #d1e9ff 0%, #3299d9 100%);
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
-.bottom-banner {
-  color: snow;
+h1 {
+  color: #3299d9;
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding: 50px;
+  font-family: "Dosis", sans-serif;
+  text-shadow: -4px -4px 0 #fff, 0 -4px 0 #fff, 4px -4px 0 #fff, 4px 0 0 #fff,
+    4px 4px 0 #fff, 0 4px 0 #fff, -4px 4px 0 #fff, -4px 0 0 #fff;
+}
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 </style>
