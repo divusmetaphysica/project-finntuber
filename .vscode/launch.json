@@ -8,9 +8,8 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": [
         "run",
-        "serve"
+        "dev"
       ],
-      "port": 9229,
       "skipFiles": [
         "<node_internals>/**"
       ],
