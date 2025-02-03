@@ -75,3 +75,8 @@ cat finntubers.json | jq '.[] | select( .channel != null) | .name' | sed 's/"//g
 ```sh
 npm install
 ```
+
+# TODO:
+
+- Add lumuli back when they debut
+- Add zunikuu back
