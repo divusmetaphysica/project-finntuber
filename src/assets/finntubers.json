@@ -1487,6 +1487,14 @@
     "id": "686458739"
   },
   {
+    "name": "riipsu",
+    "channel": "https://www.twitch.tv/riipsu",
+    "id": "31327832",
+    "channel_name": "riipsu",
+    "description": "I like streaming",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/fea8f246-6e8a-4696-a470-1ccd63f4e50b-profile_image-300x300.png"
+  },
+  {
     "name": "Romolla",
     "type": "2D",
     "channel": "https://www.twitch.tv/romolla",
