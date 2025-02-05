@@ -1039,6 +1039,14 @@
     "id": "429543924"
   },
   {
+    "name": "LyrenMeow",
+    "channel": "https://www.twitch.tv/lyrenmeow",
+    "id": "160525677",
+    "channel_name": "lyrenmeow",
+    "description": "Speedrunning catboi ^^",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bead1766-89c2-4451-bcee-8baeedda2c67-profile_image-300x300.png"
+  },
+  {
     "name": "MaeMaeChannel",
     "type": "2D",
     "channel": "https://www.twitch.tv/maemaechannel",
