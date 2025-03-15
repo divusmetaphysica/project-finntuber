@@ -1806,11 +1806,10 @@
   {
     "name": "Starblom",
     "type": "PNG",
-    "channel": null,
+    "channel": "https://www.twitch.tv/starblom",
     "description": "Finnish person who plays variety of videogames, paints miniatures (just starting out. Tabletop RPG minis and Warhammer most of the time) and likes to chill out.",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/017631be-c594-4692-827d-e11caa2fb1cb-profile_image-300x300.png",
-    "id": "48439052",
-    "deactivated": true
+    "id": "48439052"
   },
   {
     "name": "SteamVulture",
@@ -1931,8 +1930,7 @@
     "description": "im finnish guy from cold lapland playing variety of games (monster hunter, hatsune miku, genshin impact, sao series and whatever i have)  so feel free to play with me if you have same game and ask away if you have any questions",
     "channel_name": "thekissaihminen",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/54cc3fc1-b2b2-4961-9bec-0a7762154b82-profile_image-300x300.png",
-    "id": "118513784",
-    "deactivated": true
+    "id": "118513784"
   },
   {
     "name": "theoniwatcherstudio",
