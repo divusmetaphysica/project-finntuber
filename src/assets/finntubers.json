@@ -2532,5 +2532,14 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9d5ab52b-d3a2-4127-b476-e397fcb01124-profile_image-300x300.png",
     "id": "18899502",
     "platform": "https://www.twitch.tv"
+  },
+  {
+    "name": "Zunikuu",
+    "platform": "https://www.twitch.tv",
+    "channel": "https://www.twitch.tv/zunikuu",
+    "id": "187055820",
+    "channel_name": "zunikuu",
+    "description": "「ENG/FIN」Meowdy! I am a Purple Finnish CatTuber, who can meow in space that exists to be a cat! I do stream cute content and meow to you! 🌠",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/487d4ce9-3c5c-4aae-b2a7-6362296d8e09-profile_image-300x300.png"
   }
 ]
