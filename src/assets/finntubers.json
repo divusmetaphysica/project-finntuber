@@ -1,5 +1,14 @@
 [
   {
+    "name": "00Emmy_",
+    "platform": "https://www.twitch.tv",
+    "channel": "https://www.twitch.tv/00emmy_",
+    "id": "1322042339",
+    "channel_name": "00emmy_",
+    "description": "Hi, my name is Emmi, but you can call me Em ❄️Here we be reading news (about games) and then playing the games. I love rpg's, cozy and survival games, what's your favorite type of video game?",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6004aac8-6225-49e9-88a7-5fe7199f1664-profile_image-300x300.png"
+  },
+  {
     "name": "1R15",
     "channel": "https://www.twitch.tv/1r15",
     "id": "658569369",
@@ -541,22 +550,13 @@
     "platform": "https://www.twitch.tv"
   },
   {
-    "name": "emm1h",
-    "channel": "https://www.twitch.tv/emm1h",
-    "id": "143758127",
-    "channel_name": "emm1h",
-    "description": "Cleaning up the backlog, one game at a time.",
-    "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png",
-    "platform": "https://www.twitch.tv"
-  },
-  {
-    "name": "enchantresslily",
+    "name": "EnchantressLilly",
     "platform": "https://www.twitch.tv",
-    "channel": "https://www.twitch.tv/enchantresslily",
-    "id": "663530337",
-    "channel_name": "enchantresslily",
-    "description": "",
-    "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/294c98b5-e34d-42cd-a8f0-140b72fba9b0-profile_image-300x300.png"
+    "channel": "https://www.twitch.tv/enchantresslilly",
+    "id": "429998965",
+    "channel_name": "enchantresslilly",
+    "description": "BOO! (㇏(•̀ᢍ•́)ノ) I'm Lilly, your demon enchantress reporting for duty 😈 I don’t bite… unless I like you.",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b48f1501-402a-4937-8ca9-2e137365bba3-profile_image-300x300.png"
   },
   {
     "name": "EnjouHibiki",
