@@ -874,14 +874,6 @@
     "platform": "https://www.twitch.tv"
   },
   {
-    "name": "isla moon",
-    "type": "2D",
-    "channel": "https://www.youtube.com/channel/UCe_HAnwptjW5v3tFTS9SOhg",
-    "description": "",
-    "channel_name": "UCe_HAnwptjW5v3tFTS9SOhg",
-    "profile_image_url": "https://yt3.googleusercontent.com/FF60AXE9pYNgBiNsKmuKgXys2hwXwWHt7Kd4ICjz4xMQY__wktPcKiBf4iy4pDCGLY5mWKtn=s176-c-k-c0x00ffffff-no-rj"
-  },
-  {
     "name": "ItsLails",
     "type": "2D",
     "channel": "https://www.twitch.tv/itslails",
@@ -1004,15 +996,6 @@
     "channel_name": "keruaconite",
     "description": "Welcome! I'm Keru and I like to play videogames! I'm live at least twice a week! (usually!)",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/756db557-3ef0-46ce-969e-3adfd25022cb-profile_image-300x300.png",
-    "platform": "https://www.twitch.tv"
-  },
-  {
-    "name": "Kestrany",
-    "channel": "https://www.twitch.tv/kestrany",
-    "id": "107566056",
-    "channel_name": "kestrany",
-    "description": "",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d55a4dd2-5e0b-4f4b-b2d5-906bb8681bf4-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
   },
   {
