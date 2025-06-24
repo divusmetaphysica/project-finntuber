@@ -1520,6 +1520,15 @@
     "platform": "https://www.twitch.tv"
   },
   {
+    "name": "Noxitar",
+    "platform": "https://www.twitch.tv",
+    "channel": "https://www.twitch.tv/noxitar",
+    "id": "1043485767",
+    "channel_name": "noxitar",
+    "description": "Spacetuber who plays a variety of games and drinks an ungodly amount of tea who sometimes speaks in coherent sentences 🌠",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/28f6e63f-35ff-4095-92d7-65ef52b043d2-profile_image-300x300.png"
+  },
+  {
     "name": "OldManAki_VT",
     "type": "2D",
     "channel": "https://www.twitch.tv/oldmanaki_vt",
