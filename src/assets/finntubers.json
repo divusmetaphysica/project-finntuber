@@ -103,6 +103,16 @@
     "platform": "https://www.twitch.tv"
   },
   {
+    "name": "Amegglia",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/amegglia",
+    "description": "Hi, I'm Ame!! Idk what to put here! ^^;  She/they ",
+    "channel_name": "amegglia",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/633c49a0-2a3a-4e43-bf29-535ff9034391-profile_image-300x300.png",
+    "id": "707026513",
+    "platform": "https://www.twitch.tv"
+  },
+  {
     "name": "An_Ossan",
     "type": "3D",
     "channel": "https://www.twitch.tv/an_ossan",
@@ -131,6 +141,15 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/709aa735-5571-4c48-a2a6-057483fdb7e6-profile_image-300x300.png",
     "id": "124336111",
     "platform": "https://www.twitch.tv"
+  },
+  {
+    "name": "Annichu2",
+    "platform": "https://www.twitch.tv",
+    "channel": "https://www.twitch.tv/annichu2",
+    "id": "848708145",
+    "channel_name": "annichu2",
+    "description": "Hello, I'm Annichu the most cursed Fox Vtuber! I enjoy playing games and celebrate any special occassions that I might stumble upon. I'm a chaotic, talkative and the most cursed player you will ever see here so hop on and enjoy this flower field!",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2a85407a-c31a-4943-8ca3-3e363add7739-profile_image-300x300.png"
   },
   {
     "name": "anskufae",
@@ -410,7 +429,7 @@
     "channel": "https://www.twitch.tv/demonmilis",
     "id": "1062179883",
     "channel_name": "demonmilis",
-    "description": "[+18] Definitely not seiso ENVtuber. Come find out more~ *ೃ༄  B-DAY SUBATHON WEEK STARTS 3.8.25",
+    "description": "[+18] Definitely not seiso ENVtuber. Come find out more~ *ೃ༄  B-DAY SUBATHON STILL GOING",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/da2dc1c6-ae82-4549-a478-82d706a8a070-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
   },
@@ -942,7 +961,7 @@
     "channel": "https://www.twitch.tv/jayemplays",
     "id": "23777053",
     "channel_name": "jayemplays",
-    "description": "Moi, miten menee? Meikä on JayEm, ja striimailen tänne Twitchiin abouttirallaa kaikkea mikä meikäläistä kiinnostaa, aina Overwatchista Spyroon ja Bloodbornesta One Piece-peleihin. Samalla nimellä meikä on aikanaan lähtenyt YouTubesta liikkeelle.",
+    "description": "Finnish variety Streamer, unoffical VTuber ally, cat servant, cook. See the manchild, embrace the chaos. I also do haha funny YouTube videos, you can check them out if ya wanna. Content is mainly in Finnish but do not be afraid to speak up, we can swap to English on the go during stream!",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/44228736-36e2-44e2-b006-7f24243d77e2-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
   },
@@ -1454,16 +1473,6 @@
     "platform": "https://www.twitch.tv"
   },
   {
-    "name": "mxpowpow",
-    "type": "3D",
-    "channel": "https://www.twitch.tv/mxpowpow",
-    "description": "Hi, I'm Ame!! (Formerly known as Amegglia) Idk what to put here! ^^;  She/they ",
-    "channel_name": "mxpowpow",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/53e1fb3b-46f5-4c40-ab4d-f22e0489e3e5-profile_image-300x300.png",
-    "id": "707026513",
-    "platform": "https://www.twitch.tv"
-  },
-  {
     "name": "Nakkipatukka_",
     "channel": "https://www.twitch.tv/nakkipatukka_",
     "id": "218624627",
@@ -1477,7 +1486,7 @@
     "channel": "https://www.twitch.tv/nannanamnam",
     "id": "744442400",
     "channel_name": "nannanamnam",
-    "description": "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ 3D debute coming up this year~ ฅ ̳͒•ˑ̫• ̳͒ฅ♡ Vtuber from Finland! ",
+    "description": "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ 3D debute coming up this year~ ฅ ̳͒•ˑ̫• ̳͒ฅ♡ Vtuber from Finland! Celebration stream THIS Sunday!",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ece23c8c-f916-4c60-901c-ebe53c4bf1a0-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
   },
@@ -1601,8 +1610,8 @@
     "channel": "https://www.twitch.tv/playtoise",
     "id": "84607280",
     "channel_name": "playtoise",
-    "description": "🐢 Tortoise Vtuber from Finland! 🐢 Streaming EVERY DAY in July! 🐢  Thank you for visiting my channel! 🐢 Feel free to join my Discord Channel to get stream notifications! 🐢 playtoise.ttv@gmail.com 🐢",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/166039a9-6205-4fc3-a31c-79af2a864a9c-profile_image-300x300.png",
+    "description": "🐢 Tortoise Vtuber from Finland! 🐢 Streaming every Sunday, Monday, and Thursday! 🐢  Thank you for visiting my channel! 🐢 Feel free to join my Discord Channel to get stream notifications and use my emotes in Discord with Nitro! 🐢 playtoise.ttv@gmail.com 🐢",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/583a7b4e-24f5-4e6a-8247-062b5b11686c-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
   },
   {
@@ -1763,7 +1772,7 @@
     "name": "ReiMitsko",
     "type": "3D",
     "channel": "https://www.twitch.tv/reimitsko",
-    "description": "Hello there! Im Reimitsko, you can call me just Rei  OwO I am Alternative Witchy Wolf from Finland. Also A Furry Trash. I mainly stream on my Vroid character but also sometimes on fursuit to make things even more difficult :D ",
+    "description": "Hello there! Im Reimitsko, you can call me just Rei  OwO I am Alternative Witchy Hellhound from Finland. I'm fighting with many health problems and games are my way to escape reality time to time.",
     "channel_name": "reimitsko",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a2deaee1-6e78-4996-a04c-7f922049d137-profile_image-300x300.png",
     "id": "116770472",
@@ -1899,7 +1908,7 @@
     "name": "RustoCa",
     "type": "2D",
     "channel": "https://www.twitch.tv/rustoca",
-    "description": "Heavily braindamaged skeleman vtuber from Finland. 18+ rustoca@proton.me",
+    "description": "Heavily braindamaged skeleman vtuber from Finland. 18+  Business email: rustoca@proton.me",
     "channel_name": "rustoca",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/07abec0d-b6ff-42fc-9f10-271913964e4b-profile_image-300x300.png",
     "id": "779445570",
@@ -2026,7 +2035,7 @@
     "channel": "https://www.twitch.tv/sinibunnie",
     "description": "Hi I'm goldfish brain ♡",
     "channel_name": "sinibunnie",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c9dcc9fe-ce81-4ecd-95b6-fdf74b542655-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8b34883e-be54-46f7-b827-bb9e6db2b221-profile_image-300x300.png",
     "id": "579878833",
     "platform": "https://www.twitch.tv"
   },
@@ -2079,12 +2088,12 @@
     "platform": "https://www.twitch.tv"
   },
   {
-    "name": "sleepysitrus",
+    "name": "SleepySitrus",
     "channel": "https://www.twitch.tv/sleepysitrus",
     "id": "642713785",
     "channel_name": "sleepysitrus",
-    "description": "Just a silly maid who loves lemons c:",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a0c6701f-9f66-484c-a83b-847f8931aea8-profile_image-300x300.png",
+    "description": "Just a silly girl who loves lemons c:",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/003f1097-bb2a-4c90-809e-ad217e317a9d-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
   },
   {
@@ -2336,6 +2345,15 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c0bd0a09-3b5a-464e-a562-f0322075f493-profile_image-300x300.png",
     "id": "101477073",
     "platform": "https://www.twitch.tv"
+  },
+  {
+    "name": "TsipaTsu",
+    "platform": "https://www.twitch.tv",
+    "channel": "https://www.twitch.tv/tsipatsu",
+    "id": "477271042",
+    "channel_name": "tsipatsu",
+    "description": "Hello! My name is Tsipa, I am a creative lil kitsune with an overwatch addiction. ",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/80f1ac2b-a6ed-44bb-96fd-5eff32078f19-profile_image-300x300.png"
   },
   {
     "name": "Tudituber",
