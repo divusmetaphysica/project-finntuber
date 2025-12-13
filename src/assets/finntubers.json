@@ -1377,6 +1377,15 @@
     "platform": "https://www.twitch.tv"
   },
   {
+    "name": "MelwareVT",
+    "platform": "https://www.twitch.tv",
+    "channel": "https://www.twitch.tv/melwarevt",
+    "id": "404172758",
+    "channel_name": "melwarevt",
+    "description": "I'm  Melware Your lovable Demon Malware Femboy Vtuber",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4ee617d7-f916-4d7e-ad16-43711baaee10-profile_image-300x300.png"
+  },
+  {
     "name": "mikantine",
     "type": "2D",
     "channel": "https://www.twitch.tv/mikantine",
@@ -1851,6 +1860,15 @@
     "description": "A silly fox here to entertain!!",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9409f490-7441-46cf-a321-a39d3e286661-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
+  },
+  {
+    "name": "roiu_cg",
+    "platform": "https://www.twitch.tv",
+    "channel": "https://www.twitch.tv/roiu_cg",
+    "id": "1336237839",
+    "channel_name": "roiu_cg",
+    "description": "Yes!",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6321102-e6d1-457f-848a-6a2e37d55c96-profile_image-300x300.png"
   },
   {
     "name": "RokkuDawg",
