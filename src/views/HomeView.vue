@@ -19,8 +19,8 @@
     <router-view></router-view>
   </div>
   <div class="bottom-banner">
-    <div>Maintainer: @divinemetaphys on Twitter</div>
-    <div>Designer: @mariel_vt on Twitter</div>
+    <div>Maintainer: @divinemetaphys on X, @divusmeta.bsky.social on Bluesky</div>
+    <div>Designer: @mariel_vt on X, @marielvt.bsky.social on Bluesky</div>
   </div>
 </template>
 
