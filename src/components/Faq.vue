@@ -43,6 +43,11 @@
       <p>
         The names of the creators of the website are listed at the bottom of the page. Message one
         of us and we'll get you added, and connect you with the rest of the community if you want!
+
+        Primary contact is project maintainer DivusMeta either on X or Bluesky: @divinemetaphys on X,
+        @divusmeta.bsky.social on Bluesky. The process starts with initial message, followed by checks
+        for eligibility and then adding to the update list. Additionally, the applicants info is given
+        to the (Invite only) Finntuber Discord mods for their handling and possible invite.
       </p>
     </section>
     <section>
