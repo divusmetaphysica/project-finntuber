@@ -32,7 +32,7 @@
     "channel": "https://www.twitch.tv/abelhost",
     "id": "818903947",
     "channel_name": "abelhost",
-    "description": "On hiatus! Hello! I'm Abel, a Vtuber from Finland! I stream variety gaming irregularly, usually whenever I have the time and energy. Business: abelhost.ttv@outlook.com",
+    "description": "Hello! I'm Abel, a Vtuber from Finland! I stream variety gaming irregularly, usually whenever I have the time and energy. Business: abelhost.ttv@outlook.com",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6e9e6fca-2b3c-4fea-9e38-88363a9a6e2a-profile_image-300x300.png"
   },
   {
@@ -61,6 +61,16 @@
     "channel_name": "adaliumch",
     "description": "Hello! I am Adalium, a music student and streamer from Finland. My streaming schedule relies on factors uncontrolled by me so I may not be able to stream much sometimes. Hope you enjoy your stay!",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/874e9b65-df46-48f5-9d34-b81da19d3e8f-profile_image-300x300.png",
+    "platform": "https://www.twitch.tv"
+  },
+  {
+    "name": "AkariArdelyte",
+    "type": "3D",
+    "channel": "https://www.twitch.tv/akariardelyte",
+    "description": "Comfy fops bartender and daughter of shinigami king ❤️‍🔥 She/They",
+    "channel_name": "akariardelyte",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5d82be0e-9c10-45cd-b562-a033adc37ad2-profile_image-300x300.png",
+    "id": "118515589",
     "platform": "https://www.twitch.tv"
   },
   {
@@ -165,7 +175,7 @@
     "id": "532811003",
     "channel_name": "anskufae",
     "description": "tiny bit harmless",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f159b6e-e7a8-41bf-acda-52797ce783d9-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e928f95-e963-4960-9b80-ba0382652b69-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
   },
   {
@@ -222,7 +232,7 @@
     "id": "531468985",
     "channel_name": "astral_sade",
     "description": "I'm Sade and I hope to be your new favorite Finnish content creator, with a chronic cough and janky face tracking! 𐐪𐑂 Business email: astrall.sade@gmail.com",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1efea458-42d4-4c2c-b65d-9fd827dd4396-profile_image-300x300.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2e396ce7-143f-4655-9738-960d780aa9c1-profile_image-300x300.png"
   },
   {
     "name": "Aztraliss",
@@ -275,7 +285,7 @@
     "channel": "https://www.twitch.tv/beingsketchy",
     "id": "662735244",
     "channel_name": "beingsketchy",
-    "description": "~~In hiatus~~Heyoo! I'm a pink fox vtuber from Finland just making art and gaming! (FI/EN)^v^ Starting streams usually around 10pm-11pm EEST!",
+    "description": "~~In hiatus~~",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2317c497-6796-460a-b433-141d8841d03b-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
   },
@@ -306,6 +316,15 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6954e75f-c425-476d-94cd-cc1ede529c64-profile_image-300x300.png",
     "id": "178716786",
     "platform": "https://www.twitch.tv"
+  },
+  {
+    "name": "calendulasade",
+    "platform": "https://www.twitch.tv",
+    "channel": "https://www.twitch.tv/calendulasade",
+    "id": "1408279133",
+    "channel_name": "calendulasade",
+    "description": "Welcome flowers! come to join the beautiful view?",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7fa7429e-9bc3-45af-af8a-456062804ba1-profile_image-300x300.png"
   },
   {
     "name": "cap0prime",
@@ -498,6 +517,15 @@
     "platform": "https://www.twitch.tv"
   },
   {
+    "name": "Dragon_Nanny",
+    "channel": "https://www.twitch.tv/dragon_nanny",
+    "id": "937546650",
+    "channel_name": "dragon_nanny",
+    "description": "A researcher turned nanny to a bunch of baby dragons?!",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0c9ac914-3d7c-4af5-8c46-b28ab84f7706-profile_image-300x300.png",
+    "platform": "https://www.twitch.tv"
+  },
+  {
     "name": "DreamEmber",
     "type": "2D",
     "channel": "https://www.twitch.tv/dreamember",
@@ -563,7 +591,7 @@
     "id": "174992552",
     "channel_name": "emiria__",
     "description": "Hello! My name is Emiria, but you can also call me Emi~  ⋆˚✿˖° ♡ I'm usually streaming art and yapping in Finnish or English. I have bad jokes, but I still try to enjoy every moment! Did I mention that I'm also a Potato..AND A GREMLIN :3~𐙚 ‧₊˚ ⋅ FIN / ENG ‧₊˚ ⋅ 𐙚 ",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eb524d87-a95c-4f24-aa7d-a753d872e663-profile_image-300x300.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad41b40e-1dcc-40fa-96ea-e57dc959ac3d-profile_image-300x300.png"
   },
   {
     "name": "EmiVT",
@@ -872,7 +900,7 @@
     "id": "214658804",
     "channel_name": "hillolive",
     "description": "Witch turned frog - Novice streamer, Expert hydration guardian. It/They | Cozy streams with a dash of insanity | 18 + community!!!!",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bdd1a4b9-6806-42c1-8108-91ebdfe56087-profile_image-300x300.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11bfbc3d-7de4-4e33-b4d0-49942cab5049-profile_image-300x300.png"
   },
   {
     "name": "HipsuVT",
@@ -1018,12 +1046,12 @@
     "platform": "https://www.twitch.tv"
   },
   {
-    "name": "JayEmPlays",
-    "channel": "https://www.twitch.tv/jayemplays",
+    "name": "JayJ_the_Bartender_VT",
+    "channel": "https://www.twitch.tv/jayj_the_bartender_vt",
     "id": "23777053",
-    "channel_name": "jayemplays",
-    "description": "The bar will open soon...",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/75205e3d-5df1-44ba-b524-2c8807d68e7b-profile_image-300x300.png",
+    "channel_name": "jayj_the_bartender_vt",
+    "description": "Welcome to JayJ's Bar & Lounge! Come for a drink, stay for camaderie! Despite the less-than-ideal location we hope you enjoy your stay!",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/30b6380d-7d2e-4b6c-9b09-afe975e7ef42-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
   },
   {
@@ -1347,7 +1375,7 @@
     "id": "704879013",
     "channel_name": "lumuli",
     "description": "🕰️ BUTTON-EYED SHEEP FROM WONDERLAND!🌹🐑 臭い羊 | 📩 Business: lumulivtuber@gmail.com ✦🪡",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/98992b6e-58ee-4184-9063-15b1decc775c-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4bedf4aa-6215-4e26-a3eb-3bd543639545-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
   },
   {
@@ -1466,6 +1494,15 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b9a80de7-b7b6-45a9-b0b7-670c4050e482-profile_image-300x300.png"
   },
   {
+    "name": "MelDoppel",
+    "platform": "https://www.twitch.tv",
+    "channel": "https://www.twitch.tv/meldoppel",
+    "id": "404172758",
+    "channel_name": "meldoppel",
+    "description": "Heyy I'm Mel Your Unhinged Shapeshifter! As A Shapeshifter I change Between Male and Female! ",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/23fbf829-4936-4350-8b3d-c88af37655d5-profile_image-300x300.png"
+  },
+  {
     "name": "mikantine",
     "type": "2D",
     "channel": "https://www.twitch.tv/mikantine",
@@ -1480,8 +1517,8 @@
     "channel": "https://www.twitch.tv/milisvt",
     "id": "1062179883",
     "channel_name": "milisvt",
-    "description": "[+18] Your smug neighbor nephalem ENVtuber. Come find out more if you dare~ *ೃ༄ ",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/64ea3a4f-584f-4344-9c0e-90819d2da233-profile_image-300x300.png",
+    "description": "[+18] Your smug neighbor nephalem ENVtuber. Come find out more if you dare~ *ೃ༄  BIRTHDAY SUBATHON 03.08.2026",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f3a5b1f4-3d26-4076-b7d1-f81770587c5e-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
   },
   {
@@ -1567,7 +1604,7 @@
     "id": "1125403132",
     "channel_name": "mixedmartialari",
     "description": "Class is in session! Come learn about martial arts around the world through games and art!",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/43122531-0b6c-41b1-94fd-86b8f35db40c-profile_image-300x300.png",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/6ebb3d21-7c38-4ef5-a346-77fcc65d110b-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
   },
   {
@@ -1621,7 +1658,7 @@
     "channel": "https://www.twitch.tv/nannanamnam",
     "id": "744442400",
     "channel_name": "nannanamnam",
-    "description": "Welcome to my Twitch! I'm Nanna, a vtuber from Finland! I'm a part time sussy bussy! I hope you are having great time and enjoy my thic accent! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Merch in uwumarket!",
+    "description": "Welcome to my Twitch! I'm Nanna, a vtuber from Finland! I'm a part time sussy bussy! I hope you are having great time and enjoy my thic accent! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧I will be 𝗮𝘄𝗮𝘆 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗿𝗲𝘀𝘁 𝗼𝗳 𝘁𝗵𝗶𝘀 𝗺𝗼𝗻𝘁𝗵, so I will see you n͟e͟x͟t͟ time in August!",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/46bb8ca5-ecce-4965-994e-e11ab563b23a-profile_image-300x300.png",
     "platform": "https://www.twitch.tv"
   },
@@ -1698,15 +1735,6 @@
     "channel_name": "noxitar",
     "description": "⭐ Space Vtuber who drinks an ungodly amount of tea and sometimes speaks in coherent sentences ⭐ Variety game streamer ⭐ Business inquiries: noxitar.business@gmail.com ⭐",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/156eed33-5e91-4759-9581-414f777f9059-profile_image-300x300.png"
-  },
-  {
-    "name": "NullMel_",
-    "platform": "https://www.twitch.tv",
-    "channel": "https://www.twitch.tv/nullmel_",
-    "id": "404172758",
-    "channel_name": "nullmel_",
-    "description": "Heyy I'm Null Mel Your God Of Erase, I chose to have human form And I Accidentaly Become Woman With cannon down their pants. I started streaming cause I was so alone for a long time.  Erasing darkness and evil from this plane of existence. ",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5096f542-2a2b-488b-b0df-18d90d71c4a6-profile_image-300x300.png"
   },
   {
     "name": "OldManAki_VT",
@@ -1959,7 +1987,7 @@
     "platform": "https://www.twitch.tv"
   },
   {
-    "name": "rekochet_",
+    "name": "Rekochet_",
     "platform": "https://www.twitch.tv",
     "channel": "https://www.twitch.tv/rekochet_",
     "id": "86277694",
@@ -1997,22 +2025,13 @@
     "platform": "https://www.twitch.tv"
   },
   {
-    "name": "RoihuRopo",
-    "channel": "https://www.twitch.tv/roihuropo",
-    "id": "937546650",
-    "channel_name": "roihuropo",
-    "description": "A silly fox here to entertain!!",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0c9ac914-3d7c-4af5-8c46-b28ab84f7706-profile_image-300x300.png",
-    "platform": "https://www.twitch.tv"
-  },
-  {
     "name": "roiu_cg",
     "platform": "https://www.twitch.tv",
     "channel": "https://www.twitch.tv/roiu_cg",
     "id": "1336237839",
     "channel_name": "roiu_cg",
     "description": "Yes!",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6321102-e6d1-457f-848a-6a2e37d55c96-profile_image-300x300.png"
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e90a201f-51fc-4873-91f3-4ba104a8abc7-profile_image-300x300.png"
   },
   {
     "name": "RokkuDawg",
@@ -2318,16 +2337,6 @@
     "channel_name": "skelesrl",
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ef22c486-e862-4991-b823-cae74a052d86-profile_image-300x300.png",
     "id": "244009120",
-    "platform": "https://www.twitch.tv"
-  },
-  {
-    "name": "SkyeBlaise",
-    "type": "3D",
-    "channel": "https://www.twitch.tv/skyeblaise",
-    "description": "Brightest star in night sky ❤️‍🔥 She/They",
-    "channel_name": "skyeblaise",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a3f89a6e-5d75-42d2-9019-661fd96d32a1-profile_image-300x300.png",
-    "id": "118515589",
     "platform": "https://www.twitch.tv"
   },
   {
@@ -2870,15 +2879,6 @@
     "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/bc80c430-8d9c-4370-9376-cbf1e5ca598c-profile_image-300x300.png",
     "id": "27158392",
     "platform": "https://www.twitch.tv"
-  },
-  {
-    "name": "weathersade",
-    "platform": "https://www.twitch.tv",
-    "channel": "https://www.twitch.tv/weathersade",
-    "id": "1408279133",
-    "channel_name": "weathersade",
-    "description": "welcome aboard, this is your clanker captain speaking in stolen skin! I don't know why I'm here, how did I get here? Where is here?",
-    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9168c355-8284-48bf-87a8-237c491f259a-profile_image-300x300.png"
   },
   {
     "name": "WhimzieCat",
